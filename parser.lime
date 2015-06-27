@@ -138,7 +138,7 @@ string_element
 | TK_OTHER
   { $$ = $1; }
 | logic_node
-  { $$ = $1; print_r($1); }
+  { $$ = $1; }
 .
 
 attrib_name
@@ -161,14 +161,14 @@ text_node
 
 logic_node
 = TK_LOGIC_BEGIN expr_words TK_LOGIC_END
-  { print_r($2); $$ = new LogicNode($2); }
+  { $$ = new LogicNode($2); }
 .
 
 expr_words
 = expr
-  { echo $1." ←\n"; $$ = array(array('value' => $1, 'type' => 'expr')); }
+  { $$ = array(array('value' => $1, 'type' => 'expr')); }
 | expr_words expr
-  { echo $2." →\n"; $1[] = array('value' => $2, 'type' => 'expr'); $$ = $1; }
+  { $1[] = array('value' => $2, 'type' => 'expr'); $$ = $1; }
 .
 
 expr

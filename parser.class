@@ -1753,7 +1753,7 @@ function reduce_48_string_element_19($tokens, &$result) {
 # (48) string_element :=  logic_node
 #
 $result = reset($tokens);
- $result = $tokens[0]; print_r($tokens[0]); 
+ $result = $tokens[0]; 
 }
 
 function reduce_49_attrib_name_1($tokens, &$result) {
@@ -1809,7 +1809,7 @@ function reduce_55_logic_node_1($tokens, &$result) {
 # (55) logic_node :=  TK_LOGIC_BEGIN  expr_words  TK_LOGIC_END
 #
 $result = reset($tokens);
- print_r($tokens[1]); $result = new LogicNode($tokens[1]); 
+ $result = new LogicNode($tokens[1]); 
 }
 
 function reduce_56_expr_words_1($tokens, &$result) {
@@ -1817,7 +1817,7 @@ function reduce_56_expr_words_1($tokens, &$result) {
 # (56) expr_words :=  expr
 #
 $result = reset($tokens);
- echo $tokens[0]." ←\n"; $result = array(array('value' => $tokens[0], 'type' => 'expr')); 
+ $result = array(array('value' => $tokens[0], 'type' => 'expr')); 
 }
 
 function reduce_57_expr_words_2($tokens, &$result) {
@@ -1825,7 +1825,7 @@ function reduce_57_expr_words_2($tokens, &$result) {
 # (57) expr_words :=  expr_words  expr
 #
 $result = reset($tokens);
- echo $tokens[1]." →\n"; $tokens[0][] = array('value' => $tokens[1], 'type' => 'expr'); $result = $tokens[0]; 
+ $tokens[0][] = array('value' => $tokens[1], 'type' => 'expr'); $result = $tokens[0]; 
 }
 
 function reduce_58_expr_1($tokens, &$result) {

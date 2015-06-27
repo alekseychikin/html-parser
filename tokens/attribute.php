@@ -3,7 +3,7 @@
   class Attribute
   {
     private $attribute;
-    private $value = array();
+    private $values = array();
 
     public function __construct($attribute, $values = array())
     {
@@ -18,7 +18,7 @@
           }
         }
       }
-      $this->value = $value;
+      $this->values = $values;
     }
 
     public function name()
@@ -28,6 +28,6 @@
 
     public function values()
     {
-      return $this->value;
+      return $this->values;
     }
   }

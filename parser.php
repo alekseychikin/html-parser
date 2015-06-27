@@ -38,18 +38,26 @@
   function prepareAttribute($attribute)
   {
     if (get_class($attribute) == 'Attribute') {
-      $value = $attribute->values();
-      if (gettype($value) == 'object' && get_class($value) == 'LogicNode') {
-        $value = '';
-/*
-        $values = $value->get();
-        $value = '';
+      $values = $attribute->values();
+      $value = array();
+      if (gettype($values) == 'array') {
         foreach ($values as $val) {
-          $value .= $val['value'];
-        }
+          if (gettype($val) == 'object' && get_class($val) == 'LogicNode') {
+//*
+            // $values = $val->get();
+            // print_r($values);
+            // $value = '';
+            // foreach ($values as $val) {
+            //   $value .= $val['value'];
+            // }
 //*/
+          }
+          else {
+            $value[] = $val;
+          }
+        }
       }
-      return ' ' . $attribute->name() . '="' . $value . '"';
+      return ' ' . $attribute->name() . '="' . implode(' ', $value) . '"';
     }
     elseif (get_class($attribute) == 'LogicNode') {
 
@@ -60,19 +68,19 @@
   function prepareTag($element)
   {
     global $file;
-    print_r($element);
     $stringAttribute = '<' . ($element->type() == 'close' ? '/' : '') . $element->name();
     $attributes = $element->attributes();
     foreach ($attributes as $attribute) {
       $stringAttribute .= prepareAttribute($attribute);
     }
-    $stringAttribute .= '>';
+    $stringAttribute .= '>'."\n";
     fputs($file, $stringAttribute);
   }
 
   function showResults($lines)
   {
     foreach ($lines as $line) {
+      print_r($line);
       foreach ($line as $element) {
         switch (get_class($element))
         {
