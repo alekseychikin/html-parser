@@ -8,7 +8,7 @@
   include_once "tokens/text_node.php";
   include_once "tokens/logic_node.php";
   $lexers = file_get_contents("lexers.lex");
-  $lines = file_get_contents("tests/if.html");
+  $lines = file_get_contents("tests/logic_node_at_attribute.html");
 
   $tokens = new Tokenizer($lexers);
 

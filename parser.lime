@@ -1,6 +1,15 @@
 %class template_parser
 %start doc
 
+%left TK_MINUS
+%left TK_PLUS
+%left TK_LT
+%left TK_GT
+%left TK_ASSIGMENT
+%left TK_EQUAL
+%left TK_NOT_EQUAL
+%left TK_LT_EQUAL
+%left TK_GT_EQUAL
 
 doc
 = lines
@@ -26,7 +35,7 @@ line
 | line text_node
   { $1[] = $2; $$ = $1; }
 | line logic_node
-  { $1[] = $2; $$ = $1; }
+  { if ($2) {$1[] = $2; $$ = $1;} }
 .
 
 tag
@@ -51,6 +60,10 @@ attributes
   { $$ = array(); }
 | attribute
   { $$ = array($1); }
+| logic_node
+  { $$ = array($1); }
+| attributes logic_node
+  { $1[] = $2; $$ = $1; }
 | attributes attribute
   { $1[] = $2; $$ = $1; }
 .
@@ -63,14 +76,50 @@ attribute
 attrib_value
 =
   { $$ = ""; }
-| TK_EQUAL TK_STRING
+| TK_ASSIGMENT string
   { $$ = $2; }
-| TK_EQUAL TAG_NAME
+| TK_ASSIGMENT TAG_NAME
   { $$ = $2; }
-| TK_EQUAL TK_DIGITS
+| TK_ASSIGMENT TK_DIGITS
   { $$ = $2; }
-| TK_EQUAL TK_OTHER
+| TK_ASSIGMENT TK_OTHER
   { $$ = $2; }
+.
+
+string
+= TK_DOUBLE_QUOTE string_elements TK_DOUBLE_QUOTE
+  { $$ = $2; }
+| TK_SINGLE_QUOTE string_elements TK_SINGLE_QUOTE
+  { $$ = $2; }
+.
+
+string_elements
+= string_element
+  { $$ = array($1); }
+| string_elements string_element
+  { $1[] = $2; $$ = $1; }
+.
+
+string_element
+= TK_DIGITS
+| TK_DOT
+| TK_MINUS
+| TK_PLUS
+| TK_LT_EQUAL
+| TK_GT_EQUAL
+| TK_LT
+| TK_GT
+| TK_TAG_NAME
+| TK_VAR
+| TK_LETTERS
+| TK_SLASH
+| TK_EQUAL
+| TK_ASSIGMENT
+| TK_NOT_EQUAL
+| TK_TEXT_NODE
+| TK_SPACE
+| TK_OTHER
+| logic_node
 .
 
 attrib_name
@@ -81,35 +130,62 @@ attrib_name
 text_node
 = TK_TEXT_NODE
   { $$ = new TextNode($1); }
+| TK_LETTERS
+  { $$ = new TextNode($1); }
+| TK_TAG_NAME
+  { $$ = new TextNode($1); }
+| TK_VAR
+  { $$ = new TextNode($1); }
 | TK_OTHER
   { $$ = new TextNode($1); }
 .
 
 logic_node
-= TK_LOGIC_BEGIN expr TK_LOGIC_END
+=
+  { $$ = false; }
+| TK_LOGIC_BEGIN expr_words TK_LOGIC_END
   { $$ = new LogicNode($2); }
 .
 
-expr
+expr_words
 = expr_node
-  { $$ = $1; }
-| expr expr_node
-  { $$ = $1 . $2; }
+  { $$ = array($1); }
+| expr_words expr_node
+  { $1[] = $2; $$ = $1; }
 .
 
 expr_node
+= TK_LETTERS
+  { $$ = array($1, 'type' => 'word'); }
+| TK_VAR
+  { $$ = $1; }
+| expr
+  { $$ = array($1, 'type' => 'expr'); }
+.
+
+expr
 = TK_DIGITS
   { $$ = $1; }
 | TK_LETTERS
   { $$ = $1; }
 | TK_VAR
   { $$ = $1; }
-| TK_GT
-  { $$ = $1; }
-| TK_LT
-  { $$ = $1; }
-| TK_MINUS
-  { $$ = $1; }
-| TK_PLUS
-  { $$ = $1; }
+| expr TK_LT expr
+  { $$ = $1 . ' ' . $2 . ' '. $3; }
+| expr TK_GT expr
+  { $$ = $1 . ' ' . $2 . ' '. $3; }
+| expr TK_MINUS expr
+  { $$ = $1 . ' ' . $2 . ' '. $3; }
+| expr TK_PLUS expr
+  { $$ = $1 . ' ' . $2 . ' '. $3; }
+| expr TK_ASSIGMENT expr
+  { $$ = $1 . ' ' . $2 . ' '. $3; }
+| expr TK_EQUAL expr
+  { $$ = $1 . ' ' . $2 . ' '. $3; }
+| expr TK_NOT_EQUAL expr
+  { $$ = $1 . ' ' . $2 . ' '. $3; }
+| expr TK_LT_EQUAL expr
+  { $$ = $1 . ' ' . $2 . ' '. $3; }
+| expr TK_GT_EQUAL expr
+  { $$ = $1 . ' ' . $2 . ' '. $3; }
 .
