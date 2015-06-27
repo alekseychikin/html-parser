@@ -1,0 +1,17 @@
+[0-9]+                  return TK_DIGITS
+\.                      return TK_DOT
+\-                      return TK_MINUS
+<                       return TK_LT
+>                       return TK_GT
+[a-zA-Z]+([\-:]+[a-zA-Z]*)+   return TK_TAG_NAME
+[a-zA-Z]+([_0-9]+[a-zA-Z]*)+  return TK_VAR
+[a-zA-Z]+               return TK_LETTERS
+\/                      return TK_SLASH
+=                       return TK_EQUAL
+("[^"]*"|'[^']*')       return TK_STRING
+{%                      return TK_LOGIC_BEGIN
+%}                      return TK_LOGIC_END
+[^\s<>]+(\s[^\s<>]+)+   return TK_TEXT_NODE
+\s                      return TK_SPACE
+[\+]                    return TK_PLUS
+[^\s<>0-9]+             return TK_OTHER

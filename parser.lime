@@ -1,0 +1,115 @@
+%class template_parser
+%start doc
+
+
+doc
+= lines
+  { showResults($1); }
+.
+
+lines
+= line
+  { $$ = array($1); }
+| lines line
+  { $1[] = $2; $$ = $1; }
+.
+
+line
+= tag
+  { $$ = array($1); }
+| text_node
+  { $$ = array($1); }
+| logic_node
+  { $$ = array($1); }
+| line tag
+  { $1[] = $2; $$ = $1; }
+| line text_node
+  { $1[] = $2; $$ = $1; }
+| line logic_node
+  { $1[] = $2; $$ = $1; }
+.
+
+tag
+= TK_LT tag_name attributes GT
+  { $$ = new Tag($2, 'open'); $$->setAttributes($3); }
+| TK_LT TK_SLASH tag_name TK_GT
+  { $$ = new Tag($3, 'close'); }
+.
+
+tag_name
+= TK_LETTERS
+| TK_TAG_NAME
+.
+
+GT
+= TK_SLASH TK_GT
+| TK_GT
+.
+
+attributes
+=
+  { $$ = array(); }
+| attribute
+  { $$ = array($1); }
+| attributes attribute
+  { $1[] = $2; $$ = $1; }
+.
+
+attribute
+= attrib_name attrib_value
+  { $$ = new Attribute($1, $2); }
+.
+
+attrib_value
+=
+  { $$ = ""; }
+| TK_EQUAL TK_STRING
+  { $$ = $2; }
+| TK_EQUAL TAG_NAME
+  { $$ = $2; }
+| TK_EQUAL TK_DIGITS
+  { $$ = $2; }
+| TK_EQUAL TK_OTHER
+  { $$ = $2; }
+.
+
+attrib_name
+= tag_name
+  { $$ = $1; }
+.
+
+text_node
+= TK_TEXT_NODE
+  { $$ = new TextNode($1); }
+| TK_OTHER
+  { $$ = new TextNode($1); }
+.
+
+logic_node
+= TK_LOGIC_BEGIN expr TK_LOGIC_END
+  { $$ = new LogicNode($2); }
+.
+
+expr
+= expr_node
+  { $$ = $1; }
+| expr expr_node
+  { $$ = $1 . $2; }
+.
+
+expr_node
+= TK_DIGITS
+  { $$ = $1; }
+| TK_LETTERS
+  { $$ = $1; }
+| TK_VAR
+  { $$ = $1; }
+| TK_GT
+  { $$ = $1; }
+| TK_LT
+  { $$ = $1; }
+| TK_MINUS
+  { $$ = $1; }
+| TK_PLUS
+  { $$ = $1; }
+.
