@@ -2,10 +2,16 @@
 
   class LogicNode
   {
-    private $text;
+    private $expressions;
 
-    public function __construct($text)
+    public function __construct($expressions)
     {
-      $this->text = $text;
+      $this->expressions = $expressions;
     }
+
+    public function get()
+    {
+      return $this->expressions;
+    }
+
   }

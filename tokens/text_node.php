@@ -8,4 +8,9 @@
     {
       $this->text = $node;
     }
+
+    public function text()
+    {
+      return $this->text;
+    }
   }

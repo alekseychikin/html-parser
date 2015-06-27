@@ -18,4 +18,19 @@
         $this->attributes = $attribs;
       }
     }
+
+    public function name()
+    {
+      return $this->name;
+    }
+
+    public function type()
+    {
+      return $this->type;
+    }
+
+    public function attributes()
+    {
+      return $this->attributes;
+    }
   }

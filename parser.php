@@ -22,7 +22,7 @@
       foreach ($lines as $line) {
         if (!strlen($line)) continue;
         while ($token = $tokens->nextToken($line)) {
-          print_r($token)."\n";
+          // print_r($token);
           $parser->eat($token['token'], $token['value']);
         }
       }
@@ -32,15 +32,68 @@
     }
   }
 
-  function showResults($res)
+  $result = array();
+  $file = fopen("examples/logic_node_at_attribute.html", "w");
+
+  function prepareAttribute($attribute)
   {
-    echo " -> ";
-    print_r($res);
-    echo "\n";
+    if (get_class($attribute) == 'Attribute') {
+      $value = $attribute->values();
+      if (gettype($value) == 'object' && get_class($value) == 'LogicNode') {
+        $value = '';
+/*
+        $values = $value->get();
+        $value = '';
+        foreach ($values as $val) {
+          $value .= $val['value'];
+        }
+//*/
+      }
+      return ' ' . $attribute->name() . '="' . $value . '"';
+    }
+    elseif (get_class($attribute) == 'LogicNode') {
+
+    }
+    return '';
   }
+
+  function prepareTag($element)
+  {
+    global $file;
+    print_r($element);
+    $stringAttribute = '<' . ($element->type() == 'close' ? '/' : '') . $element->name();
+    $attributes = $element->attributes();
+    foreach ($attributes as $attribute) {
+      $stringAttribute .= prepareAttribute($attribute);
+    }
+    $stringAttribute .= '>';
+    fputs($file, $stringAttribute);
+  }
+
+  function showResults($lines)
+  {
+    foreach ($lines as $line) {
+      foreach ($line as $element) {
+        switch (get_class($element))
+        {
+          case 'Tag':
+            prepareTag($element);
+            break;
+          case 'TextNode':
+            // print_r($element);
+            break;
+          case 'LogicNode':
+
+            break;
+        }
+      }
+    }
+  }
+
 
   $parser = new parse_engine(new template_parser());
   makeParse($lines);
 
+  fclose($file);
 
 ?>

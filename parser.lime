@@ -102,24 +102,43 @@ string_elements
 
 string_element
 = TK_DIGITS
+  { $$ = $1; }
 | TK_DOT
+  { $$ = $1; }
 | TK_MINUS
+  { $$ = $1; }
 | TK_PLUS
+  { $$ = $1; }
 | TK_LT_EQUAL
+  { $$ = $1; }
 | TK_GT_EQUAL
+  { $$ = $1; }
 | TK_LT
+  { $$ = $1; }
 | TK_GT
+  { $$ = $1; }
 | TK_TAG_NAME
+  { $$ = $1; }
 | TK_VAR
+  { $$ = $1; }
 | TK_LETTERS
+  { $$ = $1; }
 | TK_SLASH
+  { $$ = $1; }
 | TK_EQUAL
+  { $$ = $1; }
 | TK_ASSIGMENT
+  { $$ = $1; }
 | TK_NOT_EQUAL
+  { $$ = $1; }
 | TK_TEXT_NODE
+  { $$ = $1; }
 | TK_SPACE
+  { $$ = $1; }
 | TK_OTHER
+  { $$ = $1; }
 | logic_node
+  { $$ = $1; print_r($1); }
 .
 
 attrib_name
@@ -141,26 +160,15 @@ text_node
 .
 
 logic_node
-=
-  { $$ = false; }
-| TK_LOGIC_BEGIN expr_words TK_LOGIC_END
-  { $$ = new LogicNode($2); }
+= TK_LOGIC_BEGIN expr_words TK_LOGIC_END
+  { print_r($2); $$ = new LogicNode($2); }
 .
 
 expr_words
-= expr_node
-  { $$ = array($1); }
-| expr_words expr_node
-  { $1[] = $2; $$ = $1; }
-.
-
-expr_node
-= TK_LETTERS
-  { $$ = array($1, 'type' => 'word'); }
-| TK_VAR
-  { $$ = $1; }
-| expr
-  { $$ = array($1, 'type' => 'expr'); }
+= expr
+  { echo $1." ←\n"; $$ = array(array('value' => $1, 'type' => 'expr')); }
+| expr_words expr
+  { echo $2." →\n"; $1[] = array('value' => $2, 'type' => 'expr'); $$ = $1; }
 .
 
 expr
