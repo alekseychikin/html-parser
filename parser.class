@@ -1369,7 +1369,7 @@ function reduce_0_doc_1($tokens, &$result) {
 # (0) doc :=  lines
 #
 $result = reset($tokens);
- showResults($tokens[0]); 
+ getResults($tokens[0]); 
 }
 
 function reduce_1_lines_1($tokens, &$result) {
