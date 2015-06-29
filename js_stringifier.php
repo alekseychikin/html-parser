@@ -45,7 +45,7 @@
     {
       if (get_class($attribute) == 'Attribute') {
         $values = $attribute->values();
-        $value = array('var attrs = \'\';');
+        $value = array("\n" . 'var attrs = \'\';');
         $lastName = ($this->currentElements[count($this->currentElements) - 1]);
         if (gettype($values) == 'array') {
           foreach ($values as $val) {
@@ -55,7 +55,7 @@
               $value[] = implode(' ', $exprs);
             }
             else {
-              $value[] = 'attrs += "' . $val . '"';
+              $value[] = 'attrs += "' . $val . '";';
             }
           }
         }
@@ -78,7 +78,11 @@
           "\n" . $this->tabify($zindex) .
           '  var ' . $elementName . ' = document.createElement(\'' . $element->name() .'\');'.
           "\n" . $this->tabify($zindex) .
-          '  parent.appendChild(' . $elementName . ')';
+          '  parent.appendChild(' . $elementName . ');';
+          $attributes = $element->attributes();
+          foreach ($attributes as $attribute) {
+            $this->resultString .= $this->prepareAttribute($attribute);
+          }
           if ($nesting) {
             $this->resultString .=
               "\n" . '(function (parent)' . "\n" .
@@ -90,10 +94,6 @@
         $elementName = array_pop($this->currentElements);
         $this->resultString .= "\n" . $this->tabify($zindex) .
         '})(' . $elementName . ');';
-      }
-      $attributes = $element->attributes();
-      foreach ($attributes as $attribute) {
-        $this->resultString .= $this->prepareAttribute($attribute);
       }
     }
 
@@ -107,6 +107,7 @@
     {
       $value = array();
       $this->expandLogicExpressions($sourceElement, $value);
+      $this->resultString .= "\n" . implode(' ', $value);
     }
 
     private function recString($tree, $zindex = 0)
