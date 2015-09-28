@@ -92,9 +92,11 @@
 
     private function recString($tree, $zindex = 0)
     {
+      // print_r($tree);
       $childs = $tree->getChilds();
       foreach ($childs as $element) {
         $sourceElement = $element->element();
+        // print_r($sourceElement);
         switch (get_class($sourceElement)) {
           case 'Tag':
             $this->prepareTag($sourceElement, $zindex);

@@ -1,0 +1,20 @@
+<div class="maps__dist{% if isDist %} maps__dist--{{ dist.alias }}{% if selectedDist == dist.alias %} maps__dist--active{% endif %}{% endif %}"{% if isDist %} role="dist-{{ dist.alias }}"{% endif %}>
+  <div class="maps__columns">
+    <div class="maps__column maps__column--red">
+      {% for raiting in [1..dist.data.mts[selectedType].rating] %}
+      <span class="maps__cell"></span>
+      {% endfor %}
+    </div>
+    <div class="maps__column maps__column--green">
+      {% for raiting in [1..dist.data.megafon[selectedType].rating] %}
+      <span class="maps__cell"></span>
+      {% endfor %}
+    </div>
+    <div class="maps__column maps__column--yellow">
+      {% for raiting in [1..dist.data.beeline[selectedType].rating] %}
+      <span class="maps__cell"></span>
+      {% endfor %}
+    </div>
+  </div>
+  <div class="maps__title">{{ dist.title }}</div>
+</div>

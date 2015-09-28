@@ -24,33 +24,45 @@ var $i = array (
   0 => 
   array (
     'lines' => 's 1',
-    'line' => 's 91',
-    'tag' => 's 88',
-    'text_node' => 's 89',
-    'logic_node' => 's 90',
+    'line' => 's 147',
+    'tag' => 's 144',
+    'text_node' => 's 145',
+    'logic_node' => 's 146',
     'TK_LT' => 's 6',
-    'TK_TEXT_NODE' => 's 83',
-    'TK_LETTERS' => 's 84',
-    'TK_TAG_NAME' => 's 85',
-    'TK_VAR' => 's 86',
-    'TK_OTHER' => 's 87',
-    'TK_LOGIC_BEGIN' => 's 47',
-    'doc' => 's 92',
+    'TK_TEXT_NODE' => 's 133',
+    'TK_LETTERS' => 's 134',
+    'TK_SELECTOR_LOWDASH' => 's 135',
+    'TK_SELECTOR' => 's 136',
+    'TK_TAG_NAME' => 's 137',
+    'TK_VAR' => 's 138',
+    'TK_OTHER' => 's 139',
+    'TK_COMMA' => 's 140',
+    'TK_DIGITS' => 's 141',
+    'TK_DOT' => 's 142',
+    'TK_SLASH' => 's 143',
+    'TK_LOGIC_BEGIN' => 's 45',
+    'doc' => 's 148',
     '\'start\'' => 'a \'start\'',
   ),
   1 => 
   array (
     'line' => 's 2',
-    'tag' => 's 88',
-    'text_node' => 's 89',
-    'logic_node' => 's 90',
+    'tag' => 's 144',
+    'text_node' => 's 145',
+    'logic_node' => 's 146',
     'TK_LT' => 's 6',
-    'TK_TEXT_NODE' => 's 83',
-    'TK_LETTERS' => 's 84',
-    'TK_TAG_NAME' => 's 85',
-    'TK_VAR' => 's 86',
-    'TK_OTHER' => 's 87',
-    'TK_LOGIC_BEGIN' => 's 47',
+    'TK_TEXT_NODE' => 's 133',
+    'TK_LETTERS' => 's 134',
+    'TK_SELECTOR_LOWDASH' => 's 135',
+    'TK_SELECTOR' => 's 136',
+    'TK_TAG_NAME' => 's 137',
+    'TK_VAR' => 's 138',
+    'TK_OTHER' => 's 139',
+    'TK_COMMA' => 's 140',
+    'TK_DIGITS' => 's 141',
+    'TK_DOT' => 's 142',
+    'TK_SLASH' => 's 143',
+    'TK_LOGIC_BEGIN' => 's 45',
     '#' => 'r 0',
   ),
   2 => 
@@ -59,21 +71,33 @@ var $i = array (
     'text_node' => 's 4',
     'logic_node' => 's 5',
     'TK_LT' => 's 6',
-    'TK_TEXT_NODE' => 's 83',
-    'TK_LETTERS' => 's 84',
-    'TK_TAG_NAME' => 's 85',
-    'TK_VAR' => 's 86',
-    'TK_OTHER' => 's 87',
-    'TK_LOGIC_BEGIN' => 's 47',
+    'TK_TEXT_NODE' => 's 133',
+    'TK_LETTERS' => 's 134',
+    'TK_SELECTOR_LOWDASH' => 's 135',
+    'TK_SELECTOR' => 's 136',
+    'TK_TAG_NAME' => 's 137',
+    'TK_VAR' => 's 138',
+    'TK_OTHER' => 's 139',
+    'TK_COMMA' => 's 140',
+    'TK_DIGITS' => 's 141',
+    'TK_DOT' => 's 142',
+    'TK_SLASH' => 's 143',
+    'TK_LOGIC_BEGIN' => 's 45',
     '#' => 'r 2',
   ),
   3 => 
   array (
     'TK_TEXT_NODE' => 'r 6',
     'TK_LETTERS' => 'r 6',
+    'TK_SELECTOR_LOWDASH' => 'r 6',
+    'TK_SELECTOR' => 'r 6',
     'TK_TAG_NAME' => 'r 6',
     'TK_VAR' => 'r 6',
     'TK_OTHER' => 'r 6',
+    'TK_COMMA' => 'r 6',
+    'TK_DIGITS' => 'r 6',
+    'TK_DOT' => 'r 6',
+    'TK_SLASH' => 'r 6',
     'TK_LT' => 'r 6',
     'TK_LOGIC_BEGIN' => 'r 6',
     '#' => 'r 6',
@@ -83,9 +107,15 @@ var $i = array (
     'TK_LOGIC_BEGIN' => 'r 7',
     'TK_TEXT_NODE' => 'r 7',
     'TK_LETTERS' => 'r 7',
+    'TK_SELECTOR_LOWDASH' => 'r 7',
+    'TK_SELECTOR' => 'r 7',
     'TK_TAG_NAME' => 'r 7',
     'TK_VAR' => 'r 7',
     'TK_OTHER' => 'r 7',
+    'TK_COMMA' => 'r 7',
+    'TK_DIGITS' => 'r 7',
+    'TK_DOT' => 'r 7',
+    'TK_SLASH' => 'r 7',
     'TK_LT' => 'r 7',
     '#' => 'r 7',
   ),
@@ -94,344 +124,302 @@ var $i = array (
     'TK_LOGIC_BEGIN' => 'r 8',
     'TK_TEXT_NODE' => 'r 8',
     'TK_LETTERS' => 'r 8',
+    'TK_SELECTOR_LOWDASH' => 'r 8',
+    'TK_SELECTOR' => 'r 8',
     'TK_TAG_NAME' => 'r 8',
     'TK_VAR' => 'r 8',
     'TK_OTHER' => 'r 8',
+    'TK_COMMA' => 'r 8',
+    'TK_DIGITS' => 'r 8',
+    'TK_DOT' => 'r 8',
+    'TK_SLASH' => 'r 8',
     'TK_LT' => 'r 8',
     '#' => 'r 8',
   ),
   6 => 
   array (
     'tag_name' => 's 7',
-    'TK_SLASH' => 's 80',
-    'TK_LETTERS' => 's 10',
-    'TK_TAG_NAME' => 's 11',
+    'TK_SLASH' => 's 126',
+    'TK_LETTERS' => 's 129',
+    'TK_SELECTOR_DASH' => 's 130',
+    'TK_SELECTOR' => 's 131',
+    'TK_TAG_NAME' => 's 132',
   ),
   7 => 
   array (
     'attributes' => 's 8',
-    'TK_LETTERS' => 's 10',
-    'TK_TAG_NAME' => 's 11',
-    'attribute' => 's 78',
-    'logic_node' => 's 79',
-    'attrib_name' => 's 17',
-    'tag_name' => 's 77',
-    'TK_LOGIC_BEGIN' => 's 47',
-    'TK_SLASH' => 'r 15',
-    'TK_GT' => 'r 15',
+    'attribute' => 's 124',
+    'logic_node' => 's 125',
+    'attrib_name' => 's 15',
+    'TK_LETTERS' => 's 121',
+    'TK_DATA_ATTR' => 's 122',
+    'TK_SELECTOR' => 's 123',
+    'TK_LOGIC_BEGIN' => 's 45',
+    'TK_SLASH' => 'r 17',
+    'TK_GT' => 'r 17',
   ),
   8 => 
   array (
     'GT' => 's 9',
-    'TK_LETTERS' => 's 10',
-    'TK_TAG_NAME' => 's 11',
-    'TK_SLASH' => 's 12',
-    'TK_GT' => 's 14',
-    'logic_node' => 's 15',
-    'attribute' => 's 16',
-    'attrib_name' => 's 17',
-    'tag_name' => 's 77',
-    'TK_LOGIC_BEGIN' => 's 47',
+    'TK_SLASH' => 's 10',
+    'TK_GT' => 's 12',
+    'logic_node' => 's 13',
+    'attribute' => 's 14',
+    'attrib_name' => 's 15',
+    'TK_LETTERS' => 's 121',
+    'TK_DATA_ATTR' => 's 122',
+    'TK_SELECTOR' => 's 123',
+    'TK_LOGIC_BEGIN' => 's 45',
   ),
   9 => 
   array (
     'TK_LT' => 'r 9',
     'TK_TEXT_NODE' => 'r 9',
     'TK_LETTERS' => 'r 9',
+    'TK_SELECTOR_LOWDASH' => 'r 9',
+    'TK_SELECTOR' => 'r 9',
     'TK_TAG_NAME' => 'r 9',
     'TK_VAR' => 'r 9',
     'TK_OTHER' => 'r 9',
+    'TK_COMMA' => 'r 9',
+    'TK_DIGITS' => 'r 9',
+    'TK_DOT' => 'r 9',
+    'TK_SLASH' => 'r 9',
     'TK_LOGIC_BEGIN' => 'r 9',
     '#' => 'r 9',
   ),
   10 => 
   array (
-    'TK_LOGIC_BEGIN' => 'r 11',
-    'TK_LETTERS' => 'r 11',
-    'TK_TAG_NAME' => 'r 11',
-    'TK_SLASH' => 'r 11',
-    'TK_GT' => 'r 11',
-    'TK_ASSIGMENT' => 'r 11',
+    'TK_GT' => 's 11',
   ),
   11 => 
   array (
-    'TK_LOGIC_BEGIN' => 'r 12',
-    'TK_LETTERS' => 'r 12',
-    'TK_TAG_NAME' => 'r 12',
-    'TK_SLASH' => 'r 12',
-    'TK_GT' => 'r 12',
-    'TK_ASSIGMENT' => 'r 12',
+    'TK_LT' => 'r 15',
+    'TK_TEXT_NODE' => 'r 15',
+    'TK_LETTERS' => 'r 15',
+    'TK_SELECTOR_LOWDASH' => 'r 15',
+    'TK_SELECTOR' => 'r 15',
+    'TK_TAG_NAME' => 'r 15',
+    'TK_VAR' => 'r 15',
+    'TK_OTHER' => 'r 15',
+    'TK_COMMA' => 'r 15',
+    'TK_DIGITS' => 'r 15',
+    'TK_DOT' => 'r 15',
+    'TK_SLASH' => 'r 15',
+    'TK_LOGIC_BEGIN' => 'r 15',
+    '#' => 'r 15',
   ),
   12 => 
   array (
-    'TK_GT' => 's 13',
+    'TK_LT' => 'r 16',
+    'TK_TEXT_NODE' => 'r 16',
+    'TK_LETTERS' => 'r 16',
+    'TK_SELECTOR_LOWDASH' => 'r 16',
+    'TK_SELECTOR' => 'r 16',
+    'TK_TAG_NAME' => 'r 16',
+    'TK_VAR' => 'r 16',
+    'TK_OTHER' => 'r 16',
+    'TK_COMMA' => 'r 16',
+    'TK_DIGITS' => 'r 16',
+    'TK_DOT' => 'r 16',
+    'TK_SLASH' => 'r 16',
+    'TK_LOGIC_BEGIN' => 'r 16',
+    '#' => 'r 16',
   ),
   13 => 
   array (
-    'TK_LT' => 'r 13',
-    'TK_TEXT_NODE' => 'r 13',
-    'TK_LETTERS' => 'r 13',
-    'TK_TAG_NAME' => 'r 13',
-    'TK_VAR' => 'r 13',
-    'TK_OTHER' => 'r 13',
-    'TK_LOGIC_BEGIN' => 'r 13',
-    '#' => 'r 13',
-  ),
-  14 => 
-  array (
-    'TK_LT' => 'r 14',
-    'TK_TEXT_NODE' => 'r 14',
-    'TK_LETTERS' => 'r 14',
-    'TK_TAG_NAME' => 'r 14',
-    'TK_VAR' => 'r 14',
-    'TK_OTHER' => 'r 14',
-    'TK_LOGIC_BEGIN' => 'r 14',
-    '#' => 'r 14',
-  ),
-  15 => 
-  array (
-    'TK_LETTERS' => 'r 18',
-    'TK_TAG_NAME' => 'r 18',
-    'TK_LOGIC_BEGIN' => 'r 18',
-    'TK_SLASH' => 'r 18',
-    'TK_GT' => 'r 18',
-  ),
-  16 => 
-  array (
-    'TK_SLASH' => 'r 19',
-    'TK_GT' => 'r 19',
-    'TK_LETTERS' => 'r 19',
-    'TK_TAG_NAME' => 'r 19',
-    'TK_LOGIC_BEGIN' => 'r 19',
-  ),
-  17 => 
-  array (
-    'attrib_value' => 's 18',
-    'TK_ASSIGMENT' => 's 19',
-    'TK_LOGIC_BEGIN' => 'r 21',
-    'TK_LETTERS' => 'r 21',
-    'TK_TAG_NAME' => 'r 21',
-    'TK_SLASH' => 'r 21',
-    'TK_GT' => 'r 21',
-  ),
-  18 => 
-  array (
-    'TK_LOGIC_BEGIN' => 'r 20',
     'TK_LETTERS' => 'r 20',
-    'TK_TAG_NAME' => 'r 20',
+    'TK_DATA_ATTR' => 'r 20',
+    'TK_SELECTOR' => 'r 20',
+    'TK_LOGIC_BEGIN' => 'r 20',
     'TK_SLASH' => 'r 20',
     'TK_GT' => 'r 20',
   ),
-  19 => 
+  14 => 
   array (
-    'string' => 's 20',
-    'TAG_NAME' => 's 21',
-    'TK_DIGITS' => 's 22',
-    'TK_OTHER' => 's 23',
-    'TK_DOUBLE_QUOTE' => 's 24',
-    'TK_SINGLE_QUOTE' => 's 74',
+    'TK_SLASH' => 'r 21',
+    'TK_GT' => 'r 21',
+    'TK_LETTERS' => 'r 21',
+    'TK_DATA_ATTR' => 'r 21',
+    'TK_SELECTOR' => 'r 21',
+    'TK_LOGIC_BEGIN' => 'r 21',
   ),
-  20 => 
+  15 => 
   array (
-    'TK_LOGIC_BEGIN' => 'r 22',
-    'TK_LETTERS' => 'r 22',
-    'TK_TAG_NAME' => 'r 22',
-    'TK_SLASH' => 'r 22',
-    'TK_GT' => 'r 22',
-  ),
-  21 => 
-  array (
+    'attrib_value' => 's 16',
+    'TK_ASSIGMENT' => 's 17',
     'TK_LOGIC_BEGIN' => 'r 23',
     'TK_LETTERS' => 'r 23',
-    'TK_TAG_NAME' => 'r 23',
+    'TK_DATA_ATTR' => 'r 23',
+    'TK_SELECTOR' => 'r 23',
     'TK_SLASH' => 'r 23',
     'TK_GT' => 'r 23',
   ),
-  22 => 
+  16 => 
+  array (
+    'TK_LOGIC_BEGIN' => 'r 22',
+    'TK_LETTERS' => 'r 22',
+    'TK_DATA_ATTR' => 'r 22',
+    'TK_SELECTOR' => 'r 22',
+    'TK_SLASH' => 'r 22',
+    'TK_GT' => 'r 22',
+  ),
+  17 => 
+  array (
+    'TK_DOUBLE_QUOTE' => 's 18',
+    'string' => 's 117',
+    'TAG_NAME' => 's 118',
+    'TK_DIGITS' => 's 119',
+    'TK_OTHER' => 's 120',
+    'TK_SINGLE_QUOTE' => 's 48',
+  ),
+  18 => 
+  array (
+    'TK_DOUBLE_QUOTE' => 's 19',
+    'string_elements' => 's 20',
+    'string_element' => 's 47',
+    'TK_DIGITS' => 's 23',
+    'TK_MINUS' => 's 24',
+    'TK_PLUS' => 's 25',
+    'TK_LT_EQUAL' => 's 26',
+    'TK_GT_EQUAL' => 's 27',
+    'TK_LT' => 's 28',
+    'TK_GT' => 's 29',
+    'TK_DATA_ATTR' => 's 30',
+    'TK_SELECTOR_LOWDASH' => 's 31',
+    'TK_SELECTOR_DASH' => 's 32',
+    'TK_SELECTOR' => 's 33',
+    'TK_LETTERS' => 's 34',
+    'TK_SLASH' => 's 35',
+    'TK_EQUAL' => 's 36',
+    'TK_COMMA' => 's 37',
+    'TK_DOT' => 's 38',
+    'TK_ASSIGMENT' => 's 39',
+    'TK_NOT_EQUAL' => 's 40',
+    'TK_TEXT_NODE' => 's 41',
+    'TK_SPACE' => 's 42',
+    'TK_OTHER' => 's 43',
+    'logic_node' => 's 44',
+    'TK_LOGIC_BEGIN' => 's 45',
+  ),
+  19 => 
   array (
     'TK_LOGIC_BEGIN' => 'r 24',
     'TK_LETTERS' => 'r 24',
-    'TK_TAG_NAME' => 'r 24',
+    'TK_DATA_ATTR' => 'r 24',
+    'TK_SELECTOR' => 'r 24',
     'TK_SLASH' => 'r 24',
     'TK_GT' => 'r 24',
   ),
-  23 => 
+  20 => 
   array (
-    'TK_LOGIC_BEGIN' => 'r 25',
-    'TK_LETTERS' => 'r 25',
-    'TK_TAG_NAME' => 'r 25',
-    'TK_SLASH' => 'r 25',
-    'TK_GT' => 'r 25',
+    'TK_DOUBLE_QUOTE' => 's 21',
+    'string_element' => 's 22',
+    'TK_DIGITS' => 's 23',
+    'TK_MINUS' => 's 24',
+    'TK_PLUS' => 's 25',
+    'TK_LT_EQUAL' => 's 26',
+    'TK_GT_EQUAL' => 's 27',
+    'TK_LT' => 's 28',
+    'TK_GT' => 's 29',
+    'TK_DATA_ATTR' => 's 30',
+    'TK_SELECTOR_LOWDASH' => 's 31',
+    'TK_SELECTOR_DASH' => 's 32',
+    'TK_SELECTOR' => 's 33',
+    'TK_LETTERS' => 's 34',
+    'TK_SLASH' => 's 35',
+    'TK_EQUAL' => 's 36',
+    'TK_COMMA' => 's 37',
+    'TK_DOT' => 's 38',
+    'TK_ASSIGMENT' => 's 39',
+    'TK_NOT_EQUAL' => 's 40',
+    'TK_TEXT_NODE' => 's 41',
+    'TK_SPACE' => 's 42',
+    'TK_OTHER' => 's 43',
+    'logic_node' => 's 44',
+    'TK_LOGIC_BEGIN' => 's 45',
   ),
-  24 => 
+  21 => 
   array (
-    'string_elements' => 's 25',
-    'string_element' => 's 73',
-    'TK_DIGITS' => 's 28',
-    'TK_DOT' => 's 29',
-    'TK_MINUS' => 's 30',
-    'TK_PLUS' => 's 31',
-    'TK_LT_EQUAL' => 's 32',
-    'TK_GT_EQUAL' => 's 33',
-    'TK_LT' => 's 34',
-    'TK_GT' => 's 35',
-    'TK_TAG_NAME' => 's 36',
-    'TK_VAR' => 's 37',
-    'TK_LETTERS' => 's 38',
-    'TK_SLASH' => 's 39',
-    'TK_EQUAL' => 's 40',
-    'TK_ASSIGMENT' => 's 41',
-    'TK_NOT_EQUAL' => 's 42',
-    'TK_TEXT_NODE' => 's 43',
-    'TK_SPACE' => 's 44',
-    'TK_OTHER' => 's 45',
-    'logic_node' => 's 46',
-    'TK_LOGIC_BEGIN' => 's 47',
-  ),
-  25 => 
-  array (
-    'TK_DOUBLE_QUOTE' => 's 26',
-    'string_element' => 's 27',
-    'TK_DIGITS' => 's 28',
-    'TK_DOT' => 's 29',
-    'TK_MINUS' => 's 30',
-    'TK_PLUS' => 's 31',
-    'TK_LT_EQUAL' => 's 32',
-    'TK_GT_EQUAL' => 's 33',
-    'TK_LT' => 's 34',
-    'TK_GT' => 's 35',
-    'TK_TAG_NAME' => 's 36',
-    'TK_VAR' => 's 37',
-    'TK_LETTERS' => 's 38',
-    'TK_SLASH' => 's 39',
-    'TK_EQUAL' => 's 40',
-    'TK_ASSIGMENT' => 's 41',
-    'TK_NOT_EQUAL' => 's 42',
-    'TK_TEXT_NODE' => 's 43',
-    'TK_SPACE' => 's 44',
-    'TK_OTHER' => 's 45',
-    'logic_node' => 's 46',
-    'TK_LOGIC_BEGIN' => 's 47',
-  ),
-  26 => 
-  array (
-    'TK_LOGIC_BEGIN' => 'r 26',
-    'TK_LETTERS' => 'r 26',
-    'TK_TAG_NAME' => 'r 26',
-    'TK_SLASH' => 'r 26',
-    'TK_GT' => 'r 26',
-  ),
-  27 => 
-  array (
-    'TK_DOUBLE_QUOTE' => 'r 29',
-    'TK_DIGITS' => 'r 29',
-    'TK_DOT' => 'r 29',
-    'TK_MINUS' => 'r 29',
-    'TK_PLUS' => 'r 29',
-    'TK_LT_EQUAL' => 'r 29',
-    'TK_GT_EQUAL' => 'r 29',
-    'TK_LT' => 'r 29',
-    'TK_GT' => 'r 29',
-    'TK_TAG_NAME' => 'r 29',
-    'TK_VAR' => 'r 29',
+    'TK_LOGIC_BEGIN' => 'r 29',
     'TK_LETTERS' => 'r 29',
+    'TK_DATA_ATTR' => 'r 29',
+    'TK_SELECTOR' => 'r 29',
     'TK_SLASH' => 'r 29',
+    'TK_GT' => 'r 29',
+    'TK_OPEN_SQUARE_BRAKETS' => 'r 29',
+    'TK_PIPE' => 'r 29',
+    'TK_LOGIC_OR' => 'r 29',
+    'TK_LOGIC_AND' => 'r 29',
+    'TK_GT_EQUAL' => 'r 29',
+    'TK_LT_EQUAL' => 'r 29',
+    'TK_NOT_EQUAL' => 'r 29',
     'TK_EQUAL' => 'r 29',
     'TK_ASSIGMENT' => 'r 29',
-    'TK_NOT_EQUAL' => 'r 29',
-    'TK_TEXT_NODE' => 'r 29',
-    'TK_SPACE' => 'r 29',
-    'TK_OTHER' => 'r 29',
-    'TK_LOGIC_BEGIN' => 'r 29',
+    'TK_LT' => 'r 29',
+    'TK_PLUS' => 'r 29',
+    'TK_MINUS' => 'r 29',
+    'TK_MULTIPLY' => 'r 29',
+    'TK_TWO_DOTS' => 'r 29',
+    'TK_OPEN_BRAKETS' => 'r 29',
+    'TK_COMMA' => 'r 29',
+    'TK_DOT' => 'r 29',
+    'TK_EXCLAMATION_MARK' => 'r 29',
+    'TK_QUESTION_MARK' => 'r 29',
+    'TK_VAR' => 'r 29',
+    'TK_DOUBLE_QUOTE' => 'r 29',
     'TK_SINGLE_QUOTE' => 'r 29',
+    'TK_NUMBERS' => 'r 29',
+    'TK_DIGITS' => 'r 29',
+    'TK_LOGIC_END' => 'r 29',
+    'TK_CLOSE_BRAKETS' => 'r 29',
+    'TK_CLOSE_SQUARE_BRAKETS' => 'r 29',
   ),
-  28 => 
+  22 => 
   array (
-    'TK_DIGITS' => 'r 30',
-    'TK_DOT' => 'r 30',
-    'TK_MINUS' => 'r 30',
-    'TK_PLUS' => 'r 30',
-    'TK_LT_EQUAL' => 'r 30',
-    'TK_GT_EQUAL' => 'r 30',
-    'TK_LT' => 'r 30',
-    'TK_GT' => 'r 30',
-    'TK_TAG_NAME' => 'r 30',
-    'TK_VAR' => 'r 30',
-    'TK_LETTERS' => 'r 30',
-    'TK_SLASH' => 'r 30',
-    'TK_EQUAL' => 'r 30',
-    'TK_ASSIGMENT' => 'r 30',
-    'TK_NOT_EQUAL' => 'r 30',
-    'TK_TEXT_NODE' => 'r 30',
-    'TK_SPACE' => 'r 30',
-    'TK_OTHER' => 'r 30',
-    'TK_LOGIC_BEGIN' => 'r 30',
-    'TK_DOUBLE_QUOTE' => 'r 30',
-    'TK_SINGLE_QUOTE' => 'r 30',
-  ),
-  29 => 
-  array (
-    'TK_DIGITS' => 'r 31',
-    'TK_DOT' => 'r 31',
-    'TK_MINUS' => 'r 31',
-    'TK_PLUS' => 'r 31',
-    'TK_LT_EQUAL' => 'r 31',
-    'TK_GT_EQUAL' => 'r 31',
-    'TK_LT' => 'r 31',
-    'TK_GT' => 'r 31',
-    'TK_TAG_NAME' => 'r 31',
-    'TK_VAR' => 'r 31',
-    'TK_LETTERS' => 'r 31',
-    'TK_SLASH' => 'r 31',
-    'TK_EQUAL' => 'r 31',
-    'TK_ASSIGMENT' => 'r 31',
-    'TK_NOT_EQUAL' => 'r 31',
-    'TK_TEXT_NODE' => 'r 31',
-    'TK_SPACE' => 'r 31',
-    'TK_OTHER' => 'r 31',
-    'TK_LOGIC_BEGIN' => 'r 31',
-    'TK_DOUBLE_QUOTE' => 'r 31',
-    'TK_SINGLE_QUOTE' => 'r 31',
-  ),
-  30 => 
-  array (
+    'TK_DOUBLE_QUOTE' => 'r 32',
     'TK_DIGITS' => 'r 32',
-    'TK_DOT' => 'r 32',
     'TK_MINUS' => 'r 32',
     'TK_PLUS' => 'r 32',
     'TK_LT_EQUAL' => 'r 32',
     'TK_GT_EQUAL' => 'r 32',
     'TK_LT' => 'r 32',
     'TK_GT' => 'r 32',
-    'TK_TAG_NAME' => 'r 32',
-    'TK_VAR' => 'r 32',
+    'TK_DATA_ATTR' => 'r 32',
+    'TK_SELECTOR_LOWDASH' => 'r 32',
+    'TK_SELECTOR_DASH' => 'r 32',
+    'TK_SELECTOR' => 'r 32',
     'TK_LETTERS' => 'r 32',
     'TK_SLASH' => 'r 32',
     'TK_EQUAL' => 'r 32',
+    'TK_COMMA' => 'r 32',
+    'TK_DOT' => 'r 32',
     'TK_ASSIGMENT' => 'r 32',
     'TK_NOT_EQUAL' => 'r 32',
     'TK_TEXT_NODE' => 'r 32',
     'TK_SPACE' => 'r 32',
     'TK_OTHER' => 'r 32',
     'TK_LOGIC_BEGIN' => 'r 32',
-    'TK_DOUBLE_QUOTE' => 'r 32',
     'TK_SINGLE_QUOTE' => 'r 32',
   ),
-  31 => 
+  23 => 
   array (
     'TK_DIGITS' => 'r 33',
-    'TK_DOT' => 'r 33',
     'TK_MINUS' => 'r 33',
     'TK_PLUS' => 'r 33',
     'TK_LT_EQUAL' => 'r 33',
     'TK_GT_EQUAL' => 'r 33',
     'TK_LT' => 'r 33',
     'TK_GT' => 'r 33',
-    'TK_TAG_NAME' => 'r 33',
-    'TK_VAR' => 'r 33',
+    'TK_DATA_ATTR' => 'r 33',
+    'TK_SELECTOR_LOWDASH' => 'r 33',
+    'TK_SELECTOR_DASH' => 'r 33',
+    'TK_SELECTOR' => 'r 33',
     'TK_LETTERS' => 'r 33',
     'TK_SLASH' => 'r 33',
     'TK_EQUAL' => 'r 33',
+    'TK_COMMA' => 'r 33',
+    'TK_DOT' => 'r 33',
     'TK_ASSIGMENT' => 'r 33',
     'TK_NOT_EQUAL' => 'r 33',
     'TK_TEXT_NODE' => 'r 33',
@@ -441,21 +429,24 @@ var $i = array (
     'TK_DOUBLE_QUOTE' => 'r 33',
     'TK_SINGLE_QUOTE' => 'r 33',
   ),
-  32 => 
+  24 => 
   array (
     'TK_DIGITS' => 'r 34',
-    'TK_DOT' => 'r 34',
     'TK_MINUS' => 'r 34',
     'TK_PLUS' => 'r 34',
     'TK_LT_EQUAL' => 'r 34',
     'TK_GT_EQUAL' => 'r 34',
     'TK_LT' => 'r 34',
     'TK_GT' => 'r 34',
-    'TK_TAG_NAME' => 'r 34',
-    'TK_VAR' => 'r 34',
+    'TK_DATA_ATTR' => 'r 34',
+    'TK_SELECTOR_LOWDASH' => 'r 34',
+    'TK_SELECTOR_DASH' => 'r 34',
+    'TK_SELECTOR' => 'r 34',
     'TK_LETTERS' => 'r 34',
     'TK_SLASH' => 'r 34',
     'TK_EQUAL' => 'r 34',
+    'TK_COMMA' => 'r 34',
+    'TK_DOT' => 'r 34',
     'TK_ASSIGMENT' => 'r 34',
     'TK_NOT_EQUAL' => 'r 34',
     'TK_TEXT_NODE' => 'r 34',
@@ -465,21 +456,24 @@ var $i = array (
     'TK_DOUBLE_QUOTE' => 'r 34',
     'TK_SINGLE_QUOTE' => 'r 34',
   ),
-  33 => 
+  25 => 
   array (
     'TK_DIGITS' => 'r 35',
-    'TK_DOT' => 'r 35',
     'TK_MINUS' => 'r 35',
     'TK_PLUS' => 'r 35',
     'TK_LT_EQUAL' => 'r 35',
     'TK_GT_EQUAL' => 'r 35',
     'TK_LT' => 'r 35',
     'TK_GT' => 'r 35',
-    'TK_TAG_NAME' => 'r 35',
-    'TK_VAR' => 'r 35',
+    'TK_DATA_ATTR' => 'r 35',
+    'TK_SELECTOR_LOWDASH' => 'r 35',
+    'TK_SELECTOR_DASH' => 'r 35',
+    'TK_SELECTOR' => 'r 35',
     'TK_LETTERS' => 'r 35',
     'TK_SLASH' => 'r 35',
     'TK_EQUAL' => 'r 35',
+    'TK_COMMA' => 'r 35',
+    'TK_DOT' => 'r 35',
     'TK_ASSIGMENT' => 'r 35',
     'TK_NOT_EQUAL' => 'r 35',
     'TK_TEXT_NODE' => 'r 35',
@@ -489,21 +483,24 @@ var $i = array (
     'TK_DOUBLE_QUOTE' => 'r 35',
     'TK_SINGLE_QUOTE' => 'r 35',
   ),
-  34 => 
+  26 => 
   array (
     'TK_DIGITS' => 'r 36',
-    'TK_DOT' => 'r 36',
     'TK_MINUS' => 'r 36',
     'TK_PLUS' => 'r 36',
     'TK_LT_EQUAL' => 'r 36',
     'TK_GT_EQUAL' => 'r 36',
     'TK_LT' => 'r 36',
     'TK_GT' => 'r 36',
-    'TK_TAG_NAME' => 'r 36',
-    'TK_VAR' => 'r 36',
+    'TK_DATA_ATTR' => 'r 36',
+    'TK_SELECTOR_LOWDASH' => 'r 36',
+    'TK_SELECTOR_DASH' => 'r 36',
+    'TK_SELECTOR' => 'r 36',
     'TK_LETTERS' => 'r 36',
     'TK_SLASH' => 'r 36',
     'TK_EQUAL' => 'r 36',
+    'TK_COMMA' => 'r 36',
+    'TK_DOT' => 'r 36',
     'TK_ASSIGMENT' => 'r 36',
     'TK_NOT_EQUAL' => 'r 36',
     'TK_TEXT_NODE' => 'r 36',
@@ -513,21 +510,24 @@ var $i = array (
     'TK_DOUBLE_QUOTE' => 'r 36',
     'TK_SINGLE_QUOTE' => 'r 36',
   ),
-  35 => 
+  27 => 
   array (
     'TK_DIGITS' => 'r 37',
-    'TK_DOT' => 'r 37',
     'TK_MINUS' => 'r 37',
     'TK_PLUS' => 'r 37',
     'TK_LT_EQUAL' => 'r 37',
     'TK_GT_EQUAL' => 'r 37',
     'TK_LT' => 'r 37',
     'TK_GT' => 'r 37',
-    'TK_TAG_NAME' => 'r 37',
-    'TK_VAR' => 'r 37',
+    'TK_DATA_ATTR' => 'r 37',
+    'TK_SELECTOR_LOWDASH' => 'r 37',
+    'TK_SELECTOR_DASH' => 'r 37',
+    'TK_SELECTOR' => 'r 37',
     'TK_LETTERS' => 'r 37',
     'TK_SLASH' => 'r 37',
     'TK_EQUAL' => 'r 37',
+    'TK_COMMA' => 'r 37',
+    'TK_DOT' => 'r 37',
     'TK_ASSIGMENT' => 'r 37',
     'TK_NOT_EQUAL' => 'r 37',
     'TK_TEXT_NODE' => 'r 37',
@@ -537,21 +537,24 @@ var $i = array (
     'TK_DOUBLE_QUOTE' => 'r 37',
     'TK_SINGLE_QUOTE' => 'r 37',
   ),
-  36 => 
+  28 => 
   array (
     'TK_DIGITS' => 'r 38',
-    'TK_DOT' => 'r 38',
     'TK_MINUS' => 'r 38',
     'TK_PLUS' => 'r 38',
     'TK_LT_EQUAL' => 'r 38',
     'TK_GT_EQUAL' => 'r 38',
     'TK_LT' => 'r 38',
     'TK_GT' => 'r 38',
-    'TK_TAG_NAME' => 'r 38',
-    'TK_VAR' => 'r 38',
+    'TK_DATA_ATTR' => 'r 38',
+    'TK_SELECTOR_LOWDASH' => 'r 38',
+    'TK_SELECTOR_DASH' => 'r 38',
+    'TK_SELECTOR' => 'r 38',
     'TK_LETTERS' => 'r 38',
     'TK_SLASH' => 'r 38',
     'TK_EQUAL' => 'r 38',
+    'TK_COMMA' => 'r 38',
+    'TK_DOT' => 'r 38',
     'TK_ASSIGMENT' => 'r 38',
     'TK_NOT_EQUAL' => 'r 38',
     'TK_TEXT_NODE' => 'r 38',
@@ -561,21 +564,24 @@ var $i = array (
     'TK_DOUBLE_QUOTE' => 'r 38',
     'TK_SINGLE_QUOTE' => 'r 38',
   ),
-  37 => 
+  29 => 
   array (
     'TK_DIGITS' => 'r 39',
-    'TK_DOT' => 'r 39',
     'TK_MINUS' => 'r 39',
     'TK_PLUS' => 'r 39',
     'TK_LT_EQUAL' => 'r 39',
     'TK_GT_EQUAL' => 'r 39',
     'TK_LT' => 'r 39',
     'TK_GT' => 'r 39',
-    'TK_TAG_NAME' => 'r 39',
-    'TK_VAR' => 'r 39',
+    'TK_DATA_ATTR' => 'r 39',
+    'TK_SELECTOR_LOWDASH' => 'r 39',
+    'TK_SELECTOR_DASH' => 'r 39',
+    'TK_SELECTOR' => 'r 39',
     'TK_LETTERS' => 'r 39',
     'TK_SLASH' => 'r 39',
     'TK_EQUAL' => 'r 39',
+    'TK_COMMA' => 'r 39',
+    'TK_DOT' => 'r 39',
     'TK_ASSIGMENT' => 'r 39',
     'TK_NOT_EQUAL' => 'r 39',
     'TK_TEXT_NODE' => 'r 39',
@@ -585,21 +591,24 @@ var $i = array (
     'TK_DOUBLE_QUOTE' => 'r 39',
     'TK_SINGLE_QUOTE' => 'r 39',
   ),
-  38 => 
+  30 => 
   array (
     'TK_DIGITS' => 'r 40',
-    'TK_DOT' => 'r 40',
     'TK_MINUS' => 'r 40',
     'TK_PLUS' => 'r 40',
     'TK_LT_EQUAL' => 'r 40',
     'TK_GT_EQUAL' => 'r 40',
     'TK_LT' => 'r 40',
     'TK_GT' => 'r 40',
-    'TK_TAG_NAME' => 'r 40',
-    'TK_VAR' => 'r 40',
+    'TK_DATA_ATTR' => 'r 40',
+    'TK_SELECTOR_LOWDASH' => 'r 40',
+    'TK_SELECTOR_DASH' => 'r 40',
+    'TK_SELECTOR' => 'r 40',
     'TK_LETTERS' => 'r 40',
     'TK_SLASH' => 'r 40',
     'TK_EQUAL' => 'r 40',
+    'TK_COMMA' => 'r 40',
+    'TK_DOT' => 'r 40',
     'TK_ASSIGMENT' => 'r 40',
     'TK_NOT_EQUAL' => 'r 40',
     'TK_TEXT_NODE' => 'r 40',
@@ -609,21 +618,24 @@ var $i = array (
     'TK_DOUBLE_QUOTE' => 'r 40',
     'TK_SINGLE_QUOTE' => 'r 40',
   ),
-  39 => 
+  31 => 
   array (
     'TK_DIGITS' => 'r 41',
-    'TK_DOT' => 'r 41',
     'TK_MINUS' => 'r 41',
     'TK_PLUS' => 'r 41',
     'TK_LT_EQUAL' => 'r 41',
     'TK_GT_EQUAL' => 'r 41',
     'TK_LT' => 'r 41',
     'TK_GT' => 'r 41',
-    'TK_TAG_NAME' => 'r 41',
-    'TK_VAR' => 'r 41',
+    'TK_DATA_ATTR' => 'r 41',
+    'TK_SELECTOR_LOWDASH' => 'r 41',
+    'TK_SELECTOR_DASH' => 'r 41',
+    'TK_SELECTOR' => 'r 41',
     'TK_LETTERS' => 'r 41',
     'TK_SLASH' => 'r 41',
     'TK_EQUAL' => 'r 41',
+    'TK_COMMA' => 'r 41',
+    'TK_DOT' => 'r 41',
     'TK_ASSIGMENT' => 'r 41',
     'TK_NOT_EQUAL' => 'r 41',
     'TK_TEXT_NODE' => 'r 41',
@@ -633,21 +645,24 @@ var $i = array (
     'TK_DOUBLE_QUOTE' => 'r 41',
     'TK_SINGLE_QUOTE' => 'r 41',
   ),
-  40 => 
+  32 => 
   array (
     'TK_DIGITS' => 'r 42',
-    'TK_DOT' => 'r 42',
     'TK_MINUS' => 'r 42',
     'TK_PLUS' => 'r 42',
     'TK_LT_EQUAL' => 'r 42',
     'TK_GT_EQUAL' => 'r 42',
     'TK_LT' => 'r 42',
     'TK_GT' => 'r 42',
-    'TK_TAG_NAME' => 'r 42',
-    'TK_VAR' => 'r 42',
+    'TK_DATA_ATTR' => 'r 42',
+    'TK_SELECTOR_LOWDASH' => 'r 42',
+    'TK_SELECTOR_DASH' => 'r 42',
+    'TK_SELECTOR' => 'r 42',
     'TK_LETTERS' => 'r 42',
     'TK_SLASH' => 'r 42',
     'TK_EQUAL' => 'r 42',
+    'TK_COMMA' => 'r 42',
+    'TK_DOT' => 'r 42',
     'TK_ASSIGMENT' => 'r 42',
     'TK_NOT_EQUAL' => 'r 42',
     'TK_TEXT_NODE' => 'r 42',
@@ -657,21 +672,24 @@ var $i = array (
     'TK_DOUBLE_QUOTE' => 'r 42',
     'TK_SINGLE_QUOTE' => 'r 42',
   ),
-  41 => 
+  33 => 
   array (
     'TK_DIGITS' => 'r 43',
-    'TK_DOT' => 'r 43',
     'TK_MINUS' => 'r 43',
     'TK_PLUS' => 'r 43',
     'TK_LT_EQUAL' => 'r 43',
     'TK_GT_EQUAL' => 'r 43',
     'TK_LT' => 'r 43',
     'TK_GT' => 'r 43',
-    'TK_TAG_NAME' => 'r 43',
-    'TK_VAR' => 'r 43',
+    'TK_DATA_ATTR' => 'r 43',
+    'TK_SELECTOR_LOWDASH' => 'r 43',
+    'TK_SELECTOR_DASH' => 'r 43',
+    'TK_SELECTOR' => 'r 43',
     'TK_LETTERS' => 'r 43',
     'TK_SLASH' => 'r 43',
     'TK_EQUAL' => 'r 43',
+    'TK_COMMA' => 'r 43',
+    'TK_DOT' => 'r 43',
     'TK_ASSIGMENT' => 'r 43',
     'TK_NOT_EQUAL' => 'r 43',
     'TK_TEXT_NODE' => 'r 43',
@@ -681,21 +699,24 @@ var $i = array (
     'TK_DOUBLE_QUOTE' => 'r 43',
     'TK_SINGLE_QUOTE' => 'r 43',
   ),
-  42 => 
+  34 => 
   array (
     'TK_DIGITS' => 'r 44',
-    'TK_DOT' => 'r 44',
     'TK_MINUS' => 'r 44',
     'TK_PLUS' => 'r 44',
     'TK_LT_EQUAL' => 'r 44',
     'TK_GT_EQUAL' => 'r 44',
     'TK_LT' => 'r 44',
     'TK_GT' => 'r 44',
-    'TK_TAG_NAME' => 'r 44',
-    'TK_VAR' => 'r 44',
+    'TK_DATA_ATTR' => 'r 44',
+    'TK_SELECTOR_LOWDASH' => 'r 44',
+    'TK_SELECTOR_DASH' => 'r 44',
+    'TK_SELECTOR' => 'r 44',
     'TK_LETTERS' => 'r 44',
     'TK_SLASH' => 'r 44',
     'TK_EQUAL' => 'r 44',
+    'TK_COMMA' => 'r 44',
+    'TK_DOT' => 'r 44',
     'TK_ASSIGMENT' => 'r 44',
     'TK_NOT_EQUAL' => 'r 44',
     'TK_TEXT_NODE' => 'r 44',
@@ -705,21 +726,24 @@ var $i = array (
     'TK_DOUBLE_QUOTE' => 'r 44',
     'TK_SINGLE_QUOTE' => 'r 44',
   ),
-  43 => 
+  35 => 
   array (
     'TK_DIGITS' => 'r 45',
-    'TK_DOT' => 'r 45',
     'TK_MINUS' => 'r 45',
     'TK_PLUS' => 'r 45',
     'TK_LT_EQUAL' => 'r 45',
     'TK_GT_EQUAL' => 'r 45',
     'TK_LT' => 'r 45',
     'TK_GT' => 'r 45',
-    'TK_TAG_NAME' => 'r 45',
-    'TK_VAR' => 'r 45',
+    'TK_DATA_ATTR' => 'r 45',
+    'TK_SELECTOR_LOWDASH' => 'r 45',
+    'TK_SELECTOR_DASH' => 'r 45',
+    'TK_SELECTOR' => 'r 45',
     'TK_LETTERS' => 'r 45',
     'TK_SLASH' => 'r 45',
     'TK_EQUAL' => 'r 45',
+    'TK_COMMA' => 'r 45',
+    'TK_DOT' => 'r 45',
     'TK_ASSIGMENT' => 'r 45',
     'TK_NOT_EQUAL' => 'r 45',
     'TK_TEXT_NODE' => 'r 45',
@@ -729,21 +753,24 @@ var $i = array (
     'TK_DOUBLE_QUOTE' => 'r 45',
     'TK_SINGLE_QUOTE' => 'r 45',
   ),
-  44 => 
+  36 => 
   array (
     'TK_DIGITS' => 'r 46',
-    'TK_DOT' => 'r 46',
     'TK_MINUS' => 'r 46',
     'TK_PLUS' => 'r 46',
     'TK_LT_EQUAL' => 'r 46',
     'TK_GT_EQUAL' => 'r 46',
     'TK_LT' => 'r 46',
     'TK_GT' => 'r 46',
-    'TK_TAG_NAME' => 'r 46',
-    'TK_VAR' => 'r 46',
+    'TK_DATA_ATTR' => 'r 46',
+    'TK_SELECTOR_LOWDASH' => 'r 46',
+    'TK_SELECTOR_DASH' => 'r 46',
+    'TK_SELECTOR' => 'r 46',
     'TK_LETTERS' => 'r 46',
     'TK_SLASH' => 'r 46',
     'TK_EQUAL' => 'r 46',
+    'TK_COMMA' => 'r 46',
+    'TK_DOT' => 'r 46',
     'TK_ASSIGMENT' => 'r 46',
     'TK_NOT_EQUAL' => 'r 46',
     'TK_TEXT_NODE' => 'r 46',
@@ -753,21 +780,24 @@ var $i = array (
     'TK_DOUBLE_QUOTE' => 'r 46',
     'TK_SINGLE_QUOTE' => 'r 46',
   ),
-  45 => 
+  37 => 
   array (
     'TK_DIGITS' => 'r 47',
-    'TK_DOT' => 'r 47',
     'TK_MINUS' => 'r 47',
     'TK_PLUS' => 'r 47',
     'TK_LT_EQUAL' => 'r 47',
     'TK_GT_EQUAL' => 'r 47',
     'TK_LT' => 'r 47',
     'TK_GT' => 'r 47',
-    'TK_TAG_NAME' => 'r 47',
-    'TK_VAR' => 'r 47',
+    'TK_DATA_ATTR' => 'r 47',
+    'TK_SELECTOR_LOWDASH' => 'r 47',
+    'TK_SELECTOR_DASH' => 'r 47',
+    'TK_SELECTOR' => 'r 47',
     'TK_LETTERS' => 'r 47',
     'TK_SLASH' => 'r 47',
     'TK_EQUAL' => 'r 47',
+    'TK_COMMA' => 'r 47',
+    'TK_DOT' => 'r 47',
     'TK_ASSIGMENT' => 'r 47',
     'TK_NOT_EQUAL' => 'r 47',
     'TK_TEXT_NODE' => 'r 47',
@@ -777,21 +807,24 @@ var $i = array (
     'TK_DOUBLE_QUOTE' => 'r 47',
     'TK_SINGLE_QUOTE' => 'r 47',
   ),
-  46 => 
+  38 => 
   array (
     'TK_DIGITS' => 'r 48',
-    'TK_DOT' => 'r 48',
     'TK_MINUS' => 'r 48',
     'TK_PLUS' => 'r 48',
     'TK_LT_EQUAL' => 'r 48',
     'TK_GT_EQUAL' => 'r 48',
     'TK_LT' => 'r 48',
     'TK_GT' => 'r 48',
-    'TK_TAG_NAME' => 'r 48',
-    'TK_VAR' => 'r 48',
+    'TK_DATA_ATTR' => 'r 48',
+    'TK_SELECTOR_LOWDASH' => 'r 48',
+    'TK_SELECTOR_DASH' => 'r 48',
+    'TK_SELECTOR' => 'r 48',
     'TK_LETTERS' => 'r 48',
     'TK_SLASH' => 'r 48',
     'TK_EQUAL' => 'r 48',
+    'TK_COMMA' => 'r 48',
+    'TK_DOT' => 'r 48',
     'TK_ASSIGMENT' => 'r 48',
     'TK_NOT_EQUAL' => 'r 48',
     'TK_TEXT_NODE' => 'r 48',
@@ -801,567 +834,2572 @@ var $i = array (
     'TK_DOUBLE_QUOTE' => 'r 48',
     'TK_SINGLE_QUOTE' => 'r 48',
   ),
+  39 => 
+  array (
+    'TK_DIGITS' => 'r 49',
+    'TK_MINUS' => 'r 49',
+    'TK_PLUS' => 'r 49',
+    'TK_LT_EQUAL' => 'r 49',
+    'TK_GT_EQUAL' => 'r 49',
+    'TK_LT' => 'r 49',
+    'TK_GT' => 'r 49',
+    'TK_DATA_ATTR' => 'r 49',
+    'TK_SELECTOR_LOWDASH' => 'r 49',
+    'TK_SELECTOR_DASH' => 'r 49',
+    'TK_SELECTOR' => 'r 49',
+    'TK_LETTERS' => 'r 49',
+    'TK_SLASH' => 'r 49',
+    'TK_EQUAL' => 'r 49',
+    'TK_COMMA' => 'r 49',
+    'TK_DOT' => 'r 49',
+    'TK_ASSIGMENT' => 'r 49',
+    'TK_NOT_EQUAL' => 'r 49',
+    'TK_TEXT_NODE' => 'r 49',
+    'TK_SPACE' => 'r 49',
+    'TK_OTHER' => 'r 49',
+    'TK_LOGIC_BEGIN' => 'r 49',
+    'TK_DOUBLE_QUOTE' => 'r 49',
+    'TK_SINGLE_QUOTE' => 'r 49',
+  ),
+  40 => 
+  array (
+    'TK_DIGITS' => 'r 50',
+    'TK_MINUS' => 'r 50',
+    'TK_PLUS' => 'r 50',
+    'TK_LT_EQUAL' => 'r 50',
+    'TK_GT_EQUAL' => 'r 50',
+    'TK_LT' => 'r 50',
+    'TK_GT' => 'r 50',
+    'TK_DATA_ATTR' => 'r 50',
+    'TK_SELECTOR_LOWDASH' => 'r 50',
+    'TK_SELECTOR_DASH' => 'r 50',
+    'TK_SELECTOR' => 'r 50',
+    'TK_LETTERS' => 'r 50',
+    'TK_SLASH' => 'r 50',
+    'TK_EQUAL' => 'r 50',
+    'TK_COMMA' => 'r 50',
+    'TK_DOT' => 'r 50',
+    'TK_ASSIGMENT' => 'r 50',
+    'TK_NOT_EQUAL' => 'r 50',
+    'TK_TEXT_NODE' => 'r 50',
+    'TK_SPACE' => 'r 50',
+    'TK_OTHER' => 'r 50',
+    'TK_LOGIC_BEGIN' => 'r 50',
+    'TK_DOUBLE_QUOTE' => 'r 50',
+    'TK_SINGLE_QUOTE' => 'r 50',
+  ),
+  41 => 
+  array (
+    'TK_DIGITS' => 'r 51',
+    'TK_MINUS' => 'r 51',
+    'TK_PLUS' => 'r 51',
+    'TK_LT_EQUAL' => 'r 51',
+    'TK_GT_EQUAL' => 'r 51',
+    'TK_LT' => 'r 51',
+    'TK_GT' => 'r 51',
+    'TK_DATA_ATTR' => 'r 51',
+    'TK_SELECTOR_LOWDASH' => 'r 51',
+    'TK_SELECTOR_DASH' => 'r 51',
+    'TK_SELECTOR' => 'r 51',
+    'TK_LETTERS' => 'r 51',
+    'TK_SLASH' => 'r 51',
+    'TK_EQUAL' => 'r 51',
+    'TK_COMMA' => 'r 51',
+    'TK_DOT' => 'r 51',
+    'TK_ASSIGMENT' => 'r 51',
+    'TK_NOT_EQUAL' => 'r 51',
+    'TK_TEXT_NODE' => 'r 51',
+    'TK_SPACE' => 'r 51',
+    'TK_OTHER' => 'r 51',
+    'TK_LOGIC_BEGIN' => 'r 51',
+    'TK_DOUBLE_QUOTE' => 'r 51',
+    'TK_SINGLE_QUOTE' => 'r 51',
+  ),
+  42 => 
+  array (
+    'TK_DIGITS' => 'r 52',
+    'TK_MINUS' => 'r 52',
+    'TK_PLUS' => 'r 52',
+    'TK_LT_EQUAL' => 'r 52',
+    'TK_GT_EQUAL' => 'r 52',
+    'TK_LT' => 'r 52',
+    'TK_GT' => 'r 52',
+    'TK_DATA_ATTR' => 'r 52',
+    'TK_SELECTOR_LOWDASH' => 'r 52',
+    'TK_SELECTOR_DASH' => 'r 52',
+    'TK_SELECTOR' => 'r 52',
+    'TK_LETTERS' => 'r 52',
+    'TK_SLASH' => 'r 52',
+    'TK_EQUAL' => 'r 52',
+    'TK_COMMA' => 'r 52',
+    'TK_DOT' => 'r 52',
+    'TK_ASSIGMENT' => 'r 52',
+    'TK_NOT_EQUAL' => 'r 52',
+    'TK_TEXT_NODE' => 'r 52',
+    'TK_SPACE' => 'r 52',
+    'TK_OTHER' => 'r 52',
+    'TK_LOGIC_BEGIN' => 'r 52',
+    'TK_DOUBLE_QUOTE' => 'r 52',
+    'TK_SINGLE_QUOTE' => 'r 52',
+  ),
+  43 => 
+  array (
+    'TK_DIGITS' => 'r 53',
+    'TK_MINUS' => 'r 53',
+    'TK_PLUS' => 'r 53',
+    'TK_LT_EQUAL' => 'r 53',
+    'TK_GT_EQUAL' => 'r 53',
+    'TK_LT' => 'r 53',
+    'TK_GT' => 'r 53',
+    'TK_DATA_ATTR' => 'r 53',
+    'TK_SELECTOR_LOWDASH' => 'r 53',
+    'TK_SELECTOR_DASH' => 'r 53',
+    'TK_SELECTOR' => 'r 53',
+    'TK_LETTERS' => 'r 53',
+    'TK_SLASH' => 'r 53',
+    'TK_EQUAL' => 'r 53',
+    'TK_COMMA' => 'r 53',
+    'TK_DOT' => 'r 53',
+    'TK_ASSIGMENT' => 'r 53',
+    'TK_NOT_EQUAL' => 'r 53',
+    'TK_TEXT_NODE' => 'r 53',
+    'TK_SPACE' => 'r 53',
+    'TK_OTHER' => 'r 53',
+    'TK_LOGIC_BEGIN' => 'r 53',
+    'TK_DOUBLE_QUOTE' => 'r 53',
+    'TK_SINGLE_QUOTE' => 'r 53',
+  ),
+  44 => 
+  array (
+    'TK_DIGITS' => 'r 54',
+    'TK_MINUS' => 'r 54',
+    'TK_PLUS' => 'r 54',
+    'TK_LT_EQUAL' => 'r 54',
+    'TK_GT_EQUAL' => 'r 54',
+    'TK_LT' => 'r 54',
+    'TK_GT' => 'r 54',
+    'TK_DATA_ATTR' => 'r 54',
+    'TK_SELECTOR_LOWDASH' => 'r 54',
+    'TK_SELECTOR_DASH' => 'r 54',
+    'TK_SELECTOR' => 'r 54',
+    'TK_LETTERS' => 'r 54',
+    'TK_SLASH' => 'r 54',
+    'TK_EQUAL' => 'r 54',
+    'TK_COMMA' => 'r 54',
+    'TK_DOT' => 'r 54',
+    'TK_ASSIGMENT' => 'r 54',
+    'TK_NOT_EQUAL' => 'r 54',
+    'TK_TEXT_NODE' => 'r 54',
+    'TK_SPACE' => 'r 54',
+    'TK_OTHER' => 'r 54',
+    'TK_LOGIC_BEGIN' => 'r 54',
+    'TK_DOUBLE_QUOTE' => 'r 54',
+    'TK_SINGLE_QUOTE' => 'r 54',
+  ),
+  45 => 
+  array (
+    'TK_DOUBLE_QUOTE' => 's 46',
+    'TK_SINGLE_QUOTE' => 's 48',
+    'expr_words' => 's 51',
+    'expr' => 's 116',
+    'exprs_list' => 's 55',
+    'TK_OPEN_BRAKETS' => 's 95',
+    'complex_var' => 's 98',
+    'TK_EXCLAMATION_MARK' => 's 111',
+    'TK_QUESTION_MARK' => 's 112',
+    'func_name' => 's 113',
+    'TK_NUMBERS' => 's 101',
+    'TK_DIGITS' => 's 102',
+    'TK_LETTERS' => 's 103',
+    'TK_SELECTOR' => 's 104',
+    'TK_VAR' => 's 105',
+    'string' => 's 106',
+    'nums' => 's 107',
+  ),
+  46 => 
+  array (
+    'string_elements' => 's 20',
+    'string_element' => 's 47',
+    'TK_DIGITS' => 's 23',
+    'TK_MINUS' => 's 24',
+    'TK_PLUS' => 's 25',
+    'TK_LT_EQUAL' => 's 26',
+    'TK_GT_EQUAL' => 's 27',
+    'TK_LT' => 's 28',
+    'TK_GT' => 's 29',
+    'TK_DATA_ATTR' => 's 30',
+    'TK_SELECTOR_LOWDASH' => 's 31',
+    'TK_SELECTOR_DASH' => 's 32',
+    'TK_SELECTOR' => 's 33',
+    'TK_LETTERS' => 's 34',
+    'TK_SLASH' => 's 35',
+    'TK_EQUAL' => 's 36',
+    'TK_COMMA' => 's 37',
+    'TK_DOT' => 's 38',
+    'TK_ASSIGMENT' => 's 39',
+    'TK_NOT_EQUAL' => 's 40',
+    'TK_TEXT_NODE' => 's 41',
+    'TK_SPACE' => 's 42',
+    'TK_OTHER' => 's 43',
+    'logic_node' => 's 44',
+    'TK_LOGIC_BEGIN' => 's 45',
+  ),
   47 => 
   array (
-    'expr_words' => 's 48',
-    'expr' => 's 72',
-    'TK_DIGITS' => 's 52',
-    'TK_LETTERS' => 's 53',
-    'TK_VAR' => 's 54',
+    'TK_DIGITS' => 'r 31',
+    'TK_MINUS' => 'r 31',
+    'TK_PLUS' => 'r 31',
+    'TK_LT_EQUAL' => 'r 31',
+    'TK_GT_EQUAL' => 'r 31',
+    'TK_LT' => 'r 31',
+    'TK_GT' => 'r 31',
+    'TK_DATA_ATTR' => 'r 31',
+    'TK_SELECTOR_LOWDASH' => 'r 31',
+    'TK_SELECTOR_DASH' => 'r 31',
+    'TK_SELECTOR' => 'r 31',
+    'TK_LETTERS' => 'r 31',
+    'TK_SLASH' => 'r 31',
+    'TK_EQUAL' => 'r 31',
+    'TK_COMMA' => 'r 31',
+    'TK_DOT' => 'r 31',
+    'TK_ASSIGMENT' => 'r 31',
+    'TK_NOT_EQUAL' => 'r 31',
+    'TK_TEXT_NODE' => 'r 31',
+    'TK_SPACE' => 'r 31',
+    'TK_OTHER' => 'r 31',
+    'TK_LOGIC_BEGIN' => 'r 31',
+    'TK_DOUBLE_QUOTE' => 'r 31',
+    'TK_SINGLE_QUOTE' => 'r 31',
   ),
   48 => 
   array (
-    'TK_LOGIC_END' => 's 49',
-    'expr' => 's 50',
-    'TK_DIGITS' => 's 52',
-    'TK_LETTERS' => 's 53',
-    'TK_VAR' => 's 54',
+    'string_elements' => 's 49',
+    'string_element' => 's 47',
+    'TK_DIGITS' => 's 23',
+    'TK_MINUS' => 's 24',
+    'TK_PLUS' => 's 25',
+    'TK_LT_EQUAL' => 's 26',
+    'TK_GT_EQUAL' => 's 27',
+    'TK_LT' => 's 28',
+    'TK_GT' => 's 29',
+    'TK_DATA_ATTR' => 's 30',
+    'TK_SELECTOR_LOWDASH' => 's 31',
+    'TK_SELECTOR_DASH' => 's 32',
+    'TK_SELECTOR' => 's 33',
+    'TK_LETTERS' => 's 34',
+    'TK_SLASH' => 's 35',
+    'TK_EQUAL' => 's 36',
+    'TK_COMMA' => 's 37',
+    'TK_DOT' => 's 38',
+    'TK_ASSIGMENT' => 's 39',
+    'TK_NOT_EQUAL' => 's 40',
+    'TK_TEXT_NODE' => 's 41',
+    'TK_SPACE' => 's 42',
+    'TK_OTHER' => 's 43',
+    'logic_node' => 's 44',
+    'TK_LOGIC_BEGIN' => 's 45',
   ),
   49 => 
   array (
-    'TK_LT' => 'r 55',
-    'TK_TEXT_NODE' => 'r 55',
-    'TK_LETTERS' => 'r 55',
-    'TK_TAG_NAME' => 'r 55',
-    'TK_VAR' => 'r 55',
-    'TK_OTHER' => 'r 55',
-    'TK_LOGIC_BEGIN' => 'r 55',
-    'TK_SLASH' => 'r 55',
-    'TK_GT' => 'r 55',
-    'TK_DIGITS' => 'r 55',
-    'TK_DOT' => 'r 55',
-    'TK_MINUS' => 'r 55',
-    'TK_PLUS' => 'r 55',
-    'TK_LT_EQUAL' => 'r 55',
-    'TK_GT_EQUAL' => 'r 55',
-    'TK_EQUAL' => 'r 55',
-    'TK_ASSIGMENT' => 'r 55',
-    'TK_NOT_EQUAL' => 'r 55',
-    'TK_SPACE' => 'r 55',
-    'TK_DOUBLE_QUOTE' => 'r 55',
-    'TK_SINGLE_QUOTE' => 'r 55',
-    '#' => 'r 55',
+    'TK_SINGLE_QUOTE' => 's 50',
+    'string_element' => 's 22',
+    'TK_DIGITS' => 's 23',
+    'TK_MINUS' => 's 24',
+    'TK_PLUS' => 's 25',
+    'TK_LT_EQUAL' => 's 26',
+    'TK_GT_EQUAL' => 's 27',
+    'TK_LT' => 's 28',
+    'TK_GT' => 's 29',
+    'TK_DATA_ATTR' => 's 30',
+    'TK_SELECTOR_LOWDASH' => 's 31',
+    'TK_SELECTOR_DASH' => 's 32',
+    'TK_SELECTOR' => 's 33',
+    'TK_LETTERS' => 's 34',
+    'TK_SLASH' => 's 35',
+    'TK_EQUAL' => 's 36',
+    'TK_COMMA' => 's 37',
+    'TK_DOT' => 's 38',
+    'TK_ASSIGMENT' => 's 39',
+    'TK_NOT_EQUAL' => 's 40',
+    'TK_TEXT_NODE' => 's 41',
+    'TK_SPACE' => 's 42',
+    'TK_OTHER' => 's 43',
+    'logic_node' => 's 44',
+    'TK_LOGIC_BEGIN' => 's 45',
   ),
   50 => 
   array (
-    'TK_LT' => 's 51',
-    'TK_GT' => 's 56',
-    'TK_MINUS' => 's 58',
-    'TK_PLUS' => 's 60',
-    'TK_ASSIGMENT' => 's 62',
-    'TK_EQUAL' => 's 64',
-    'TK_NOT_EQUAL' => 's 66',
-    'TK_LT_EQUAL' => 's 68',
-    'TK_GT_EQUAL' => 's 70',
-    'TK_LOGIC_END' => 'r 57',
-    'TK_DIGITS' => 'r 57',
-    'TK_LETTERS' => 'r 57',
-    'TK_VAR' => 'r 57',
+    'TK_LOGIC_BEGIN' => 'r 30',
+    'TK_LETTERS' => 'r 30',
+    'TK_DATA_ATTR' => 'r 30',
+    'TK_SELECTOR' => 'r 30',
+    'TK_SLASH' => 'r 30',
+    'TK_GT' => 'r 30',
+    'TK_OPEN_SQUARE_BRAKETS' => 'r 30',
+    'TK_PIPE' => 'r 30',
+    'TK_LOGIC_OR' => 'r 30',
+    'TK_LOGIC_AND' => 'r 30',
+    'TK_GT_EQUAL' => 'r 30',
+    'TK_LT_EQUAL' => 'r 30',
+    'TK_NOT_EQUAL' => 'r 30',
+    'TK_EQUAL' => 'r 30',
+    'TK_ASSIGMENT' => 'r 30',
+    'TK_LT' => 'r 30',
+    'TK_PLUS' => 'r 30',
+    'TK_MINUS' => 'r 30',
+    'TK_MULTIPLY' => 'r 30',
+    'TK_TWO_DOTS' => 'r 30',
+    'TK_OPEN_BRAKETS' => 'r 30',
+    'TK_COMMA' => 'r 30',
+    'TK_DOT' => 'r 30',
+    'TK_EXCLAMATION_MARK' => 'r 30',
+    'TK_QUESTION_MARK' => 'r 30',
+    'TK_VAR' => 'r 30',
+    'TK_DOUBLE_QUOTE' => 'r 30',
+    'TK_SINGLE_QUOTE' => 'r 30',
+    'TK_NUMBERS' => 'r 30',
+    'TK_DIGITS' => 'r 30',
+    'TK_LOGIC_END' => 'r 30',
+    'TK_CLOSE_BRAKETS' => 'r 30',
+    'TK_CLOSE_SQUARE_BRAKETS' => 'r 30',
   ),
   51 => 
   array (
-    'TK_DIGITS' => 's 52',
-    'TK_LETTERS' => 's 53',
-    'TK_VAR' => 's 54',
-    'expr' => 's 55',
+    'TK_DOUBLE_QUOTE' => 's 46',
+    'TK_SINGLE_QUOTE' => 's 48',
+    'TK_LOGIC_END' => 's 52',
+    'expr' => 's 53',
+    'exprs_list' => 's 55',
+    'TK_OPEN_BRAKETS' => 's 95',
+    'complex_var' => 's 98',
+    'TK_EXCLAMATION_MARK' => 's 111',
+    'TK_QUESTION_MARK' => 's 112',
+    'func_name' => 's 113',
+    'TK_NUMBERS' => 's 101',
+    'TK_DIGITS' => 's 102',
+    'TK_LETTERS' => 's 103',
+    'TK_SELECTOR' => 's 104',
+    'TK_VAR' => 's 105',
+    'string' => 's 106',
+    'nums' => 's 107',
   ),
   52 => 
   array (
-    'TK_LT' => 'r 58',
-    'TK_GT' => 'r 58',
-    'TK_MINUS' => 'r 58',
-    'TK_PLUS' => 'r 58',
-    'TK_ASSIGMENT' => 'r 58',
-    'TK_EQUAL' => 'r 58',
-    'TK_NOT_EQUAL' => 'r 58',
-    'TK_LT_EQUAL' => 'r 58',
-    'TK_GT_EQUAL' => 'r 58',
-    'TK_DIGITS' => 'r 58',
-    'TK_LETTERS' => 'r 58',
-    'TK_VAR' => 'r 58',
-    'TK_LOGIC_END' => 'r 58',
-  ),
-  53 => 
-  array (
-    'TK_LT' => 'r 59',
-    'TK_GT' => 'r 59',
-    'TK_MINUS' => 'r 59',
-    'TK_PLUS' => 'r 59',
-    'TK_ASSIGMENT' => 'r 59',
-    'TK_EQUAL' => 'r 59',
-    'TK_NOT_EQUAL' => 'r 59',
-    'TK_LT_EQUAL' => 'r 59',
-    'TK_GT_EQUAL' => 'r 59',
-    'TK_DIGITS' => 'r 59',
-    'TK_LETTERS' => 'r 59',
-    'TK_VAR' => 'r 59',
-    'TK_LOGIC_END' => 'r 59',
-  ),
-  54 => 
-  array (
-    'TK_LT' => 'r 60',
-    'TK_GT' => 'r 60',
-    'TK_MINUS' => 'r 60',
-    'TK_PLUS' => 'r 60',
-    'TK_ASSIGMENT' => 'r 60',
-    'TK_EQUAL' => 'r 60',
-    'TK_NOT_EQUAL' => 'r 60',
-    'TK_LT_EQUAL' => 'r 60',
-    'TK_GT_EQUAL' => 'r 60',
-    'TK_DIGITS' => 'r 60',
-    'TK_LETTERS' => 'r 60',
-    'TK_VAR' => 'r 60',
-    'TK_LOGIC_END' => 'r 60',
-  ),
-  55 => 
-  array (
-    'TK_LT' => 'r 61',
-    'TK_GT' => 's 56',
-    'TK_MINUS' => 'r 61',
-    'TK_PLUS' => 'r 61',
-    'TK_ASSIGMENT' => 's 62',
-    'TK_EQUAL' => 's 64',
-    'TK_NOT_EQUAL' => 's 66',
-    'TK_LT_EQUAL' => 's 68',
-    'TK_GT_EQUAL' => 's 70',
-    'TK_LOGIC_END' => 'r 61',
-    'TK_DIGITS' => 'r 61',
-    'TK_LETTERS' => 'r 61',
-    'TK_VAR' => 'r 61',
-  ),
-  56 => 
-  array (
-    'TK_DIGITS' => 's 52',
-    'TK_LETTERS' => 's 53',
-    'TK_VAR' => 's 54',
-    'expr' => 's 57',
-  ),
-  57 => 
-  array (
-    'TK_LT' => 'r 62',
-    'TK_GT' => 'r 62',
-    'TK_MINUS' => 'r 62',
-    'TK_PLUS' => 'r 62',
-    'TK_ASSIGMENT' => 's 62',
-    'TK_EQUAL' => 's 64',
-    'TK_NOT_EQUAL' => 's 66',
-    'TK_LT_EQUAL' => 's 68',
-    'TK_GT_EQUAL' => 's 70',
-    'TK_LOGIC_END' => 'r 62',
-    'TK_DIGITS' => 'r 62',
-    'TK_LETTERS' => 'r 62',
-    'TK_VAR' => 'r 62',
-  ),
-  58 => 
-  array (
-    'TK_DIGITS' => 's 52',
-    'TK_LETTERS' => 's 53',
-    'TK_VAR' => 's 54',
-    'expr' => 's 59',
-  ),
-  59 => 
-  array (
-    'TK_LT' => 's 51',
-    'TK_GT' => 's 56',
-    'TK_MINUS' => 'r 63',
-    'TK_PLUS' => 's 60',
-    'TK_ASSIGMENT' => 's 62',
-    'TK_EQUAL' => 's 64',
-    'TK_NOT_EQUAL' => 's 66',
-    'TK_LT_EQUAL' => 's 68',
-    'TK_GT_EQUAL' => 's 70',
-    'TK_LOGIC_END' => 'r 63',
-    'TK_DIGITS' => 'r 63',
-    'TK_LETTERS' => 'r 63',
-    'TK_VAR' => 'r 63',
-  ),
-  60 => 
-  array (
-    'TK_DIGITS' => 's 52',
-    'TK_LETTERS' => 's 53',
-    'TK_VAR' => 's 54',
-    'expr' => 's 61',
-  ),
-  61 => 
-  array (
-    'TK_LT' => 's 51',
-    'TK_GT' => 's 56',
-    'TK_MINUS' => 'r 64',
-    'TK_PLUS' => 'r 64',
-    'TK_ASSIGMENT' => 's 62',
-    'TK_EQUAL' => 's 64',
-    'TK_NOT_EQUAL' => 's 66',
-    'TK_LT_EQUAL' => 's 68',
-    'TK_GT_EQUAL' => 's 70',
-    'TK_LOGIC_END' => 'r 64',
-    'TK_DIGITS' => 'r 64',
-    'TK_LETTERS' => 'r 64',
-    'TK_VAR' => 'r 64',
-  ),
-  62 => 
-  array (
-    'TK_DIGITS' => 's 52',
-    'TK_LETTERS' => 's 53',
-    'TK_VAR' => 's 54',
-    'expr' => 's 63',
-  ),
-  63 => 
-  array (
-    'TK_LT' => 'r 65',
-    'TK_GT' => 'r 65',
-    'TK_MINUS' => 'r 65',
-    'TK_PLUS' => 'r 65',
-    'TK_ASSIGMENT' => 'r 65',
-    'TK_EQUAL' => 's 64',
-    'TK_NOT_EQUAL' => 's 66',
-    'TK_LT_EQUAL' => 's 68',
-    'TK_GT_EQUAL' => 's 70',
-    'TK_LOGIC_END' => 'r 65',
-    'TK_DIGITS' => 'r 65',
-    'TK_LETTERS' => 'r 65',
-    'TK_VAR' => 'r 65',
-  ),
-  64 => 
-  array (
-    'TK_DIGITS' => 's 52',
-    'TK_LETTERS' => 's 53',
-    'TK_VAR' => 's 54',
-    'expr' => 's 65',
-  ),
-  65 => 
-  array (
-    'TK_LT' => 'r 66',
-    'TK_GT' => 'r 66',
-    'TK_MINUS' => 'r 66',
-    'TK_PLUS' => 'r 66',
-    'TK_ASSIGMENT' => 'r 66',
-    'TK_EQUAL' => 'r 66',
-    'TK_NOT_EQUAL' => 's 66',
-    'TK_LT_EQUAL' => 's 68',
-    'TK_GT_EQUAL' => 's 70',
-    'TK_LOGIC_END' => 'r 66',
-    'TK_DIGITS' => 'r 66',
-    'TK_LETTERS' => 'r 66',
-    'TK_VAR' => 'r 66',
-  ),
-  66 => 
-  array (
-    'TK_DIGITS' => 's 52',
-    'TK_LETTERS' => 's 53',
-    'TK_VAR' => 's 54',
-    'expr' => 's 67',
-  ),
-  67 => 
-  array (
-    'TK_LT' => 'r 67',
-    'TK_GT' => 'r 67',
-    'TK_MINUS' => 'r 67',
-    'TK_PLUS' => 'r 67',
-    'TK_ASSIGMENT' => 'r 67',
-    'TK_EQUAL' => 'r 67',
-    'TK_NOT_EQUAL' => 'r 67',
-    'TK_LT_EQUAL' => 's 68',
-    'TK_GT_EQUAL' => 's 70',
-    'TK_LOGIC_END' => 'r 67',
-    'TK_DIGITS' => 'r 67',
-    'TK_LETTERS' => 'r 67',
-    'TK_VAR' => 'r 67',
-  ),
-  68 => 
-  array (
-    'TK_DIGITS' => 's 52',
-    'TK_LETTERS' => 's 53',
-    'TK_VAR' => 's 54',
-    'expr' => 's 69',
-  ),
-  69 => 
-  array (
-    'TK_LT' => 'r 68',
-    'TK_GT' => 'r 68',
-    'TK_MINUS' => 'r 68',
-    'TK_PLUS' => 'r 68',
-    'TK_ASSIGMENT' => 'r 68',
-    'TK_EQUAL' => 'r 68',
-    'TK_NOT_EQUAL' => 'r 68',
-    'TK_LT_EQUAL' => 'r 68',
-    'TK_GT_EQUAL' => 's 70',
-    'TK_LOGIC_END' => 'r 68',
-    'TK_DIGITS' => 'r 68',
-    'TK_LETTERS' => 'r 68',
-    'TK_VAR' => 'r 68',
-  ),
-  70 => 
-  array (
-    'TK_DIGITS' => 's 52',
-    'TK_LETTERS' => 's 53',
-    'TK_VAR' => 's 54',
-    'expr' => 's 71',
-  ),
-  71 => 
-  array (
     'TK_LT' => 'r 69',
+    'TK_TEXT_NODE' => 'r 69',
+    'TK_LETTERS' => 'r 69',
+    'TK_SELECTOR_LOWDASH' => 'r 69',
+    'TK_SELECTOR' => 'r 69',
+    'TK_TAG_NAME' => 'r 69',
+    'TK_VAR' => 'r 69',
+    'TK_OTHER' => 'r 69',
+    'TK_COMMA' => 'r 69',
+    'TK_DIGITS' => 'r 69',
+    'TK_DOT' => 'r 69',
+    'TK_SLASH' => 'r 69',
+    'TK_LOGIC_BEGIN' => 'r 69',
+    'TK_DATA_ATTR' => 'r 69',
     'TK_GT' => 'r 69',
     'TK_MINUS' => 'r 69',
     'TK_PLUS' => 'r 69',
-    'TK_ASSIGMENT' => 'r 69',
-    'TK_EQUAL' => 'r 69',
-    'TK_NOT_EQUAL' => 'r 69',
     'TK_LT_EQUAL' => 'r 69',
     'TK_GT_EQUAL' => 'r 69',
-    'TK_LOGIC_END' => 'r 69',
-    'TK_DIGITS' => 'r 69',
-    'TK_LETTERS' => 'r 69',
-    'TK_VAR' => 'r 69',
+    'TK_SELECTOR_DASH' => 'r 69',
+    'TK_EQUAL' => 'r 69',
+    'TK_ASSIGMENT' => 'r 69',
+    'TK_NOT_EQUAL' => 'r 69',
+    'TK_SPACE' => 'r 69',
+    'TK_DOUBLE_QUOTE' => 'r 69',
+    'TK_SINGLE_QUOTE' => 'r 69',
+    '#' => 'r 69',
+  ),
+  53 => 
+  array (
+    'TK_OPEN_BRAKETS' => 's 54',
+    'TK_TWO_DOTS' => 's 58',
+    'TK_MULTIPLY' => 's 60',
+    'TK_SLASH' => 's 62',
+    'TK_MINUS' => 's 64',
+    'TK_PLUS' => 's 66',
+    'TK_LT' => 's 68',
+    'TK_GT' => 's 70',
+    'TK_ASSIGMENT' => 's 72',
+    'TK_EQUAL' => 's 74',
+    'TK_NOT_EQUAL' => 's 76',
+    'TK_LT_EQUAL' => 's 78',
+    'TK_GT_EQUAL' => 's 80',
+    'TK_LOGIC_AND' => 's 82',
+    'TK_LOGIC_OR' => 's 84',
+    'TK_PIPE' => 's 86',
+    'TK_DOT' => 's 88',
+    'TK_OPEN_SQUARE_BRAKETS' => 's 90',
+    'TK_COMMA' => 's 93',
+    'TK_LOGIC_END' => 'r 71',
+    'TK_EXCLAMATION_MARK' => 'r 71',
+    'TK_QUESTION_MARK' => 'r 71',
+    'TK_LETTERS' => 'r 71',
+    'TK_SELECTOR' => 'r 71',
+    'TK_VAR' => 'r 71',
+    'TK_DOUBLE_QUOTE' => 'r 71',
+    'TK_SINGLE_QUOTE' => 'r 71',
+    'TK_NUMBERS' => 'r 71',
+    'TK_DIGITS' => 'r 71',
+  ),
+  54 => 
+  array (
+    'TK_DOUBLE_QUOTE' => 's 46',
+    'TK_SINGLE_QUOTE' => 's 48',
+    'exprs_list' => 's 55',
+    'expr' => 's 114',
+    'TK_OPEN_BRAKETS' => 's 95',
+    'complex_var' => 's 98',
+    'TK_EXCLAMATION_MARK' => 's 111',
+    'TK_QUESTION_MARK' => 's 112',
+    'func_name' => 's 113',
+    'TK_NUMBERS' => 's 101',
+    'TK_DIGITS' => 's 102',
+    'TK_LETTERS' => 's 103',
+    'TK_SELECTOR' => 's 104',
+    'TK_VAR' => 's 105',
+    'string' => 's 106',
+    'nums' => 's 107',
+  ),
+  55 => 
+  array (
+    'TK_COMMA' => 's 56',
+    'TK_OPEN_BRAKETS' => 'r 72',
+    'TK_TWO_DOTS' => 'r 72',
+    'TK_MULTIPLY' => 'r 72',
+    'TK_SLASH' => 'r 72',
+    'TK_MINUS' => 'r 72',
+    'TK_PLUS' => 'r 72',
+    'TK_LT' => 'r 72',
+    'TK_GT' => 'r 72',
+    'TK_ASSIGMENT' => 'r 72',
+    'TK_EQUAL' => 'r 72',
+    'TK_NOT_EQUAL' => 'r 72',
+    'TK_LT_EQUAL' => 'r 72',
+    'TK_GT_EQUAL' => 'r 72',
+    'TK_LOGIC_AND' => 'r 72',
+    'TK_LOGIC_OR' => 'r 72',
+    'TK_PIPE' => 'r 72',
+    'TK_OPEN_SQUARE_BRAKETS' => 'r 72',
+    'TK_DOT' => 'r 72',
+    'TK_EXCLAMATION_MARK' => 'r 72',
+    'TK_QUESTION_MARK' => 'r 72',
+    'TK_LETTERS' => 'r 72',
+    'TK_SELECTOR' => 'r 72',
+    'TK_VAR' => 'r 72',
+    'TK_DOUBLE_QUOTE' => 'r 72',
+    'TK_SINGLE_QUOTE' => 'r 72',
+    'TK_NUMBERS' => 'r 72',
+    'TK_DIGITS' => 'r 72',
+    'TK_LOGIC_END' => 'r 72',
+    'TK_CLOSE_BRAKETS' => 'r 72',
+    'TK_CLOSE_SQUARE_BRAKETS' => 'r 72',
+  ),
+  56 => 
+  array (
+    'TK_DOUBLE_QUOTE' => 's 46',
+    'TK_SINGLE_QUOTE' => 's 48',
+    'exprs_list' => 's 55',
+    'expr' => 's 57',
+    'TK_OPEN_BRAKETS' => 's 95',
+    'complex_var' => 's 98',
+    'TK_EXCLAMATION_MARK' => 's 111',
+    'TK_QUESTION_MARK' => 's 112',
+    'func_name' => 's 113',
+    'TK_NUMBERS' => 's 101',
+    'TK_DIGITS' => 's 102',
+    'TK_LETTERS' => 's 103',
+    'TK_SELECTOR' => 's 104',
+    'TK_VAR' => 's 105',
+    'string' => 's 106',
+    'nums' => 's 107',
+  ),
+  57 => 
+  array (
+    'TK_OPEN_BRAKETS' => 's 54',
+    'TK_TWO_DOTS' => 's 58',
+    'TK_MULTIPLY' => 's 60',
+    'TK_SLASH' => 's 62',
+    'TK_MINUS' => 's 64',
+    'TK_PLUS' => 's 66',
+    'TK_LT' => 's 68',
+    'TK_GT' => 's 70',
+    'TK_ASSIGMENT' => 's 72',
+    'TK_EQUAL' => 's 74',
+    'TK_NOT_EQUAL' => 's 76',
+    'TK_LT_EQUAL' => 's 78',
+    'TK_GT_EQUAL' => 's 80',
+    'TK_LOGIC_AND' => 's 82',
+    'TK_LOGIC_OR' => 's 84',
+    'TK_PIPE' => 's 86',
+    'TK_DOT' => 's 88',
+    'TK_OPEN_SQUARE_BRAKETS' => 's 90',
+    'TK_COMMA' => 'r 99',
+    'TK_EXCLAMATION_MARK' => 'r 99',
+    'TK_QUESTION_MARK' => 'r 99',
+    'TK_LETTERS' => 'r 99',
+    'TK_SELECTOR' => 'r 99',
+    'TK_VAR' => 'r 99',
+    'TK_DOUBLE_QUOTE' => 'r 99',
+    'TK_SINGLE_QUOTE' => 'r 99',
+    'TK_NUMBERS' => 'r 99',
+    'TK_DIGITS' => 'r 99',
+    'TK_LOGIC_END' => 'r 99',
+    'TK_CLOSE_BRAKETS' => 'r 99',
+    'TK_CLOSE_SQUARE_BRAKETS' => 'r 99',
+  ),
+  58 => 
+  array (
+    'TK_DOUBLE_QUOTE' => 's 46',
+    'TK_SINGLE_QUOTE' => 's 48',
+    'exprs_list' => 's 55',
+    'expr' => 's 59',
+    'TK_OPEN_BRAKETS' => 's 95',
+    'complex_var' => 's 98',
+    'TK_EXCLAMATION_MARK' => 's 111',
+    'TK_QUESTION_MARK' => 's 112',
+    'func_name' => 's 113',
+    'TK_NUMBERS' => 's 101',
+    'TK_DIGITS' => 's 102',
+    'TK_LETTERS' => 's 103',
+    'TK_SELECTOR' => 's 104',
+    'TK_VAR' => 's 105',
+    'string' => 's 106',
+    'nums' => 's 107',
+  ),
+  59 => 
+  array (
+    'TK_OPEN_BRAKETS' => 's 54',
+    'TK_TWO_DOTS' => 'r 75',
+    'TK_MULTIPLY' => 's 60',
+    'TK_SLASH' => 's 62',
+    'TK_MINUS' => 'r 75',
+    'TK_PLUS' => 'r 75',
+    'TK_LT' => 'r 75',
+    'TK_GT' => 'r 75',
+    'TK_ASSIGMENT' => 'r 75',
+    'TK_EQUAL' => 'r 75',
+    'TK_NOT_EQUAL' => 'r 75',
+    'TK_LT_EQUAL' => 'r 75',
+    'TK_GT_EQUAL' => 'r 75',
+    'TK_LOGIC_AND' => 'r 75',
+    'TK_LOGIC_OR' => 'r 75',
+    'TK_PIPE' => 'r 75',
+    'TK_DOT' => 's 88',
+    'TK_OPEN_SQUARE_BRAKETS' => 's 90',
+    'TK_COMMA' => 'r 75',
+    'TK_LOGIC_END' => 'r 75',
+    'TK_EXCLAMATION_MARK' => 'r 75',
+    'TK_QUESTION_MARK' => 'r 75',
+    'TK_LETTERS' => 'r 75',
+    'TK_SELECTOR' => 'r 75',
+    'TK_VAR' => 'r 75',
+    'TK_DOUBLE_QUOTE' => 'r 75',
+    'TK_SINGLE_QUOTE' => 'r 75',
+    'TK_NUMBERS' => 'r 75',
+    'TK_DIGITS' => 'r 75',
+    'TK_CLOSE_SQUARE_BRAKETS' => 'r 75',
+    'TK_CLOSE_BRAKETS' => 'r 75',
+  ),
+  60 => 
+  array (
+    'TK_DOUBLE_QUOTE' => 's 46',
+    'TK_SINGLE_QUOTE' => 's 48',
+    'exprs_list' => 's 55',
+    'expr' => 's 61',
+    'TK_OPEN_BRAKETS' => 's 95',
+    'complex_var' => 's 98',
+    'TK_EXCLAMATION_MARK' => 's 111',
+    'TK_QUESTION_MARK' => 's 112',
+    'func_name' => 's 113',
+    'TK_NUMBERS' => 's 101',
+    'TK_DIGITS' => 's 102',
+    'TK_LETTERS' => 's 103',
+    'TK_SELECTOR' => 's 104',
+    'TK_VAR' => 's 105',
+    'string' => 's 106',
+    'nums' => 's 107',
+  ),
+  61 => 
+  array (
+    'TK_OPEN_BRAKETS' => 's 54',
+    'TK_TWO_DOTS' => 's 58',
+    'TK_MULTIPLY' => 's 60',
+    'TK_SLASH' => 's 62',
+    'TK_MINUS' => 's 64',
+    'TK_PLUS' => 's 66',
+    'TK_LT' => 's 68',
+    'TK_GT' => 's 70',
+    'TK_ASSIGMENT' => 's 72',
+    'TK_EQUAL' => 's 74',
+    'TK_NOT_EQUAL' => 's 76',
+    'TK_LT_EQUAL' => 's 78',
+    'TK_GT_EQUAL' => 's 80',
+    'TK_LOGIC_AND' => 's 82',
+    'TK_LOGIC_OR' => 's 84',
+    'TK_PIPE' => 's 86',
+    'TK_DOT' => 's 88',
+    'TK_OPEN_SQUARE_BRAKETS' => 's 90',
+    'TK_COMMA' => 's 93',
+    'TK_LOGIC_END' => 'r 76',
+    'TK_EXCLAMATION_MARK' => 'r 76',
+    'TK_QUESTION_MARK' => 'r 76',
+    'TK_LETTERS' => 'r 76',
+    'TK_SELECTOR' => 'r 76',
+    'TK_VAR' => 'r 76',
+    'TK_DOUBLE_QUOTE' => 'r 76',
+    'TK_SINGLE_QUOTE' => 'r 76',
+    'TK_NUMBERS' => 'r 76',
+    'TK_DIGITS' => 'r 76',
+    'TK_CLOSE_SQUARE_BRAKETS' => 'r 76',
+    'TK_CLOSE_BRAKETS' => 'r 76',
+  ),
+  62 => 
+  array (
+    'TK_DOUBLE_QUOTE' => 's 46',
+    'TK_SINGLE_QUOTE' => 's 48',
+    'exprs_list' => 's 55',
+    'expr' => 's 63',
+    'TK_OPEN_BRAKETS' => 's 95',
+    'complex_var' => 's 98',
+    'TK_EXCLAMATION_MARK' => 's 111',
+    'TK_QUESTION_MARK' => 's 112',
+    'func_name' => 's 113',
+    'TK_NUMBERS' => 's 101',
+    'TK_DIGITS' => 's 102',
+    'TK_LETTERS' => 's 103',
+    'TK_SELECTOR' => 's 104',
+    'TK_VAR' => 's 105',
+    'string' => 's 106',
+    'nums' => 's 107',
+  ),
+  63 => 
+  array (
+    'TK_OPEN_BRAKETS' => 's 54',
+    'TK_TWO_DOTS' => 's 58',
+    'TK_MULTIPLY' => 's 60',
+    'TK_SLASH' => 's 62',
+    'TK_MINUS' => 's 64',
+    'TK_PLUS' => 's 66',
+    'TK_LT' => 's 68',
+    'TK_GT' => 's 70',
+    'TK_ASSIGMENT' => 's 72',
+    'TK_EQUAL' => 's 74',
+    'TK_NOT_EQUAL' => 's 76',
+    'TK_LT_EQUAL' => 's 78',
+    'TK_GT_EQUAL' => 's 80',
+    'TK_LOGIC_AND' => 's 82',
+    'TK_LOGIC_OR' => 's 84',
+    'TK_PIPE' => 's 86',
+    'TK_DOT' => 's 88',
+    'TK_OPEN_SQUARE_BRAKETS' => 's 90',
+    'TK_COMMA' => 's 93',
+    'TK_LOGIC_END' => 'r 77',
+    'TK_EXCLAMATION_MARK' => 'r 77',
+    'TK_QUESTION_MARK' => 'r 77',
+    'TK_LETTERS' => 'r 77',
+    'TK_SELECTOR' => 'r 77',
+    'TK_VAR' => 'r 77',
+    'TK_DOUBLE_QUOTE' => 'r 77',
+    'TK_SINGLE_QUOTE' => 'r 77',
+    'TK_NUMBERS' => 'r 77',
+    'TK_DIGITS' => 'r 77',
+    'TK_CLOSE_SQUARE_BRAKETS' => 'r 77',
+    'TK_CLOSE_BRAKETS' => 'r 77',
+  ),
+  64 => 
+  array (
+    'TK_DOUBLE_QUOTE' => 's 46',
+    'TK_SINGLE_QUOTE' => 's 48',
+    'exprs_list' => 's 55',
+    'expr' => 's 65',
+    'TK_OPEN_BRAKETS' => 's 95',
+    'complex_var' => 's 98',
+    'TK_EXCLAMATION_MARK' => 's 111',
+    'TK_QUESTION_MARK' => 's 112',
+    'func_name' => 's 113',
+    'TK_NUMBERS' => 's 101',
+    'TK_DIGITS' => 's 102',
+    'TK_LETTERS' => 's 103',
+    'TK_SELECTOR' => 's 104',
+    'TK_VAR' => 's 105',
+    'string' => 's 106',
+    'nums' => 's 107',
+  ),
+  65 => 
+  array (
+    'TK_OPEN_BRAKETS' => 's 54',
+    'TK_TWO_DOTS' => 's 58',
+    'TK_MULTIPLY' => 's 60',
+    'TK_SLASH' => 's 62',
+    'TK_MINUS' => 'r 78',
+    'TK_PLUS' => 's 66',
+    'TK_LT' => 's 68',
+    'TK_GT' => 's 70',
+    'TK_ASSIGMENT' => 's 72',
+    'TK_EQUAL' => 's 74',
+    'TK_NOT_EQUAL' => 's 76',
+    'TK_LT_EQUAL' => 's 78',
+    'TK_GT_EQUAL' => 's 80',
+    'TK_LOGIC_AND' => 's 82',
+    'TK_LOGIC_OR' => 's 84',
+    'TK_PIPE' => 's 86',
+    'TK_DOT' => 's 88',
+    'TK_OPEN_SQUARE_BRAKETS' => 's 90',
+    'TK_COMMA' => 'r 78',
+    'TK_LOGIC_END' => 'r 78',
+    'TK_EXCLAMATION_MARK' => 'r 78',
+    'TK_QUESTION_MARK' => 'r 78',
+    'TK_LETTERS' => 'r 78',
+    'TK_SELECTOR' => 'r 78',
+    'TK_VAR' => 'r 78',
+    'TK_DOUBLE_QUOTE' => 'r 78',
+    'TK_SINGLE_QUOTE' => 'r 78',
+    'TK_NUMBERS' => 'r 78',
+    'TK_DIGITS' => 'r 78',
+    'TK_CLOSE_SQUARE_BRAKETS' => 'r 78',
+    'TK_CLOSE_BRAKETS' => 'r 78',
+  ),
+  66 => 
+  array (
+    'TK_DOUBLE_QUOTE' => 's 46',
+    'TK_SINGLE_QUOTE' => 's 48',
+    'exprs_list' => 's 55',
+    'expr' => 's 67',
+    'TK_OPEN_BRAKETS' => 's 95',
+    'complex_var' => 's 98',
+    'TK_EXCLAMATION_MARK' => 's 111',
+    'TK_QUESTION_MARK' => 's 112',
+    'func_name' => 's 113',
+    'TK_NUMBERS' => 's 101',
+    'TK_DIGITS' => 's 102',
+    'TK_LETTERS' => 's 103',
+    'TK_SELECTOR' => 's 104',
+    'TK_VAR' => 's 105',
+    'string' => 's 106',
+    'nums' => 's 107',
+  ),
+  67 => 
+  array (
+    'TK_OPEN_BRAKETS' => 's 54',
+    'TK_TWO_DOTS' => 's 58',
+    'TK_MULTIPLY' => 's 60',
+    'TK_SLASH' => 's 62',
+    'TK_MINUS' => 'r 79',
+    'TK_PLUS' => 'r 79',
+    'TK_LT' => 's 68',
+    'TK_GT' => 's 70',
+    'TK_ASSIGMENT' => 's 72',
+    'TK_EQUAL' => 's 74',
+    'TK_NOT_EQUAL' => 's 76',
+    'TK_LT_EQUAL' => 's 78',
+    'TK_GT_EQUAL' => 's 80',
+    'TK_LOGIC_AND' => 's 82',
+    'TK_LOGIC_OR' => 's 84',
+    'TK_PIPE' => 's 86',
+    'TK_DOT' => 's 88',
+    'TK_OPEN_SQUARE_BRAKETS' => 's 90',
+    'TK_COMMA' => 'r 79',
+    'TK_LOGIC_END' => 'r 79',
+    'TK_EXCLAMATION_MARK' => 'r 79',
+    'TK_QUESTION_MARK' => 'r 79',
+    'TK_LETTERS' => 'r 79',
+    'TK_SELECTOR' => 'r 79',
+    'TK_VAR' => 'r 79',
+    'TK_DOUBLE_QUOTE' => 'r 79',
+    'TK_SINGLE_QUOTE' => 'r 79',
+    'TK_NUMBERS' => 'r 79',
+    'TK_DIGITS' => 'r 79',
+    'TK_CLOSE_SQUARE_BRAKETS' => 'r 79',
+    'TK_CLOSE_BRAKETS' => 'r 79',
+  ),
+  68 => 
+  array (
+    'TK_DOUBLE_QUOTE' => 's 46',
+    'TK_SINGLE_QUOTE' => 's 48',
+    'exprs_list' => 's 55',
+    'expr' => 's 69',
+    'TK_OPEN_BRAKETS' => 's 95',
+    'complex_var' => 's 98',
+    'TK_EXCLAMATION_MARK' => 's 111',
+    'TK_QUESTION_MARK' => 's 112',
+    'func_name' => 's 113',
+    'TK_NUMBERS' => 's 101',
+    'TK_DIGITS' => 's 102',
+    'TK_LETTERS' => 's 103',
+    'TK_SELECTOR' => 's 104',
+    'TK_VAR' => 's 105',
+    'string' => 's 106',
+    'nums' => 's 107',
+  ),
+  69 => 
+  array (
+    'TK_OPEN_BRAKETS' => 's 54',
+    'TK_TWO_DOTS' => 's 58',
+    'TK_MULTIPLY' => 's 60',
+    'TK_SLASH' => 's 62',
+    'TK_MINUS' => 'r 80',
+    'TK_PLUS' => 'r 80',
+    'TK_LT' => 'r 80',
+    'TK_GT' => 's 70',
+    'TK_ASSIGMENT' => 's 72',
+    'TK_EQUAL' => 's 74',
+    'TK_NOT_EQUAL' => 's 76',
+    'TK_LT_EQUAL' => 's 78',
+    'TK_GT_EQUAL' => 's 80',
+    'TK_LOGIC_AND' => 's 82',
+    'TK_LOGIC_OR' => 's 84',
+    'TK_PIPE' => 's 86',
+    'TK_DOT' => 's 88',
+    'TK_OPEN_SQUARE_BRAKETS' => 's 90',
+    'TK_COMMA' => 'r 80',
+    'TK_LOGIC_END' => 'r 80',
+    'TK_EXCLAMATION_MARK' => 'r 80',
+    'TK_QUESTION_MARK' => 'r 80',
+    'TK_LETTERS' => 'r 80',
+    'TK_SELECTOR' => 'r 80',
+    'TK_VAR' => 'r 80',
+    'TK_DOUBLE_QUOTE' => 'r 80',
+    'TK_SINGLE_QUOTE' => 'r 80',
+    'TK_NUMBERS' => 'r 80',
+    'TK_DIGITS' => 'r 80',
+    'TK_CLOSE_SQUARE_BRAKETS' => 'r 80',
+    'TK_CLOSE_BRAKETS' => 'r 80',
+  ),
+  70 => 
+  array (
+    'TK_DOUBLE_QUOTE' => 's 46',
+    'TK_SINGLE_QUOTE' => 's 48',
+    'exprs_list' => 's 55',
+    'expr' => 's 71',
+    'TK_OPEN_BRAKETS' => 's 95',
+    'complex_var' => 's 98',
+    'TK_EXCLAMATION_MARK' => 's 111',
+    'TK_QUESTION_MARK' => 's 112',
+    'func_name' => 's 113',
+    'TK_NUMBERS' => 's 101',
+    'TK_DIGITS' => 's 102',
+    'TK_LETTERS' => 's 103',
+    'TK_SELECTOR' => 's 104',
+    'TK_VAR' => 's 105',
+    'string' => 's 106',
+    'nums' => 's 107',
+  ),
+  71 => 
+  array (
+    'TK_OPEN_BRAKETS' => 's 54',
+    'TK_TWO_DOTS' => 's 58',
+    'TK_MULTIPLY' => 's 60',
+    'TK_SLASH' => 's 62',
+    'TK_MINUS' => 'r 81',
+    'TK_PLUS' => 'r 81',
+    'TK_LT' => 'r 81',
+    'TK_GT' => 'r 81',
+    'TK_ASSIGMENT' => 's 72',
+    'TK_EQUAL' => 's 74',
+    'TK_NOT_EQUAL' => 's 76',
+    'TK_LT_EQUAL' => 's 78',
+    'TK_GT_EQUAL' => 's 80',
+    'TK_LOGIC_AND' => 's 82',
+    'TK_LOGIC_OR' => 's 84',
+    'TK_PIPE' => 's 86',
+    'TK_DOT' => 's 88',
+    'TK_OPEN_SQUARE_BRAKETS' => 's 90',
+    'TK_COMMA' => 'r 81',
+    'TK_LOGIC_END' => 'r 81',
+    'TK_EXCLAMATION_MARK' => 'r 81',
+    'TK_QUESTION_MARK' => 'r 81',
+    'TK_LETTERS' => 'r 81',
+    'TK_SELECTOR' => 'r 81',
+    'TK_VAR' => 'r 81',
+    'TK_DOUBLE_QUOTE' => 'r 81',
+    'TK_SINGLE_QUOTE' => 'r 81',
+    'TK_NUMBERS' => 'r 81',
+    'TK_DIGITS' => 'r 81',
+    'TK_CLOSE_SQUARE_BRAKETS' => 'r 81',
+    'TK_CLOSE_BRAKETS' => 'r 81',
   ),
   72 => 
   array (
-    'TK_LT' => 's 51',
-    'TK_GT' => 's 56',
-    'TK_MINUS' => 's 58',
-    'TK_PLUS' => 's 60',
-    'TK_ASSIGMENT' => 's 62',
-    'TK_EQUAL' => 's 64',
-    'TK_NOT_EQUAL' => 's 66',
-    'TK_LT_EQUAL' => 's 68',
-    'TK_GT_EQUAL' => 's 70',
-    'TK_DIGITS' => 'r 56',
-    'TK_LETTERS' => 'r 56',
-    'TK_VAR' => 'r 56',
-    'TK_LOGIC_END' => 'r 56',
+    'TK_DOUBLE_QUOTE' => 's 46',
+    'TK_SINGLE_QUOTE' => 's 48',
+    'exprs_list' => 's 55',
+    'expr' => 's 73',
+    'TK_OPEN_BRAKETS' => 's 95',
+    'complex_var' => 's 98',
+    'TK_EXCLAMATION_MARK' => 's 111',
+    'TK_QUESTION_MARK' => 's 112',
+    'func_name' => 's 113',
+    'TK_NUMBERS' => 's 101',
+    'TK_DIGITS' => 's 102',
+    'TK_LETTERS' => 's 103',
+    'TK_SELECTOR' => 's 104',
+    'TK_VAR' => 's 105',
+    'string' => 's 106',
+    'nums' => 's 107',
   ),
   73 => 
   array (
-    'TK_DIGITS' => 'r 28',
-    'TK_DOT' => 'r 28',
-    'TK_MINUS' => 'r 28',
-    'TK_PLUS' => 'r 28',
-    'TK_LT_EQUAL' => 'r 28',
-    'TK_GT_EQUAL' => 'r 28',
-    'TK_LT' => 'r 28',
-    'TK_GT' => 'r 28',
-    'TK_TAG_NAME' => 'r 28',
-    'TK_VAR' => 'r 28',
-    'TK_LETTERS' => 'r 28',
-    'TK_SLASH' => 'r 28',
-    'TK_EQUAL' => 'r 28',
-    'TK_ASSIGMENT' => 'r 28',
-    'TK_NOT_EQUAL' => 'r 28',
-    'TK_TEXT_NODE' => 'r 28',
-    'TK_SPACE' => 'r 28',
-    'TK_OTHER' => 'r 28',
-    'TK_LOGIC_BEGIN' => 'r 28',
-    'TK_DOUBLE_QUOTE' => 'r 28',
-    'TK_SINGLE_QUOTE' => 'r 28',
+    'TK_OPEN_BRAKETS' => 's 54',
+    'TK_TWO_DOTS' => 's 58',
+    'TK_MULTIPLY' => 's 60',
+    'TK_SLASH' => 's 62',
+    'TK_MINUS' => 'r 82',
+    'TK_PLUS' => 'r 82',
+    'TK_LT' => 'r 82',
+    'TK_GT' => 'r 82',
+    'TK_ASSIGMENT' => 'r 82',
+    'TK_EQUAL' => 's 74',
+    'TK_NOT_EQUAL' => 's 76',
+    'TK_LT_EQUAL' => 's 78',
+    'TK_GT_EQUAL' => 's 80',
+    'TK_LOGIC_AND' => 's 82',
+    'TK_LOGIC_OR' => 's 84',
+    'TK_PIPE' => 's 86',
+    'TK_DOT' => 's 88',
+    'TK_OPEN_SQUARE_BRAKETS' => 's 90',
+    'TK_COMMA' => 'r 82',
+    'TK_LOGIC_END' => 'r 82',
+    'TK_EXCLAMATION_MARK' => 'r 82',
+    'TK_QUESTION_MARK' => 'r 82',
+    'TK_LETTERS' => 'r 82',
+    'TK_SELECTOR' => 'r 82',
+    'TK_VAR' => 'r 82',
+    'TK_DOUBLE_QUOTE' => 'r 82',
+    'TK_SINGLE_QUOTE' => 'r 82',
+    'TK_NUMBERS' => 'r 82',
+    'TK_DIGITS' => 'r 82',
+    'TK_CLOSE_SQUARE_BRAKETS' => 'r 82',
+    'TK_CLOSE_BRAKETS' => 'r 82',
   ),
   74 => 
   array (
-    'string_elements' => 's 75',
-    'string_element' => 's 73',
-    'TK_DIGITS' => 's 28',
-    'TK_DOT' => 's 29',
-    'TK_MINUS' => 's 30',
-    'TK_PLUS' => 's 31',
-    'TK_LT_EQUAL' => 's 32',
-    'TK_GT_EQUAL' => 's 33',
-    'TK_LT' => 's 34',
-    'TK_GT' => 's 35',
-    'TK_TAG_NAME' => 's 36',
-    'TK_VAR' => 's 37',
-    'TK_LETTERS' => 's 38',
-    'TK_SLASH' => 's 39',
-    'TK_EQUAL' => 's 40',
-    'TK_ASSIGMENT' => 's 41',
-    'TK_NOT_EQUAL' => 's 42',
-    'TK_TEXT_NODE' => 's 43',
-    'TK_SPACE' => 's 44',
-    'TK_OTHER' => 's 45',
-    'logic_node' => 's 46',
-    'TK_LOGIC_BEGIN' => 's 47',
+    'TK_DOUBLE_QUOTE' => 's 46',
+    'TK_SINGLE_QUOTE' => 's 48',
+    'exprs_list' => 's 55',
+    'expr' => 's 75',
+    'TK_OPEN_BRAKETS' => 's 95',
+    'complex_var' => 's 98',
+    'TK_EXCLAMATION_MARK' => 's 111',
+    'TK_QUESTION_MARK' => 's 112',
+    'func_name' => 's 113',
+    'TK_NUMBERS' => 's 101',
+    'TK_DIGITS' => 's 102',
+    'TK_LETTERS' => 's 103',
+    'TK_SELECTOR' => 's 104',
+    'TK_VAR' => 's 105',
+    'string' => 's 106',
+    'nums' => 's 107',
   ),
   75 => 
   array (
-    'TK_SINGLE_QUOTE' => 's 76',
-    'string_element' => 's 27',
-    'TK_DIGITS' => 's 28',
-    'TK_DOT' => 's 29',
-    'TK_MINUS' => 's 30',
-    'TK_PLUS' => 's 31',
-    'TK_LT_EQUAL' => 's 32',
-    'TK_GT_EQUAL' => 's 33',
-    'TK_LT' => 's 34',
-    'TK_GT' => 's 35',
-    'TK_TAG_NAME' => 's 36',
-    'TK_VAR' => 's 37',
-    'TK_LETTERS' => 's 38',
-    'TK_SLASH' => 's 39',
-    'TK_EQUAL' => 's 40',
-    'TK_ASSIGMENT' => 's 41',
-    'TK_NOT_EQUAL' => 's 42',
-    'TK_TEXT_NODE' => 's 43',
-    'TK_SPACE' => 's 44',
-    'TK_OTHER' => 's 45',
-    'logic_node' => 's 46',
-    'TK_LOGIC_BEGIN' => 's 47',
+    'TK_OPEN_BRAKETS' => 's 54',
+    'TK_TWO_DOTS' => 's 58',
+    'TK_MULTIPLY' => 's 60',
+    'TK_SLASH' => 's 62',
+    'TK_MINUS' => 'r 83',
+    'TK_PLUS' => 'r 83',
+    'TK_LT' => 'r 83',
+    'TK_GT' => 'r 83',
+    'TK_ASSIGMENT' => 'r 83',
+    'TK_EQUAL' => 'r 83',
+    'TK_NOT_EQUAL' => 's 76',
+    'TK_LT_EQUAL' => 's 78',
+    'TK_GT_EQUAL' => 's 80',
+    'TK_LOGIC_AND' => 's 82',
+    'TK_LOGIC_OR' => 's 84',
+    'TK_PIPE' => 's 86',
+    'TK_DOT' => 's 88',
+    'TK_OPEN_SQUARE_BRAKETS' => 's 90',
+    'TK_COMMA' => 'r 83',
+    'TK_LOGIC_END' => 'r 83',
+    'TK_EXCLAMATION_MARK' => 'r 83',
+    'TK_QUESTION_MARK' => 'r 83',
+    'TK_LETTERS' => 'r 83',
+    'TK_SELECTOR' => 'r 83',
+    'TK_VAR' => 'r 83',
+    'TK_DOUBLE_QUOTE' => 'r 83',
+    'TK_SINGLE_QUOTE' => 'r 83',
+    'TK_NUMBERS' => 'r 83',
+    'TK_DIGITS' => 'r 83',
+    'TK_CLOSE_SQUARE_BRAKETS' => 'r 83',
+    'TK_CLOSE_BRAKETS' => 'r 83',
   ),
   76 => 
   array (
-    'TK_LOGIC_BEGIN' => 'r 27',
-    'TK_LETTERS' => 'r 27',
-    'TK_TAG_NAME' => 'r 27',
-    'TK_SLASH' => 'r 27',
-    'TK_GT' => 'r 27',
+    'TK_DOUBLE_QUOTE' => 's 46',
+    'TK_SINGLE_QUOTE' => 's 48',
+    'exprs_list' => 's 55',
+    'expr' => 's 77',
+    'TK_OPEN_BRAKETS' => 's 95',
+    'complex_var' => 's 98',
+    'TK_EXCLAMATION_MARK' => 's 111',
+    'TK_QUESTION_MARK' => 's 112',
+    'func_name' => 's 113',
+    'TK_NUMBERS' => 's 101',
+    'TK_DIGITS' => 's 102',
+    'TK_LETTERS' => 's 103',
+    'TK_SELECTOR' => 's 104',
+    'TK_VAR' => 's 105',
+    'string' => 's 106',
+    'nums' => 's 107',
   ),
   77 => 
   array (
-    'TK_ASSIGMENT' => 'r 49',
-    'TK_LOGIC_BEGIN' => 'r 49',
-    'TK_LETTERS' => 'r 49',
-    'TK_TAG_NAME' => 'r 49',
-    'TK_SLASH' => 'r 49',
-    'TK_GT' => 'r 49',
+    'TK_OPEN_BRAKETS' => 's 54',
+    'TK_TWO_DOTS' => 's 58',
+    'TK_MULTIPLY' => 's 60',
+    'TK_SLASH' => 's 62',
+    'TK_MINUS' => 'r 84',
+    'TK_PLUS' => 'r 84',
+    'TK_LT' => 'r 84',
+    'TK_GT' => 'r 84',
+    'TK_ASSIGMENT' => 'r 84',
+    'TK_EQUAL' => 'r 84',
+    'TK_NOT_EQUAL' => 'r 84',
+    'TK_LT_EQUAL' => 's 78',
+    'TK_GT_EQUAL' => 's 80',
+    'TK_LOGIC_AND' => 's 82',
+    'TK_LOGIC_OR' => 's 84',
+    'TK_PIPE' => 's 86',
+    'TK_DOT' => 's 88',
+    'TK_OPEN_SQUARE_BRAKETS' => 's 90',
+    'TK_COMMA' => 'r 84',
+    'TK_LOGIC_END' => 'r 84',
+    'TK_EXCLAMATION_MARK' => 'r 84',
+    'TK_QUESTION_MARK' => 'r 84',
+    'TK_LETTERS' => 'r 84',
+    'TK_SELECTOR' => 'r 84',
+    'TK_VAR' => 'r 84',
+    'TK_DOUBLE_QUOTE' => 'r 84',
+    'TK_SINGLE_QUOTE' => 'r 84',
+    'TK_NUMBERS' => 'r 84',
+    'TK_DIGITS' => 'r 84',
+    'TK_CLOSE_SQUARE_BRAKETS' => 'r 84',
+    'TK_CLOSE_BRAKETS' => 'r 84',
   ),
   78 => 
   array (
-    'TK_LOGIC_BEGIN' => 'r 16',
-    'TK_LETTERS' => 'r 16',
-    'TK_TAG_NAME' => 'r 16',
-    'TK_SLASH' => 'r 16',
-    'TK_GT' => 'r 16',
+    'TK_DOUBLE_QUOTE' => 's 46',
+    'TK_SINGLE_QUOTE' => 's 48',
+    'exprs_list' => 's 55',
+    'expr' => 's 79',
+    'TK_OPEN_BRAKETS' => 's 95',
+    'complex_var' => 's 98',
+    'TK_EXCLAMATION_MARK' => 's 111',
+    'TK_QUESTION_MARK' => 's 112',
+    'func_name' => 's 113',
+    'TK_NUMBERS' => 's 101',
+    'TK_DIGITS' => 's 102',
+    'TK_LETTERS' => 's 103',
+    'TK_SELECTOR' => 's 104',
+    'TK_VAR' => 's 105',
+    'string' => 's 106',
+    'nums' => 's 107',
   ),
   79 => 
   array (
-    'TK_LOGIC_BEGIN' => 'r 17',
-    'TK_LETTERS' => 'r 17',
-    'TK_TAG_NAME' => 'r 17',
-    'TK_SLASH' => 'r 17',
-    'TK_GT' => 'r 17',
+    'TK_OPEN_BRAKETS' => 's 54',
+    'TK_TWO_DOTS' => 's 58',
+    'TK_MULTIPLY' => 's 60',
+    'TK_SLASH' => 's 62',
+    'TK_MINUS' => 'r 85',
+    'TK_PLUS' => 'r 85',
+    'TK_LT' => 'r 85',
+    'TK_GT' => 'r 85',
+    'TK_ASSIGMENT' => 'r 85',
+    'TK_EQUAL' => 'r 85',
+    'TK_NOT_EQUAL' => 'r 85',
+    'TK_LT_EQUAL' => 'r 85',
+    'TK_GT_EQUAL' => 's 80',
+    'TK_LOGIC_AND' => 's 82',
+    'TK_LOGIC_OR' => 's 84',
+    'TK_PIPE' => 's 86',
+    'TK_DOT' => 's 88',
+    'TK_OPEN_SQUARE_BRAKETS' => 's 90',
+    'TK_COMMA' => 'r 85',
+    'TK_LOGIC_END' => 'r 85',
+    'TK_EXCLAMATION_MARK' => 'r 85',
+    'TK_QUESTION_MARK' => 'r 85',
+    'TK_LETTERS' => 'r 85',
+    'TK_SELECTOR' => 'r 85',
+    'TK_VAR' => 'r 85',
+    'TK_DOUBLE_QUOTE' => 'r 85',
+    'TK_SINGLE_QUOTE' => 'r 85',
+    'TK_NUMBERS' => 'r 85',
+    'TK_DIGITS' => 'r 85',
+    'TK_CLOSE_SQUARE_BRAKETS' => 'r 85',
+    'TK_CLOSE_BRAKETS' => 'r 85',
   ),
   80 => 
   array (
-    'tag_name' => 's 81',
-    'TK_LETTERS' => 's 10',
-    'TK_TAG_NAME' => 's 11',
+    'TK_DOUBLE_QUOTE' => 's 46',
+    'TK_SINGLE_QUOTE' => 's 48',
+    'exprs_list' => 's 55',
+    'expr' => 's 81',
+    'TK_OPEN_BRAKETS' => 's 95',
+    'complex_var' => 's 98',
+    'TK_EXCLAMATION_MARK' => 's 111',
+    'TK_QUESTION_MARK' => 's 112',
+    'func_name' => 's 113',
+    'TK_NUMBERS' => 's 101',
+    'TK_DIGITS' => 's 102',
+    'TK_LETTERS' => 's 103',
+    'TK_SELECTOR' => 's 104',
+    'TK_VAR' => 's 105',
+    'string' => 's 106',
+    'nums' => 's 107',
   ),
   81 => 
   array (
-    'TK_GT' => 's 82',
+    'TK_OPEN_BRAKETS' => 's 54',
+    'TK_TWO_DOTS' => 's 58',
+    'TK_MULTIPLY' => 's 60',
+    'TK_SLASH' => 's 62',
+    'TK_MINUS' => 'r 86',
+    'TK_PLUS' => 'r 86',
+    'TK_LT' => 'r 86',
+    'TK_GT' => 'r 86',
+    'TK_ASSIGMENT' => 'r 86',
+    'TK_EQUAL' => 'r 86',
+    'TK_NOT_EQUAL' => 'r 86',
+    'TK_LT_EQUAL' => 'r 86',
+    'TK_GT_EQUAL' => 'r 86',
+    'TK_LOGIC_AND' => 's 82',
+    'TK_LOGIC_OR' => 's 84',
+    'TK_PIPE' => 's 86',
+    'TK_DOT' => 's 88',
+    'TK_OPEN_SQUARE_BRAKETS' => 's 90',
+    'TK_COMMA' => 'r 86',
+    'TK_LOGIC_END' => 'r 86',
+    'TK_EXCLAMATION_MARK' => 'r 86',
+    'TK_QUESTION_MARK' => 'r 86',
+    'TK_LETTERS' => 'r 86',
+    'TK_SELECTOR' => 'r 86',
+    'TK_VAR' => 'r 86',
+    'TK_DOUBLE_QUOTE' => 'r 86',
+    'TK_SINGLE_QUOTE' => 'r 86',
+    'TK_NUMBERS' => 'r 86',
+    'TK_DIGITS' => 'r 86',
+    'TK_CLOSE_SQUARE_BRAKETS' => 'r 86',
+    'TK_CLOSE_BRAKETS' => 'r 86',
   ),
   82 => 
+  array (
+    'TK_DOUBLE_QUOTE' => 's 46',
+    'TK_SINGLE_QUOTE' => 's 48',
+    'exprs_list' => 's 55',
+    'expr' => 's 83',
+    'TK_OPEN_BRAKETS' => 's 95',
+    'complex_var' => 's 98',
+    'TK_EXCLAMATION_MARK' => 's 111',
+    'TK_QUESTION_MARK' => 's 112',
+    'func_name' => 's 113',
+    'TK_NUMBERS' => 's 101',
+    'TK_DIGITS' => 's 102',
+    'TK_LETTERS' => 's 103',
+    'TK_SELECTOR' => 's 104',
+    'TK_VAR' => 's 105',
+    'string' => 's 106',
+    'nums' => 's 107',
+  ),
+  83 => 
+  array (
+    'TK_OPEN_BRAKETS' => 's 54',
+    'TK_TWO_DOTS' => 's 58',
+    'TK_MULTIPLY' => 's 60',
+    'TK_SLASH' => 's 62',
+    'TK_MINUS' => 'r 87',
+    'TK_PLUS' => 'r 87',
+    'TK_LT' => 'r 87',
+    'TK_GT' => 'r 87',
+    'TK_ASSIGMENT' => 'r 87',
+    'TK_EQUAL' => 'r 87',
+    'TK_NOT_EQUAL' => 'r 87',
+    'TK_LT_EQUAL' => 'r 87',
+    'TK_GT_EQUAL' => 'r 87',
+    'TK_LOGIC_AND' => 'r 87',
+    'TK_LOGIC_OR' => 's 84',
+    'TK_PIPE' => 's 86',
+    'TK_DOT' => 's 88',
+    'TK_OPEN_SQUARE_BRAKETS' => 's 90',
+    'TK_COMMA' => 'r 87',
+    'TK_LOGIC_END' => 'r 87',
+    'TK_EXCLAMATION_MARK' => 'r 87',
+    'TK_QUESTION_MARK' => 'r 87',
+    'TK_LETTERS' => 'r 87',
+    'TK_SELECTOR' => 'r 87',
+    'TK_VAR' => 'r 87',
+    'TK_DOUBLE_QUOTE' => 'r 87',
+    'TK_SINGLE_QUOTE' => 'r 87',
+    'TK_NUMBERS' => 'r 87',
+    'TK_DIGITS' => 'r 87',
+    'TK_CLOSE_SQUARE_BRAKETS' => 'r 87',
+    'TK_CLOSE_BRAKETS' => 'r 87',
+  ),
+  84 => 
+  array (
+    'TK_DOUBLE_QUOTE' => 's 46',
+    'TK_SINGLE_QUOTE' => 's 48',
+    'exprs_list' => 's 55',
+    'expr' => 's 85',
+    'TK_OPEN_BRAKETS' => 's 95',
+    'complex_var' => 's 98',
+    'TK_EXCLAMATION_MARK' => 's 111',
+    'TK_QUESTION_MARK' => 's 112',
+    'func_name' => 's 113',
+    'TK_NUMBERS' => 's 101',
+    'TK_DIGITS' => 's 102',
+    'TK_LETTERS' => 's 103',
+    'TK_SELECTOR' => 's 104',
+    'TK_VAR' => 's 105',
+    'string' => 's 106',
+    'nums' => 's 107',
+  ),
+  85 => 
+  array (
+    'TK_OPEN_BRAKETS' => 's 54',
+    'TK_TWO_DOTS' => 's 58',
+    'TK_MULTIPLY' => 's 60',
+    'TK_SLASH' => 's 62',
+    'TK_MINUS' => 'r 88',
+    'TK_PLUS' => 'r 88',
+    'TK_LT' => 'r 88',
+    'TK_GT' => 'r 88',
+    'TK_ASSIGMENT' => 'r 88',
+    'TK_EQUAL' => 'r 88',
+    'TK_NOT_EQUAL' => 'r 88',
+    'TK_LT_EQUAL' => 'r 88',
+    'TK_GT_EQUAL' => 'r 88',
+    'TK_LOGIC_AND' => 'r 88',
+    'TK_LOGIC_OR' => 'r 88',
+    'TK_PIPE' => 's 86',
+    'TK_DOT' => 's 88',
+    'TK_OPEN_SQUARE_BRAKETS' => 's 90',
+    'TK_COMMA' => 'r 88',
+    'TK_LOGIC_END' => 'r 88',
+    'TK_EXCLAMATION_MARK' => 'r 88',
+    'TK_QUESTION_MARK' => 'r 88',
+    'TK_LETTERS' => 'r 88',
+    'TK_SELECTOR' => 'r 88',
+    'TK_VAR' => 'r 88',
+    'TK_DOUBLE_QUOTE' => 'r 88',
+    'TK_SINGLE_QUOTE' => 'r 88',
+    'TK_NUMBERS' => 'r 88',
+    'TK_DIGITS' => 'r 88',
+    'TK_CLOSE_SQUARE_BRAKETS' => 'r 88',
+    'TK_CLOSE_BRAKETS' => 'r 88',
+  ),
+  86 => 
+  array (
+    'TK_DOUBLE_QUOTE' => 's 46',
+    'TK_SINGLE_QUOTE' => 's 48',
+    'exprs_list' => 's 55',
+    'expr' => 's 87',
+    'TK_OPEN_BRAKETS' => 's 95',
+    'complex_var' => 's 98',
+    'TK_EXCLAMATION_MARK' => 's 111',
+    'TK_QUESTION_MARK' => 's 112',
+    'func_name' => 's 113',
+    'TK_NUMBERS' => 's 101',
+    'TK_DIGITS' => 's 102',
+    'TK_LETTERS' => 's 103',
+    'TK_SELECTOR' => 's 104',
+    'TK_VAR' => 's 105',
+    'string' => 's 106',
+    'nums' => 's 107',
+  ),
+  87 => 
+  array (
+    'TK_OPEN_BRAKETS' => 's 54',
+    'TK_TWO_DOTS' => 's 58',
+    'TK_MULTIPLY' => 's 60',
+    'TK_SLASH' => 's 62',
+    'TK_MINUS' => 'r 89',
+    'TK_PLUS' => 'r 89',
+    'TK_LT' => 'r 89',
+    'TK_GT' => 'r 89',
+    'TK_ASSIGMENT' => 'r 89',
+    'TK_EQUAL' => 'r 89',
+    'TK_NOT_EQUAL' => 'r 89',
+    'TK_LT_EQUAL' => 'r 89',
+    'TK_GT_EQUAL' => 'r 89',
+    'TK_LOGIC_AND' => 'r 89',
+    'TK_LOGIC_OR' => 'r 89',
+    'TK_PIPE' => 'r 89',
+    'TK_DOT' => 's 88',
+    'TK_OPEN_SQUARE_BRAKETS' => 's 90',
+    'TK_COMMA' => 'r 89',
+    'TK_LOGIC_END' => 'r 89',
+    'TK_EXCLAMATION_MARK' => 'r 89',
+    'TK_QUESTION_MARK' => 'r 89',
+    'TK_LETTERS' => 'r 89',
+    'TK_SELECTOR' => 'r 89',
+    'TK_VAR' => 'r 89',
+    'TK_DOUBLE_QUOTE' => 'r 89',
+    'TK_SINGLE_QUOTE' => 'r 89',
+    'TK_NUMBERS' => 'r 89',
+    'TK_DIGITS' => 'r 89',
+    'TK_CLOSE_SQUARE_BRAKETS' => 'r 89',
+    'TK_CLOSE_BRAKETS' => 'r 89',
+  ),
+  88 => 
+  array (
+    'TK_DOUBLE_QUOTE' => 's 46',
+    'TK_SINGLE_QUOTE' => 's 48',
+    'exprs_list' => 's 55',
+    'expr' => 's 89',
+    'TK_OPEN_BRAKETS' => 's 95',
+    'complex_var' => 's 98',
+    'TK_EXCLAMATION_MARK' => 's 111',
+    'TK_QUESTION_MARK' => 's 112',
+    'func_name' => 's 113',
+    'TK_NUMBERS' => 's 101',
+    'TK_DIGITS' => 's 102',
+    'TK_LETTERS' => 's 103',
+    'TK_SELECTOR' => 's 104',
+    'TK_VAR' => 's 105',
+    'string' => 's 106',
+    'nums' => 's 107',
+  ),
+  89 => 
+  array (
+    'TK_OPEN_BRAKETS' => 's 54',
+    'TK_TWO_DOTS' => 's 58',
+    'TK_MULTIPLY' => 's 60',
+    'TK_SLASH' => 's 62',
+    'TK_MINUS' => 's 64',
+    'TK_PLUS' => 's 66',
+    'TK_LT' => 's 68',
+    'TK_GT' => 's 70',
+    'TK_ASSIGMENT' => 's 72',
+    'TK_EQUAL' => 's 74',
+    'TK_NOT_EQUAL' => 's 76',
+    'TK_LT_EQUAL' => 's 78',
+    'TK_GT_EQUAL' => 's 80',
+    'TK_LOGIC_AND' => 's 82',
+    'TK_LOGIC_OR' => 's 84',
+    'TK_PIPE' => 's 86',
+    'TK_DOT' => 's 88',
+    'TK_OPEN_SQUARE_BRAKETS' => 's 90',
+    'TK_COMMA' => 's 93',
+    'TK_LOGIC_END' => 'r 94',
+    'TK_EXCLAMATION_MARK' => 'r 94',
+    'TK_QUESTION_MARK' => 'r 94',
+    'TK_LETTERS' => 'r 94',
+    'TK_SELECTOR' => 'r 94',
+    'TK_VAR' => 'r 94',
+    'TK_DOUBLE_QUOTE' => 'r 94',
+    'TK_SINGLE_QUOTE' => 'r 94',
+    'TK_NUMBERS' => 'r 94',
+    'TK_DIGITS' => 'r 94',
+    'TK_CLOSE_SQUARE_BRAKETS' => 'r 94',
+    'TK_CLOSE_BRAKETS' => 'r 94',
+  ),
+  90 => 
+  array (
+    'TK_DOUBLE_QUOTE' => 's 46',
+    'TK_SINGLE_QUOTE' => 's 48',
+    'exprs_list' => 's 55',
+    'expr' => 's 91',
+    'TK_OPEN_BRAKETS' => 's 95',
+    'complex_var' => 's 98',
+    'TK_EXCLAMATION_MARK' => 's 111',
+    'TK_QUESTION_MARK' => 's 112',
+    'func_name' => 's 113',
+    'TK_NUMBERS' => 's 101',
+    'TK_DIGITS' => 's 102',
+    'TK_LETTERS' => 's 103',
+    'TK_SELECTOR' => 's 104',
+    'TK_VAR' => 's 105',
+    'string' => 's 106',
+    'nums' => 's 107',
+  ),
+  91 => 
+  array (
+    'TK_OPEN_BRAKETS' => 's 54',
+    'TK_TWO_DOTS' => 's 58',
+    'TK_MULTIPLY' => 's 60',
+    'TK_SLASH' => 's 62',
+    'TK_MINUS' => 's 64',
+    'TK_PLUS' => 's 66',
+    'TK_LT' => 's 68',
+    'TK_GT' => 's 70',
+    'TK_ASSIGMENT' => 's 72',
+    'TK_EQUAL' => 's 74',
+    'TK_NOT_EQUAL' => 's 76',
+    'TK_LT_EQUAL' => 's 78',
+    'TK_GT_EQUAL' => 's 80',
+    'TK_LOGIC_AND' => 's 82',
+    'TK_LOGIC_OR' => 's 84',
+    'TK_PIPE' => 's 86',
+    'TK_DOT' => 's 88',
+    'TK_OPEN_SQUARE_BRAKETS' => 's 90',
+    'TK_CLOSE_SQUARE_BRAKETS' => 's 92',
+    'TK_COMMA' => 's 93',
+  ),
+  92 => 
+  array (
+    'TK_DOT' => 'r 95',
+    'TK_OPEN_SQUARE_BRAKETS' => 'r 95',
+    'TK_PIPE' => 'r 95',
+    'TK_LOGIC_OR' => 'r 95',
+    'TK_LOGIC_AND' => 'r 95',
+    'TK_GT_EQUAL' => 'r 95',
+    'TK_LT_EQUAL' => 'r 95',
+    'TK_NOT_EQUAL' => 'r 95',
+    'TK_EQUAL' => 'r 95',
+    'TK_ASSIGMENT' => 'r 95',
+    'TK_GT' => 'r 95',
+    'TK_LT' => 'r 95',
+    'TK_PLUS' => 'r 95',
+    'TK_MINUS' => 'r 95',
+    'TK_SLASH' => 'r 95',
+    'TK_MULTIPLY' => 'r 95',
+    'TK_TWO_DOTS' => 'r 95',
+    'TK_OPEN_BRAKETS' => 'r 95',
+    'TK_COMMA' => 'r 95',
+    'TK_LOGIC_END' => 'r 95',
+    'TK_EXCLAMATION_MARK' => 'r 95',
+    'TK_QUESTION_MARK' => 'r 95',
+    'TK_LETTERS' => 'r 95',
+    'TK_SELECTOR' => 'r 95',
+    'TK_VAR' => 'r 95',
+    'TK_DOUBLE_QUOTE' => 'r 95',
+    'TK_SINGLE_QUOTE' => 'r 95',
+    'TK_NUMBERS' => 'r 95',
+    'TK_DIGITS' => 'r 95',
+    'TK_CLOSE_SQUARE_BRAKETS' => 'r 95',
+    'TK_CLOSE_BRAKETS' => 'r 95',
+  ),
+  93 => 
+  array (
+    'TK_DOUBLE_QUOTE' => 's 46',
+    'TK_SINGLE_QUOTE' => 's 48',
+    'exprs_list' => 's 55',
+    'expr' => 's 94',
+    'TK_OPEN_BRAKETS' => 's 95',
+    'complex_var' => 's 98',
+    'TK_EXCLAMATION_MARK' => 's 111',
+    'TK_QUESTION_MARK' => 's 112',
+    'func_name' => 's 113',
+    'TK_NUMBERS' => 's 101',
+    'TK_DIGITS' => 's 102',
+    'TK_LETTERS' => 's 103',
+    'TK_SELECTOR' => 's 104',
+    'TK_VAR' => 's 105',
+    'string' => 's 106',
+    'nums' => 's 107',
+  ),
+  94 => 
+  array (
+    'TK_OPEN_BRAKETS' => 's 54',
+    'TK_TWO_DOTS' => 's 58',
+    'TK_MULTIPLY' => 's 60',
+    'TK_SLASH' => 's 62',
+    'TK_MINUS' => 's 64',
+    'TK_PLUS' => 's 66',
+    'TK_LT' => 's 68',
+    'TK_GT' => 's 70',
+    'TK_ASSIGMENT' => 's 72',
+    'TK_EQUAL' => 's 74',
+    'TK_NOT_EQUAL' => 's 76',
+    'TK_LT_EQUAL' => 's 78',
+    'TK_GT_EQUAL' => 's 80',
+    'TK_LOGIC_AND' => 's 82',
+    'TK_LOGIC_OR' => 's 84',
+    'TK_PIPE' => 's 86',
+    'TK_DOT' => 's 88',
+    'TK_OPEN_SQUARE_BRAKETS' => 's 90',
+    'TK_COMMA' => 'r 98',
+    'TK_LOGIC_END' => 'r 98',
+    'TK_EXCLAMATION_MARK' => 'r 98',
+    'TK_QUESTION_MARK' => 'r 98',
+    'TK_LETTERS' => 'r 98',
+    'TK_SELECTOR' => 'r 98',
+    'TK_VAR' => 'r 98',
+    'TK_DOUBLE_QUOTE' => 'r 98',
+    'TK_SINGLE_QUOTE' => 'r 98',
+    'TK_NUMBERS' => 'r 98',
+    'TK_DIGITS' => 'r 98',
+    'TK_CLOSE_SQUARE_BRAKETS' => 'r 98',
+    'TK_CLOSE_BRAKETS' => 'r 98',
+  ),
+  95 => 
+  array (
+    'TK_DOUBLE_QUOTE' => 's 46',
+    'TK_SINGLE_QUOTE' => 's 48',
+    'exprs_list' => 's 55',
+    'expr' => 's 96',
+    'TK_OPEN_BRAKETS' => 's 95',
+    'complex_var' => 's 98',
+    'TK_EXCLAMATION_MARK' => 's 111',
+    'TK_QUESTION_MARK' => 's 112',
+    'func_name' => 's 113',
+    'TK_NUMBERS' => 's 101',
+    'TK_DIGITS' => 's 102',
+    'TK_LETTERS' => 's 103',
+    'TK_SELECTOR' => 's 104',
+    'TK_VAR' => 's 105',
+    'string' => 's 106',
+    'nums' => 's 107',
+  ),
+  96 => 
+  array (
+    'TK_OPEN_BRAKETS' => 's 54',
+    'TK_CLOSE_BRAKETS' => 's 97',
+    'TK_TWO_DOTS' => 's 58',
+    'TK_MULTIPLY' => 's 60',
+    'TK_SLASH' => 's 62',
+    'TK_MINUS' => 's 64',
+    'TK_PLUS' => 's 66',
+    'TK_LT' => 's 68',
+    'TK_GT' => 's 70',
+    'TK_ASSIGMENT' => 's 72',
+    'TK_EQUAL' => 's 74',
+    'TK_NOT_EQUAL' => 's 76',
+    'TK_LT_EQUAL' => 's 78',
+    'TK_GT_EQUAL' => 's 80',
+    'TK_LOGIC_AND' => 's 82',
+    'TK_LOGIC_OR' => 's 84',
+    'TK_PIPE' => 's 86',
+    'TK_DOT' => 's 88',
+    'TK_OPEN_SQUARE_BRAKETS' => 's 90',
+    'TK_COMMA' => 's 93',
+  ),
+  97 => 
+  array (
+    'TK_TWO_DOTS' => 'r 74',
+    'TK_OPEN_BRAKETS' => 'r 74',
+    'TK_COMMA' => 'r 74',
+    'TK_MULTIPLY' => 'r 74',
+    'TK_SLASH' => 'r 74',
+    'TK_MINUS' => 'r 74',
+    'TK_PLUS' => 'r 74',
+    'TK_LT' => 'r 74',
+    'TK_GT' => 'r 74',
+    'TK_ASSIGMENT' => 'r 74',
+    'TK_EQUAL' => 'r 74',
+    'TK_NOT_EQUAL' => 'r 74',
+    'TK_LT_EQUAL' => 'r 74',
+    'TK_GT_EQUAL' => 'r 74',
+    'TK_LOGIC_AND' => 'r 74',
+    'TK_LOGIC_OR' => 'r 74',
+    'TK_PIPE' => 'r 74',
+    'TK_OPEN_SQUARE_BRAKETS' => 'r 74',
+    'TK_DOT' => 'r 74',
+    'TK_EXCLAMATION_MARK' => 'r 74',
+    'TK_QUESTION_MARK' => 'r 74',
+    'TK_LETTERS' => 'r 74',
+    'TK_SELECTOR' => 'r 74',
+    'TK_VAR' => 'r 74',
+    'TK_DOUBLE_QUOTE' => 'r 74',
+    'TK_SINGLE_QUOTE' => 'r 74',
+    'TK_NUMBERS' => 'r 74',
+    'TK_DIGITS' => 'r 74',
+    'TK_LOGIC_END' => 'r 74',
+    'TK_CLOSE_BRAKETS' => 'r 74',
+    'TK_CLOSE_SQUARE_BRAKETS' => 'r 74',
+  ),
+  98 => 
+  array (
+    'TK_DOT' => 's 99',
+    'TK_OPEN_SQUARE_BRAKETS' => 's 108',
+    'TK_PIPE' => 'r 90',
+    'TK_LOGIC_OR' => 'r 90',
+    'TK_LOGIC_AND' => 'r 90',
+    'TK_GT_EQUAL' => 'r 90',
+    'TK_LT_EQUAL' => 'r 90',
+    'TK_NOT_EQUAL' => 'r 90',
+    'TK_EQUAL' => 'r 90',
+    'TK_ASSIGMENT' => 'r 90',
+    'TK_GT' => 'r 90',
+    'TK_LT' => 'r 90',
+    'TK_PLUS' => 'r 90',
+    'TK_MINUS' => 'r 90',
+    'TK_SLASH' => 'r 90',
+    'TK_MULTIPLY' => 'r 90',
+    'TK_TWO_DOTS' => 'r 90',
+    'TK_OPEN_BRAKETS' => 'r 90',
+    'TK_COMMA' => 'r 90',
+    'TK_EXCLAMATION_MARK' => 'r 90',
+    'TK_QUESTION_MARK' => 'r 90',
+    'TK_LETTERS' => 'r 90',
+    'TK_SELECTOR' => 'r 90',
+    'TK_VAR' => 'r 90',
+    'TK_DOUBLE_QUOTE' => 'r 90',
+    'TK_SINGLE_QUOTE' => 'r 90',
+    'TK_NUMBERS' => 'r 90',
+    'TK_DIGITS' => 'r 90',
+    'TK_LOGIC_END' => 'r 90',
+    'TK_CLOSE_BRAKETS' => 'r 90',
+    'TK_CLOSE_SQUARE_BRAKETS' => 'r 90',
+  ),
+  99 => 
+  array (
+    'TK_DOUBLE_QUOTE' => 's 46',
+    'TK_SINGLE_QUOTE' => 's 48',
+    'func_name' => 's 100',
+    'TK_NUMBERS' => 's 101',
+    'TK_DIGITS' => 's 102',
+    'TK_LETTERS' => 's 103',
+    'TK_SELECTOR' => 's 104',
+    'TK_VAR' => 's 105',
+    'string' => 's 106',
+    'nums' => 's 107',
+  ),
+  100 => 
+  array (
+    'TK_OPEN_SQUARE_BRAKETS' => 'r 96',
+    'TK_DOT' => 'r 96',
+    'TK_PIPE' => 'r 96',
+    'TK_LOGIC_OR' => 'r 96',
+    'TK_LOGIC_AND' => 'r 96',
+    'TK_GT_EQUAL' => 'r 96',
+    'TK_LT_EQUAL' => 'r 96',
+    'TK_NOT_EQUAL' => 'r 96',
+    'TK_EQUAL' => 'r 96',
+    'TK_ASSIGMENT' => 'r 96',
+    'TK_GT' => 'r 96',
+    'TK_LT' => 'r 96',
+    'TK_PLUS' => 'r 96',
+    'TK_MINUS' => 'r 96',
+    'TK_SLASH' => 'r 96',
+    'TK_MULTIPLY' => 'r 96',
+    'TK_TWO_DOTS' => 'r 96',
+    'TK_OPEN_BRAKETS' => 'r 96',
+    'TK_COMMA' => 'r 96',
+    'TK_EXCLAMATION_MARK' => 'r 96',
+    'TK_QUESTION_MARK' => 'r 96',
+    'TK_LETTERS' => 'r 96',
+    'TK_SELECTOR' => 'r 96',
+    'TK_VAR' => 'r 96',
+    'TK_DOUBLE_QUOTE' => 'r 96',
+    'TK_SINGLE_QUOTE' => 'r 96',
+    'TK_NUMBERS' => 'r 96',
+    'TK_DIGITS' => 'r 96',
+    'TK_LOGIC_END' => 'r 96',
+    'TK_CLOSE_BRAKETS' => 'r 96',
+    'TK_CLOSE_SQUARE_BRAKETS' => 'r 96',
+  ),
+  101 => 
+  array (
+    'TK_OPEN_SQUARE_BRAKETS' => 'r 100',
+    'TK_PIPE' => 'r 100',
+    'TK_LOGIC_OR' => 'r 100',
+    'TK_LOGIC_AND' => 'r 100',
+    'TK_GT_EQUAL' => 'r 100',
+    'TK_LT_EQUAL' => 'r 100',
+    'TK_NOT_EQUAL' => 'r 100',
+    'TK_EQUAL' => 'r 100',
+    'TK_ASSIGMENT' => 'r 100',
+    'TK_GT' => 'r 100',
+    'TK_LT' => 'r 100',
+    'TK_PLUS' => 'r 100',
+    'TK_MINUS' => 'r 100',
+    'TK_SLASH' => 'r 100',
+    'TK_MULTIPLY' => 'r 100',
+    'TK_TWO_DOTS' => 'r 100',
+    'TK_OPEN_BRAKETS' => 'r 100',
+    'TK_COMMA' => 'r 100',
+    'TK_DOT' => 'r 100',
+    'TK_EXCLAMATION_MARK' => 'r 100',
+    'TK_QUESTION_MARK' => 'r 100',
+    'TK_LETTERS' => 'r 100',
+    'TK_SELECTOR' => 'r 100',
+    'TK_VAR' => 'r 100',
+    'TK_DOUBLE_QUOTE' => 'r 100',
+    'TK_SINGLE_QUOTE' => 'r 100',
+    'TK_NUMBERS' => 'r 100',
+    'TK_DIGITS' => 'r 100',
+    'TK_LOGIC_END' => 'r 100',
+    'TK_CLOSE_BRAKETS' => 'r 100',
+    'TK_CLOSE_SQUARE_BRAKETS' => 'r 100',
+  ),
+  102 => 
+  array (
+    'TK_OPEN_SQUARE_BRAKETS' => 'r 101',
+    'TK_PIPE' => 'r 101',
+    'TK_LOGIC_OR' => 'r 101',
+    'TK_LOGIC_AND' => 'r 101',
+    'TK_GT_EQUAL' => 'r 101',
+    'TK_LT_EQUAL' => 'r 101',
+    'TK_NOT_EQUAL' => 'r 101',
+    'TK_EQUAL' => 'r 101',
+    'TK_ASSIGMENT' => 'r 101',
+    'TK_GT' => 'r 101',
+    'TK_LT' => 'r 101',
+    'TK_PLUS' => 'r 101',
+    'TK_MINUS' => 'r 101',
+    'TK_SLASH' => 'r 101',
+    'TK_MULTIPLY' => 'r 101',
+    'TK_TWO_DOTS' => 'r 101',
+    'TK_OPEN_BRAKETS' => 'r 101',
+    'TK_COMMA' => 'r 101',
+    'TK_DOT' => 'r 101',
+    'TK_EXCLAMATION_MARK' => 'r 101',
+    'TK_QUESTION_MARK' => 'r 101',
+    'TK_LETTERS' => 'r 101',
+    'TK_SELECTOR' => 'r 101',
+    'TK_VAR' => 'r 101',
+    'TK_DOUBLE_QUOTE' => 'r 101',
+    'TK_SINGLE_QUOTE' => 'r 101',
+    'TK_NUMBERS' => 'r 101',
+    'TK_DIGITS' => 'r 101',
+    'TK_LOGIC_END' => 'r 101',
+    'TK_CLOSE_BRAKETS' => 'r 101',
+    'TK_CLOSE_SQUARE_BRAKETS' => 'r 101',
+  ),
+  103 => 
+  array (
+    'TK_OPEN_SQUARE_BRAKETS' => 'r 102',
+    'TK_PIPE' => 'r 102',
+    'TK_LOGIC_OR' => 'r 102',
+    'TK_LOGIC_AND' => 'r 102',
+    'TK_GT_EQUAL' => 'r 102',
+    'TK_LT_EQUAL' => 'r 102',
+    'TK_NOT_EQUAL' => 'r 102',
+    'TK_EQUAL' => 'r 102',
+    'TK_ASSIGMENT' => 'r 102',
+    'TK_GT' => 'r 102',
+    'TK_LT' => 'r 102',
+    'TK_PLUS' => 'r 102',
+    'TK_MINUS' => 'r 102',
+    'TK_SLASH' => 'r 102',
+    'TK_MULTIPLY' => 'r 102',
+    'TK_TWO_DOTS' => 'r 102',
+    'TK_OPEN_BRAKETS' => 'r 102',
+    'TK_COMMA' => 'r 102',
+    'TK_DOT' => 'r 102',
+    'TK_EXCLAMATION_MARK' => 'r 102',
+    'TK_QUESTION_MARK' => 'r 102',
+    'TK_LETTERS' => 'r 102',
+    'TK_SELECTOR' => 'r 102',
+    'TK_VAR' => 'r 102',
+    'TK_DOUBLE_QUOTE' => 'r 102',
+    'TK_SINGLE_QUOTE' => 'r 102',
+    'TK_NUMBERS' => 'r 102',
+    'TK_DIGITS' => 'r 102',
+    'TK_LOGIC_END' => 'r 102',
+    'TK_CLOSE_BRAKETS' => 'r 102',
+    'TK_CLOSE_SQUARE_BRAKETS' => 'r 102',
+  ),
+  104 => 
+  array (
+    'TK_OPEN_SQUARE_BRAKETS' => 'r 103',
+    'TK_PIPE' => 'r 103',
+    'TK_LOGIC_OR' => 'r 103',
+    'TK_LOGIC_AND' => 'r 103',
+    'TK_GT_EQUAL' => 'r 103',
+    'TK_LT_EQUAL' => 'r 103',
+    'TK_NOT_EQUAL' => 'r 103',
+    'TK_EQUAL' => 'r 103',
+    'TK_ASSIGMENT' => 'r 103',
+    'TK_GT' => 'r 103',
+    'TK_LT' => 'r 103',
+    'TK_PLUS' => 'r 103',
+    'TK_MINUS' => 'r 103',
+    'TK_SLASH' => 'r 103',
+    'TK_MULTIPLY' => 'r 103',
+    'TK_TWO_DOTS' => 'r 103',
+    'TK_OPEN_BRAKETS' => 'r 103',
+    'TK_COMMA' => 'r 103',
+    'TK_DOT' => 'r 103',
+    'TK_EXCLAMATION_MARK' => 'r 103',
+    'TK_QUESTION_MARK' => 'r 103',
+    'TK_LETTERS' => 'r 103',
+    'TK_SELECTOR' => 'r 103',
+    'TK_VAR' => 'r 103',
+    'TK_DOUBLE_QUOTE' => 'r 103',
+    'TK_SINGLE_QUOTE' => 'r 103',
+    'TK_NUMBERS' => 'r 103',
+    'TK_DIGITS' => 'r 103',
+    'TK_LOGIC_END' => 'r 103',
+    'TK_CLOSE_BRAKETS' => 'r 103',
+    'TK_CLOSE_SQUARE_BRAKETS' => 'r 103',
+  ),
+  105 => 
+  array (
+    'TK_OPEN_SQUARE_BRAKETS' => 'r 104',
+    'TK_PIPE' => 'r 104',
+    'TK_LOGIC_OR' => 'r 104',
+    'TK_LOGIC_AND' => 'r 104',
+    'TK_GT_EQUAL' => 'r 104',
+    'TK_LT_EQUAL' => 'r 104',
+    'TK_NOT_EQUAL' => 'r 104',
+    'TK_EQUAL' => 'r 104',
+    'TK_ASSIGMENT' => 'r 104',
+    'TK_GT' => 'r 104',
+    'TK_LT' => 'r 104',
+    'TK_PLUS' => 'r 104',
+    'TK_MINUS' => 'r 104',
+    'TK_SLASH' => 'r 104',
+    'TK_MULTIPLY' => 'r 104',
+    'TK_TWO_DOTS' => 'r 104',
+    'TK_OPEN_BRAKETS' => 'r 104',
+    'TK_COMMA' => 'r 104',
+    'TK_DOT' => 'r 104',
+    'TK_EXCLAMATION_MARK' => 'r 104',
+    'TK_QUESTION_MARK' => 'r 104',
+    'TK_LETTERS' => 'r 104',
+    'TK_SELECTOR' => 'r 104',
+    'TK_VAR' => 'r 104',
+    'TK_DOUBLE_QUOTE' => 'r 104',
+    'TK_SINGLE_QUOTE' => 'r 104',
+    'TK_NUMBERS' => 'r 104',
+    'TK_DIGITS' => 'r 104',
+    'TK_LOGIC_END' => 'r 104',
+    'TK_CLOSE_BRAKETS' => 'r 104',
+    'TK_CLOSE_SQUARE_BRAKETS' => 'r 104',
+  ),
+  106 => 
+  array (
+    'TK_OPEN_SQUARE_BRAKETS' => 'r 105',
+    'TK_PIPE' => 'r 105',
+    'TK_LOGIC_OR' => 'r 105',
+    'TK_LOGIC_AND' => 'r 105',
+    'TK_GT_EQUAL' => 'r 105',
+    'TK_LT_EQUAL' => 'r 105',
+    'TK_NOT_EQUAL' => 'r 105',
+    'TK_EQUAL' => 'r 105',
+    'TK_ASSIGMENT' => 'r 105',
+    'TK_GT' => 'r 105',
+    'TK_LT' => 'r 105',
+    'TK_PLUS' => 'r 105',
+    'TK_MINUS' => 'r 105',
+    'TK_SLASH' => 'r 105',
+    'TK_MULTIPLY' => 'r 105',
+    'TK_TWO_DOTS' => 'r 105',
+    'TK_OPEN_BRAKETS' => 'r 105',
+    'TK_COMMA' => 'r 105',
+    'TK_DOT' => 'r 105',
+    'TK_EXCLAMATION_MARK' => 'r 105',
+    'TK_QUESTION_MARK' => 'r 105',
+    'TK_LETTERS' => 'r 105',
+    'TK_SELECTOR' => 'r 105',
+    'TK_VAR' => 'r 105',
+    'TK_DOUBLE_QUOTE' => 'r 105',
+    'TK_SINGLE_QUOTE' => 'r 105',
+    'TK_NUMBERS' => 'r 105',
+    'TK_DIGITS' => 'r 105',
+    'TK_LOGIC_END' => 'r 105',
+    'TK_CLOSE_BRAKETS' => 'r 105',
+    'TK_CLOSE_SQUARE_BRAKETS' => 'r 105',
+  ),
+  107 => 
+  array (
+    'TK_OPEN_SQUARE_BRAKETS' => 'r 106',
+    'TK_PIPE' => 'r 106',
+    'TK_LOGIC_OR' => 'r 106',
+    'TK_LOGIC_AND' => 'r 106',
+    'TK_GT_EQUAL' => 'r 106',
+    'TK_LT_EQUAL' => 'r 106',
+    'TK_NOT_EQUAL' => 'r 106',
+    'TK_EQUAL' => 'r 106',
+    'TK_ASSIGMENT' => 'r 106',
+    'TK_GT' => 'r 106',
+    'TK_LT' => 'r 106',
+    'TK_PLUS' => 'r 106',
+    'TK_MINUS' => 'r 106',
+    'TK_SLASH' => 'r 106',
+    'TK_MULTIPLY' => 'r 106',
+    'TK_TWO_DOTS' => 'r 106',
+    'TK_OPEN_BRAKETS' => 'r 106',
+    'TK_COMMA' => 'r 106',
+    'TK_DOT' => 'r 106',
+    'TK_EXCLAMATION_MARK' => 'r 106',
+    'TK_QUESTION_MARK' => 'r 106',
+    'TK_LETTERS' => 'r 106',
+    'TK_SELECTOR' => 'r 106',
+    'TK_VAR' => 'r 106',
+    'TK_DOUBLE_QUOTE' => 'r 106',
+    'TK_SINGLE_QUOTE' => 'r 106',
+    'TK_NUMBERS' => 'r 106',
+    'TK_DIGITS' => 'r 106',
+    'TK_LOGIC_END' => 'r 106',
+    'TK_CLOSE_BRAKETS' => 'r 106',
+    'TK_CLOSE_SQUARE_BRAKETS' => 'r 106',
+  ),
+  108 => 
+  array (
+    'TK_DOUBLE_QUOTE' => 's 46',
+    'TK_SINGLE_QUOTE' => 's 48',
+    'exprs_list' => 's 55',
+    'expr' => 's 109',
+    'TK_OPEN_BRAKETS' => 's 95',
+    'complex_var' => 's 98',
+    'TK_EXCLAMATION_MARK' => 's 111',
+    'TK_QUESTION_MARK' => 's 112',
+    'func_name' => 's 113',
+    'TK_NUMBERS' => 's 101',
+    'TK_DIGITS' => 's 102',
+    'TK_LETTERS' => 's 103',
+    'TK_SELECTOR' => 's 104',
+    'TK_VAR' => 's 105',
+    'string' => 's 106',
+    'nums' => 's 107',
+  ),
+  109 => 
+  array (
+    'TK_OPEN_BRAKETS' => 's 54',
+    'TK_TWO_DOTS' => 's 58',
+    'TK_MULTIPLY' => 's 60',
+    'TK_SLASH' => 's 62',
+    'TK_MINUS' => 's 64',
+    'TK_PLUS' => 's 66',
+    'TK_LT' => 's 68',
+    'TK_GT' => 's 70',
+    'TK_ASSIGMENT' => 's 72',
+    'TK_EQUAL' => 's 74',
+    'TK_NOT_EQUAL' => 's 76',
+    'TK_LT_EQUAL' => 's 78',
+    'TK_GT_EQUAL' => 's 80',
+    'TK_LOGIC_AND' => 's 82',
+    'TK_LOGIC_OR' => 's 84',
+    'TK_PIPE' => 's 86',
+    'TK_DOT' => 's 88',
+    'TK_OPEN_SQUARE_BRAKETS' => 's 90',
+    'TK_CLOSE_SQUARE_BRAKETS' => 's 110',
+    'TK_COMMA' => 's 93',
+  ),
+  110 => 
+  array (
+    'TK_OPEN_SQUARE_BRAKETS' => 'r 97',
+    'TK_DOT' => 'r 97',
+    'TK_PIPE' => 'r 97',
+    'TK_LOGIC_OR' => 'r 97',
+    'TK_LOGIC_AND' => 'r 97',
+    'TK_GT_EQUAL' => 'r 97',
+    'TK_LT_EQUAL' => 'r 97',
+    'TK_NOT_EQUAL' => 'r 97',
+    'TK_EQUAL' => 'r 97',
+    'TK_ASSIGMENT' => 'r 97',
+    'TK_GT' => 'r 97',
+    'TK_LT' => 'r 97',
+    'TK_PLUS' => 'r 97',
+    'TK_MINUS' => 'r 97',
+    'TK_SLASH' => 'r 97',
+    'TK_MULTIPLY' => 'r 97',
+    'TK_TWO_DOTS' => 'r 97',
+    'TK_OPEN_BRAKETS' => 'r 97',
+    'TK_COMMA' => 'r 97',
+    'TK_EXCLAMATION_MARK' => 'r 97',
+    'TK_QUESTION_MARK' => 'r 97',
+    'TK_LETTERS' => 'r 97',
+    'TK_SELECTOR' => 'r 97',
+    'TK_VAR' => 'r 97',
+    'TK_DOUBLE_QUOTE' => 'r 97',
+    'TK_SINGLE_QUOTE' => 'r 97',
+    'TK_NUMBERS' => 'r 97',
+    'TK_DIGITS' => 'r 97',
+    'TK_LOGIC_END' => 'r 97',
+    'TK_CLOSE_BRAKETS' => 'r 97',
+    'TK_CLOSE_SQUARE_BRAKETS' => 'r 97',
+  ),
+  111 => 
+  array (
+    'TK_OPEN_SQUARE_BRAKETS' => 'r 91',
+    'TK_PIPE' => 'r 91',
+    'TK_LOGIC_OR' => 'r 91',
+    'TK_LOGIC_AND' => 'r 91',
+    'TK_GT_EQUAL' => 'r 91',
+    'TK_LT_EQUAL' => 'r 91',
+    'TK_NOT_EQUAL' => 'r 91',
+    'TK_EQUAL' => 'r 91',
+    'TK_ASSIGMENT' => 'r 91',
+    'TK_GT' => 'r 91',
+    'TK_LT' => 'r 91',
+    'TK_PLUS' => 'r 91',
+    'TK_MINUS' => 'r 91',
+    'TK_SLASH' => 'r 91',
+    'TK_MULTIPLY' => 'r 91',
+    'TK_TWO_DOTS' => 'r 91',
+    'TK_OPEN_BRAKETS' => 'r 91',
+    'TK_COMMA' => 'r 91',
+    'TK_DOT' => 'r 91',
+    'TK_EXCLAMATION_MARK' => 'r 91',
+    'TK_QUESTION_MARK' => 'r 91',
+    'TK_LETTERS' => 'r 91',
+    'TK_SELECTOR' => 'r 91',
+    'TK_VAR' => 'r 91',
+    'TK_DOUBLE_QUOTE' => 'r 91',
+    'TK_SINGLE_QUOTE' => 'r 91',
+    'TK_NUMBERS' => 'r 91',
+    'TK_DIGITS' => 'r 91',
+    'TK_LOGIC_END' => 'r 91',
+    'TK_CLOSE_BRAKETS' => 'r 91',
+    'TK_CLOSE_SQUARE_BRAKETS' => 'r 91',
+  ),
+  112 => 
+  array (
+    'TK_OPEN_SQUARE_BRAKETS' => 'r 92',
+    'TK_PIPE' => 'r 92',
+    'TK_LOGIC_OR' => 'r 92',
+    'TK_LOGIC_AND' => 'r 92',
+    'TK_GT_EQUAL' => 'r 92',
+    'TK_LT_EQUAL' => 'r 92',
+    'TK_NOT_EQUAL' => 'r 92',
+    'TK_EQUAL' => 'r 92',
+    'TK_ASSIGMENT' => 'r 92',
+    'TK_GT' => 'r 92',
+    'TK_LT' => 'r 92',
+    'TK_PLUS' => 'r 92',
+    'TK_MINUS' => 'r 92',
+    'TK_SLASH' => 'r 92',
+    'TK_MULTIPLY' => 'r 92',
+    'TK_TWO_DOTS' => 'r 92',
+    'TK_OPEN_BRAKETS' => 'r 92',
+    'TK_COMMA' => 'r 92',
+    'TK_DOT' => 'r 92',
+    'TK_EXCLAMATION_MARK' => 'r 92',
+    'TK_QUESTION_MARK' => 'r 92',
+    'TK_LETTERS' => 'r 92',
+    'TK_SELECTOR' => 'r 92',
+    'TK_VAR' => 'r 92',
+    'TK_DOUBLE_QUOTE' => 'r 92',
+    'TK_SINGLE_QUOTE' => 'r 92',
+    'TK_NUMBERS' => 'r 92',
+    'TK_DIGITS' => 'r 92',
+    'TK_LOGIC_END' => 'r 92',
+    'TK_CLOSE_BRAKETS' => 'r 92',
+    'TK_CLOSE_SQUARE_BRAKETS' => 'r 92',
+  ),
+  113 => 
+  array (
+    'TK_OPEN_SQUARE_BRAKETS' => 'r 93',
+    'TK_PIPE' => 'r 93',
+    'TK_LOGIC_OR' => 'r 93',
+    'TK_LOGIC_AND' => 'r 93',
+    'TK_GT_EQUAL' => 'r 93',
+    'TK_LT_EQUAL' => 'r 93',
+    'TK_NOT_EQUAL' => 'r 93',
+    'TK_EQUAL' => 'r 93',
+    'TK_ASSIGMENT' => 'r 93',
+    'TK_GT' => 'r 93',
+    'TK_LT' => 'r 93',
+    'TK_PLUS' => 'r 93',
+    'TK_MINUS' => 'r 93',
+    'TK_SLASH' => 'r 93',
+    'TK_MULTIPLY' => 'r 93',
+    'TK_TWO_DOTS' => 'r 93',
+    'TK_OPEN_BRAKETS' => 'r 93',
+    'TK_COMMA' => 'r 93',
+    'TK_DOT' => 'r 93',
+    'TK_EXCLAMATION_MARK' => 'r 93',
+    'TK_QUESTION_MARK' => 'r 93',
+    'TK_LETTERS' => 'r 93',
+    'TK_SELECTOR' => 'r 93',
+    'TK_VAR' => 'r 93',
+    'TK_DOUBLE_QUOTE' => 'r 93',
+    'TK_SINGLE_QUOTE' => 'r 93',
+    'TK_NUMBERS' => 'r 93',
+    'TK_DIGITS' => 'r 93',
+    'TK_LOGIC_END' => 'r 93',
+    'TK_CLOSE_BRAKETS' => 'r 93',
+    'TK_CLOSE_SQUARE_BRAKETS' => 'r 93',
+  ),
+  114 => 
+  array (
+    'TK_OPEN_BRAKETS' => 's 54',
+    'TK_CLOSE_BRAKETS' => 's 115',
+    'TK_TWO_DOTS' => 's 58',
+    'TK_MULTIPLY' => 's 60',
+    'TK_SLASH' => 's 62',
+    'TK_MINUS' => 's 64',
+    'TK_PLUS' => 's 66',
+    'TK_LT' => 's 68',
+    'TK_GT' => 's 70',
+    'TK_ASSIGMENT' => 's 72',
+    'TK_EQUAL' => 's 74',
+    'TK_NOT_EQUAL' => 's 76',
+    'TK_LT_EQUAL' => 's 78',
+    'TK_GT_EQUAL' => 's 80',
+    'TK_LOGIC_AND' => 's 82',
+    'TK_LOGIC_OR' => 's 84',
+    'TK_PIPE' => 's 86',
+    'TK_DOT' => 's 88',
+    'TK_OPEN_SQUARE_BRAKETS' => 's 90',
+    'TK_COMMA' => 's 93',
+  ),
+  115 => 
+  array (
+    'TK_TWO_DOTS' => 'r 73',
+    'TK_OPEN_BRAKETS' => 'r 73',
+    'TK_COMMA' => 'r 73',
+    'TK_MULTIPLY' => 'r 73',
+    'TK_SLASH' => 'r 73',
+    'TK_MINUS' => 'r 73',
+    'TK_PLUS' => 'r 73',
+    'TK_LT' => 'r 73',
+    'TK_GT' => 'r 73',
+    'TK_ASSIGMENT' => 'r 73',
+    'TK_EQUAL' => 'r 73',
+    'TK_NOT_EQUAL' => 'r 73',
+    'TK_LT_EQUAL' => 'r 73',
+    'TK_GT_EQUAL' => 'r 73',
+    'TK_LOGIC_AND' => 'r 73',
+    'TK_LOGIC_OR' => 'r 73',
+    'TK_PIPE' => 'r 73',
+    'TK_OPEN_SQUARE_BRAKETS' => 'r 73',
+    'TK_DOT' => 'r 73',
+    'TK_LOGIC_END' => 'r 73',
+    'TK_EXCLAMATION_MARK' => 'r 73',
+    'TK_QUESTION_MARK' => 'r 73',
+    'TK_LETTERS' => 'r 73',
+    'TK_SELECTOR' => 'r 73',
+    'TK_VAR' => 'r 73',
+    'TK_DOUBLE_QUOTE' => 'r 73',
+    'TK_SINGLE_QUOTE' => 'r 73',
+    'TK_NUMBERS' => 'r 73',
+    'TK_DIGITS' => 'r 73',
+    'TK_CLOSE_SQUARE_BRAKETS' => 'r 73',
+    'TK_CLOSE_BRAKETS' => 'r 73',
+  ),
+  116 => 
+  array (
+    'TK_OPEN_BRAKETS' => 's 54',
+    'TK_TWO_DOTS' => 's 58',
+    'TK_MULTIPLY' => 's 60',
+    'TK_SLASH' => 's 62',
+    'TK_MINUS' => 's 64',
+    'TK_PLUS' => 's 66',
+    'TK_LT' => 's 68',
+    'TK_GT' => 's 70',
+    'TK_ASSIGMENT' => 's 72',
+    'TK_EQUAL' => 's 74',
+    'TK_NOT_EQUAL' => 's 76',
+    'TK_LT_EQUAL' => 's 78',
+    'TK_GT_EQUAL' => 's 80',
+    'TK_LOGIC_AND' => 's 82',
+    'TK_LOGIC_OR' => 's 84',
+    'TK_PIPE' => 's 86',
+    'TK_DOT' => 's 88',
+    'TK_OPEN_SQUARE_BRAKETS' => 's 90',
+    'TK_COMMA' => 's 93',
+    'TK_EXCLAMATION_MARK' => 'r 70',
+    'TK_QUESTION_MARK' => 'r 70',
+    'TK_LETTERS' => 'r 70',
+    'TK_SELECTOR' => 'r 70',
+    'TK_VAR' => 'r 70',
+    'TK_DOUBLE_QUOTE' => 'r 70',
+    'TK_SINGLE_QUOTE' => 'r 70',
+    'TK_NUMBERS' => 'r 70',
+    'TK_DIGITS' => 'r 70',
+    'TK_LOGIC_END' => 'r 70',
+  ),
+  117 => 
+  array (
+    'TK_LOGIC_BEGIN' => 'r 25',
+    'TK_LETTERS' => 'r 25',
+    'TK_DATA_ATTR' => 'r 25',
+    'TK_SELECTOR' => 'r 25',
+    'TK_SLASH' => 'r 25',
+    'TK_GT' => 'r 25',
+  ),
+  118 => 
+  array (
+    'TK_LOGIC_BEGIN' => 'r 26',
+    'TK_LETTERS' => 'r 26',
+    'TK_DATA_ATTR' => 'r 26',
+    'TK_SELECTOR' => 'r 26',
+    'TK_SLASH' => 'r 26',
+    'TK_GT' => 'r 26',
+  ),
+  119 => 
+  array (
+    'TK_LOGIC_BEGIN' => 'r 27',
+    'TK_LETTERS' => 'r 27',
+    'TK_DATA_ATTR' => 'r 27',
+    'TK_SELECTOR' => 'r 27',
+    'TK_SLASH' => 'r 27',
+    'TK_GT' => 'r 27',
+  ),
+  120 => 
+  array (
+    'TK_LOGIC_BEGIN' => 'r 28',
+    'TK_LETTERS' => 'r 28',
+    'TK_DATA_ATTR' => 'r 28',
+    'TK_SELECTOR' => 'r 28',
+    'TK_SLASH' => 'r 28',
+    'TK_GT' => 'r 28',
+  ),
+  121 => 
+  array (
+    'TK_ASSIGMENT' => 'r 55',
+    'TK_LOGIC_BEGIN' => 'r 55',
+    'TK_LETTERS' => 'r 55',
+    'TK_DATA_ATTR' => 'r 55',
+    'TK_SELECTOR' => 'r 55',
+    'TK_SLASH' => 'r 55',
+    'TK_GT' => 'r 55',
+  ),
+  122 => 
+  array (
+    'TK_ASSIGMENT' => 'r 56',
+    'TK_LOGIC_BEGIN' => 'r 56',
+    'TK_LETTERS' => 'r 56',
+    'TK_DATA_ATTR' => 'r 56',
+    'TK_SELECTOR' => 'r 56',
+    'TK_SLASH' => 'r 56',
+    'TK_GT' => 'r 56',
+  ),
+  123 => 
+  array (
+    'TK_ASSIGMENT' => 'r 57',
+    'TK_LOGIC_BEGIN' => 'r 57',
+    'TK_LETTERS' => 'r 57',
+    'TK_DATA_ATTR' => 'r 57',
+    'TK_SELECTOR' => 'r 57',
+    'TK_SLASH' => 'r 57',
+    'TK_GT' => 'r 57',
+  ),
+  124 => 
+  array (
+    'TK_LOGIC_BEGIN' => 'r 18',
+    'TK_LETTERS' => 'r 18',
+    'TK_DATA_ATTR' => 'r 18',
+    'TK_SELECTOR' => 'r 18',
+    'TK_SLASH' => 'r 18',
+    'TK_GT' => 'r 18',
+  ),
+  125 => 
+  array (
+    'TK_LOGIC_BEGIN' => 'r 19',
+    'TK_LETTERS' => 'r 19',
+    'TK_DATA_ATTR' => 'r 19',
+    'TK_SELECTOR' => 'r 19',
+    'TK_SLASH' => 'r 19',
+    'TK_GT' => 'r 19',
+  ),
+  126 => 
+  array (
+    'tag_name' => 's 127',
+    'TK_LETTERS' => 's 129',
+    'TK_SELECTOR_DASH' => 's 130',
+    'TK_SELECTOR' => 's 131',
+    'TK_TAG_NAME' => 's 132',
+  ),
+  127 => 
+  array (
+    'TK_GT' => 's 128',
+  ),
+  128 => 
   array (
     'TK_LT' => 'r 10',
     'TK_TEXT_NODE' => 'r 10',
     'TK_LETTERS' => 'r 10',
+    'TK_SELECTOR_LOWDASH' => 'r 10',
+    'TK_SELECTOR' => 'r 10',
     'TK_TAG_NAME' => 'r 10',
     'TK_VAR' => 'r 10',
     'TK_OTHER' => 'r 10',
+    'TK_COMMA' => 'r 10',
+    'TK_DIGITS' => 'r 10',
+    'TK_DOT' => 'r 10',
+    'TK_SLASH' => 'r 10',
     'TK_LOGIC_BEGIN' => 'r 10',
     '#' => 'r 10',
   ),
-  83 => 
+  129 => 
   array (
-    'TK_LT' => 'r 50',
-    'TK_TEXT_NODE' => 'r 50',
-    'TK_LETTERS' => 'r 50',
-    'TK_TAG_NAME' => 'r 50',
-    'TK_VAR' => 'r 50',
-    'TK_OTHER' => 'r 50',
-    'TK_LOGIC_BEGIN' => 'r 50',
-    '#' => 'r 50',
+    'TK_LOGIC_BEGIN' => 'r 11',
+    'TK_LETTERS' => 'r 11',
+    'TK_DATA_ATTR' => 'r 11',
+    'TK_SELECTOR' => 'r 11',
+    'TK_SLASH' => 'r 11',
+    'TK_GT' => 'r 11',
   ),
-  84 => 
+  130 => 
   array (
-    'TK_LT' => 'r 51',
-    'TK_TEXT_NODE' => 'r 51',
-    'TK_LETTERS' => 'r 51',
-    'TK_TAG_NAME' => 'r 51',
-    'TK_VAR' => 'r 51',
-    'TK_OTHER' => 'r 51',
-    'TK_LOGIC_BEGIN' => 'r 51',
-    '#' => 'r 51',
+    'TK_LOGIC_BEGIN' => 'r 12',
+    'TK_LETTERS' => 'r 12',
+    'TK_DATA_ATTR' => 'r 12',
+    'TK_SELECTOR' => 'r 12',
+    'TK_SLASH' => 'r 12',
+    'TK_GT' => 'r 12',
   ),
-  85 => 
+  131 => 
   array (
-    'TK_LT' => 'r 52',
-    'TK_TEXT_NODE' => 'r 52',
-    'TK_LETTERS' => 'r 52',
-    'TK_TAG_NAME' => 'r 52',
-    'TK_VAR' => 'r 52',
-    'TK_OTHER' => 'r 52',
-    'TK_LOGIC_BEGIN' => 'r 52',
-    '#' => 'r 52',
+    'TK_LOGIC_BEGIN' => 'r 13',
+    'TK_LETTERS' => 'r 13',
+    'TK_DATA_ATTR' => 'r 13',
+    'TK_SELECTOR' => 'r 13',
+    'TK_SLASH' => 'r 13',
+    'TK_GT' => 'r 13',
   ),
-  86 => 
+  132 => 
   array (
-    'TK_LT' => 'r 53',
-    'TK_TEXT_NODE' => 'r 53',
-    'TK_LETTERS' => 'r 53',
-    'TK_TAG_NAME' => 'r 53',
-    'TK_VAR' => 'r 53',
-    'TK_OTHER' => 'r 53',
-    'TK_LOGIC_BEGIN' => 'r 53',
-    '#' => 'r 53',
+    'TK_LOGIC_BEGIN' => 'r 14',
+    'TK_LETTERS' => 'r 14',
+    'TK_DATA_ATTR' => 'r 14',
+    'TK_SELECTOR' => 'r 14',
+    'TK_SLASH' => 'r 14',
+    'TK_GT' => 'r 14',
   ),
-  87 => 
+  133 => 
   array (
-    'TK_LT' => 'r 54',
-    'TK_TEXT_NODE' => 'r 54',
-    'TK_LETTERS' => 'r 54',
-    'TK_TAG_NAME' => 'r 54',
-    'TK_VAR' => 'r 54',
-    'TK_OTHER' => 'r 54',
-    'TK_LOGIC_BEGIN' => 'r 54',
-    '#' => 'r 54',
+    'TK_LT' => 'r 58',
+    'TK_TEXT_NODE' => 'r 58',
+    'TK_LETTERS' => 'r 58',
+    'TK_SELECTOR_LOWDASH' => 'r 58',
+    'TK_SELECTOR' => 'r 58',
+    'TK_TAG_NAME' => 'r 58',
+    'TK_VAR' => 'r 58',
+    'TK_OTHER' => 'r 58',
+    'TK_COMMA' => 'r 58',
+    'TK_DIGITS' => 'r 58',
+    'TK_DOT' => 'r 58',
+    'TK_SLASH' => 'r 58',
+    'TK_LOGIC_BEGIN' => 'r 58',
+    '#' => 'r 58',
   ),
-  88 => 
+  134 => 
+  array (
+    'TK_LT' => 'r 59',
+    'TK_TEXT_NODE' => 'r 59',
+    'TK_LETTERS' => 'r 59',
+    'TK_SELECTOR_LOWDASH' => 'r 59',
+    'TK_SELECTOR' => 'r 59',
+    'TK_TAG_NAME' => 'r 59',
+    'TK_VAR' => 'r 59',
+    'TK_OTHER' => 'r 59',
+    'TK_COMMA' => 'r 59',
+    'TK_DIGITS' => 'r 59',
+    'TK_DOT' => 'r 59',
+    'TK_SLASH' => 'r 59',
+    'TK_LOGIC_BEGIN' => 'r 59',
+    '#' => 'r 59',
+  ),
+  135 => 
+  array (
+    'TK_LT' => 'r 60',
+    'TK_TEXT_NODE' => 'r 60',
+    'TK_LETTERS' => 'r 60',
+    'TK_SELECTOR_LOWDASH' => 'r 60',
+    'TK_SELECTOR' => 'r 60',
+    'TK_TAG_NAME' => 'r 60',
+    'TK_VAR' => 'r 60',
+    'TK_OTHER' => 'r 60',
+    'TK_COMMA' => 'r 60',
+    'TK_DIGITS' => 'r 60',
+    'TK_DOT' => 'r 60',
+    'TK_SLASH' => 'r 60',
+    'TK_LOGIC_BEGIN' => 'r 60',
+    '#' => 'r 60',
+  ),
+  136 => 
+  array (
+    'TK_LT' => 'r 61',
+    'TK_TEXT_NODE' => 'r 61',
+    'TK_LETTERS' => 'r 61',
+    'TK_SELECTOR_LOWDASH' => 'r 61',
+    'TK_SELECTOR' => 'r 61',
+    'TK_TAG_NAME' => 'r 61',
+    'TK_VAR' => 'r 61',
+    'TK_OTHER' => 'r 61',
+    'TK_COMMA' => 'r 61',
+    'TK_DIGITS' => 'r 61',
+    'TK_DOT' => 'r 61',
+    'TK_SLASH' => 'r 61',
+    'TK_LOGIC_BEGIN' => 'r 61',
+    '#' => 'r 61',
+  ),
+  137 => 
+  array (
+    'TK_LT' => 'r 62',
+    'TK_TEXT_NODE' => 'r 62',
+    'TK_LETTERS' => 'r 62',
+    'TK_SELECTOR_LOWDASH' => 'r 62',
+    'TK_SELECTOR' => 'r 62',
+    'TK_TAG_NAME' => 'r 62',
+    'TK_VAR' => 'r 62',
+    'TK_OTHER' => 'r 62',
+    'TK_COMMA' => 'r 62',
+    'TK_DIGITS' => 'r 62',
+    'TK_DOT' => 'r 62',
+    'TK_SLASH' => 'r 62',
+    'TK_LOGIC_BEGIN' => 'r 62',
+    '#' => 'r 62',
+  ),
+  138 => 
+  array (
+    'TK_LT' => 'r 63',
+    'TK_TEXT_NODE' => 'r 63',
+    'TK_LETTERS' => 'r 63',
+    'TK_SELECTOR_LOWDASH' => 'r 63',
+    'TK_SELECTOR' => 'r 63',
+    'TK_TAG_NAME' => 'r 63',
+    'TK_VAR' => 'r 63',
+    'TK_OTHER' => 'r 63',
+    'TK_COMMA' => 'r 63',
+    'TK_DIGITS' => 'r 63',
+    'TK_DOT' => 'r 63',
+    'TK_SLASH' => 'r 63',
+    'TK_LOGIC_BEGIN' => 'r 63',
+    '#' => 'r 63',
+  ),
+  139 => 
+  array (
+    'TK_LT' => 'r 64',
+    'TK_TEXT_NODE' => 'r 64',
+    'TK_LETTERS' => 'r 64',
+    'TK_SELECTOR_LOWDASH' => 'r 64',
+    'TK_SELECTOR' => 'r 64',
+    'TK_TAG_NAME' => 'r 64',
+    'TK_VAR' => 'r 64',
+    'TK_OTHER' => 'r 64',
+    'TK_COMMA' => 'r 64',
+    'TK_DIGITS' => 'r 64',
+    'TK_DOT' => 'r 64',
+    'TK_SLASH' => 'r 64',
+    'TK_LOGIC_BEGIN' => 'r 64',
+    '#' => 'r 64',
+  ),
+  140 => 
+  array (
+    'TK_LT' => 'r 65',
+    'TK_TEXT_NODE' => 'r 65',
+    'TK_LETTERS' => 'r 65',
+    'TK_SELECTOR_LOWDASH' => 'r 65',
+    'TK_SELECTOR' => 'r 65',
+    'TK_TAG_NAME' => 'r 65',
+    'TK_VAR' => 'r 65',
+    'TK_OTHER' => 'r 65',
+    'TK_COMMA' => 'r 65',
+    'TK_DIGITS' => 'r 65',
+    'TK_DOT' => 'r 65',
+    'TK_SLASH' => 'r 65',
+    'TK_LOGIC_BEGIN' => 'r 65',
+    '#' => 'r 65',
+  ),
+  141 => 
+  array (
+    'TK_LT' => 'r 66',
+    'TK_TEXT_NODE' => 'r 66',
+    'TK_LETTERS' => 'r 66',
+    'TK_SELECTOR_LOWDASH' => 'r 66',
+    'TK_SELECTOR' => 'r 66',
+    'TK_TAG_NAME' => 'r 66',
+    'TK_VAR' => 'r 66',
+    'TK_OTHER' => 'r 66',
+    'TK_COMMA' => 'r 66',
+    'TK_DIGITS' => 'r 66',
+    'TK_DOT' => 'r 66',
+    'TK_SLASH' => 'r 66',
+    'TK_LOGIC_BEGIN' => 'r 66',
+    '#' => 'r 66',
+  ),
+  142 => 
+  array (
+    'TK_LT' => 'r 67',
+    'TK_TEXT_NODE' => 'r 67',
+    'TK_LETTERS' => 'r 67',
+    'TK_SELECTOR_LOWDASH' => 'r 67',
+    'TK_SELECTOR' => 'r 67',
+    'TK_TAG_NAME' => 'r 67',
+    'TK_VAR' => 'r 67',
+    'TK_OTHER' => 'r 67',
+    'TK_COMMA' => 'r 67',
+    'TK_DIGITS' => 'r 67',
+    'TK_DOT' => 'r 67',
+    'TK_SLASH' => 'r 67',
+    'TK_LOGIC_BEGIN' => 'r 67',
+    '#' => 'r 67',
+  ),
+  143 => 
+  array (
+    'TK_LT' => 'r 68',
+    'TK_TEXT_NODE' => 'r 68',
+    'TK_LETTERS' => 'r 68',
+    'TK_SELECTOR_LOWDASH' => 'r 68',
+    'TK_SELECTOR' => 'r 68',
+    'TK_TAG_NAME' => 'r 68',
+    'TK_VAR' => 'r 68',
+    'TK_OTHER' => 'r 68',
+    'TK_COMMA' => 'r 68',
+    'TK_DIGITS' => 'r 68',
+    'TK_DOT' => 'r 68',
+    'TK_SLASH' => 'r 68',
+    'TK_LOGIC_BEGIN' => 'r 68',
+    '#' => 'r 68',
+  ),
+  144 => 
   array (
     'TK_LT' => 'r 3',
     'TK_TEXT_NODE' => 'r 3',
     'TK_LETTERS' => 'r 3',
+    'TK_SELECTOR_LOWDASH' => 'r 3',
+    'TK_SELECTOR' => 'r 3',
     'TK_TAG_NAME' => 'r 3',
     'TK_VAR' => 'r 3',
     'TK_OTHER' => 'r 3',
+    'TK_COMMA' => 'r 3',
+    'TK_DIGITS' => 'r 3',
+    'TK_DOT' => 'r 3',
+    'TK_SLASH' => 'r 3',
     'TK_LOGIC_BEGIN' => 'r 3',
     '#' => 'r 3',
   ),
-  89 => 
+  145 => 
   array (
     'TK_LT' => 'r 4',
     'TK_TEXT_NODE' => 'r 4',
     'TK_LETTERS' => 'r 4',
+    'TK_SELECTOR_LOWDASH' => 'r 4',
+    'TK_SELECTOR' => 'r 4',
     'TK_TAG_NAME' => 'r 4',
     'TK_VAR' => 'r 4',
     'TK_OTHER' => 'r 4',
+    'TK_COMMA' => 'r 4',
+    'TK_DIGITS' => 'r 4',
+    'TK_DOT' => 'r 4',
+    'TK_SLASH' => 'r 4',
     'TK_LOGIC_BEGIN' => 'r 4',
     '#' => 'r 4',
   ),
-  90 => 
+  146 => 
   array (
     'TK_LT' => 'r 5',
     'TK_TEXT_NODE' => 'r 5',
     'TK_LETTERS' => 'r 5',
+    'TK_SELECTOR_LOWDASH' => 'r 5',
+    'TK_SELECTOR' => 'r 5',
     'TK_TAG_NAME' => 'r 5',
     'TK_VAR' => 'r 5',
     'TK_OTHER' => 'r 5',
+    'TK_COMMA' => 'r 5',
+    'TK_DIGITS' => 'r 5',
+    'TK_DOT' => 'r 5',
+    'TK_SLASH' => 'r 5',
     'TK_LOGIC_BEGIN' => 'r 5',
     '#' => 'r 5',
   ),
-  91 => 
+  147 => 
   array (
     'tag' => 's 3',
     'text_node' => 's 4',
     'logic_node' => 's 5',
     'TK_LT' => 's 6',
-    'TK_TEXT_NODE' => 's 83',
-    'TK_LETTERS' => 's 84',
-    'TK_TAG_NAME' => 's 85',
-    'TK_VAR' => 's 86',
-    'TK_OTHER' => 's 87',
-    'TK_LOGIC_BEGIN' => 's 47',
+    'TK_TEXT_NODE' => 's 133',
+    'TK_LETTERS' => 's 134',
+    'TK_SELECTOR_LOWDASH' => 's 135',
+    'TK_SELECTOR' => 's 136',
+    'TK_TAG_NAME' => 's 137',
+    'TK_VAR' => 's 138',
+    'TK_OTHER' => 's 139',
+    'TK_COMMA' => 's 140',
+    'TK_DIGITS' => 's 141',
+    'TK_DOT' => 's 142',
+    'TK_SLASH' => 's 143',
+    'TK_LOGIC_BEGIN' => 's 45',
     '#' => 'r 1',
   ),
-  92 => 
+  148 => 
   array (
-    '#' => 'r 70',
+    '#' => 'r 107',
   ),
 );
 function reduce_0_doc_1($tokens, &$result) {
@@ -1433,7 +3471,7 @@ function reduce_8_line_6($tokens, &$result) {
 # (8) line :=  line  logic_node
 #
 $result = reset($tokens);
- if ($tokens[1]) {$tokens[0][] = $tokens[1]; $result = $tokens[0];} 
+ $tokens[0][] = $tokens[1]; $result = $tokens[0]; 
 }
 
 function reduce_9_tag_1($tokens, &$result) {
@@ -1462,471 +3500,767 @@ $result = reset($tokens);
 
 function reduce_12_tag_name_2($tokens, &$result) {
 #
-# (12) tag_name :=  TK_TAG_NAME
+# (12) tag_name :=  TK_SELECTOR_DASH
 #
 $result = reset($tokens);
 
 }
 
-function reduce_13_GT_1($tokens, &$result) {
+function reduce_13_tag_name_3($tokens, &$result) {
 #
-# (13) GT :=  TK_SLASH  TK_GT
-#
-$result = reset($tokens);
-
-}
-
-function reduce_14_GT_2($tokens, &$result) {
-#
-# (14) GT :=  TK_GT
+# (13) tag_name :=  TK_SELECTOR
 #
 $result = reset($tokens);
 
 }
 
-function reduce_15_attributes_1($tokens, &$result) {
+function reduce_14_tag_name_4($tokens, &$result) {
 #
-# (15) attributes :=
+# (14) tag_name :=  TK_TAG_NAME
+#
+$result = reset($tokens);
+
+}
+
+function reduce_15_GT_1($tokens, &$result) {
+#
+# (15) GT :=  TK_SLASH  TK_GT
+#
+$result = reset($tokens);
+
+}
+
+function reduce_16_GT_2($tokens, &$result) {
+#
+# (16) GT :=  TK_GT
+#
+$result = reset($tokens);
+
+}
+
+function reduce_17_attributes_1($tokens, &$result) {
+#
+# (17) attributes :=
 #
 $result = reset($tokens);
  $result = array(); 
 }
 
-function reduce_16_attributes_2($tokens, &$result) {
+function reduce_18_attributes_2($tokens, &$result) {
 #
-# (16) attributes :=  attribute
-#
-$result = reset($tokens);
- $result = array($tokens[0]); 
-}
-
-function reduce_17_attributes_3($tokens, &$result) {
-#
-# (17) attributes :=  logic_node
+# (18) attributes :=  attribute
 #
 $result = reset($tokens);
  $result = array($tokens[0]); 
 }
 
-function reduce_18_attributes_4($tokens, &$result) {
+function reduce_19_attributes_3($tokens, &$result) {
 #
-# (18) attributes :=  attributes  logic_node
+# (19) attributes :=  logic_node
+#
+$result = reset($tokens);
+ $result = array($tokens[0]); 
+}
+
+function reduce_20_attributes_4($tokens, &$result) {
+#
+# (20) attributes :=  attributes  logic_node
 #
 $result = reset($tokens);
  $tokens[0][] = $tokens[1]; $result = $tokens[0]; 
 }
 
-function reduce_19_attributes_5($tokens, &$result) {
+function reduce_21_attributes_5($tokens, &$result) {
 #
-# (19) attributes :=  attributes  attribute
+# (21) attributes :=  attributes  attribute
 #
 $result = reset($tokens);
  $tokens[0][] = $tokens[1]; $result = $tokens[0]; 
 }
 
-function reduce_20_attribute_1($tokens, &$result) {
+function reduce_22_attribute_1($tokens, &$result) {
 #
-# (20) attribute :=  attrib_name  attrib_value
+# (22) attribute :=  attrib_name  attrib_value
 #
 $result = reset($tokens);
  $result = new Attribute($tokens[0], $tokens[1]); 
 }
 
-function reduce_21_attrib_value_1($tokens, &$result) {
+function reduce_23_attrib_value_1($tokens, &$result) {
 #
-# (21) attrib_value :=
+# (23) attrib_value :=
 #
 $result = reset($tokens);
  $result = ""; 
 }
 
-function reduce_22_attrib_value_2($tokens, &$result) {
+function reduce_24_attrib_value_2($tokens, &$result) {
 #
-# (22) attrib_value :=  TK_ASSIGMENT  string
+# (24) attrib_value :=  TK_ASSIGMENT  TK_DOUBLE_QUOTE  TK_DOUBLE_QUOTE
+#
+$result = reset($tokens);
+ $result = ""; 
+}
+
+function reduce_25_attrib_value_3($tokens, &$result) {
+#
+# (25) attrib_value :=  TK_ASSIGMENT  string
 #
 $result = reset($tokens);
  $result = $tokens[1]; 
 }
 
-function reduce_23_attrib_value_3($tokens, &$result) {
+function reduce_26_attrib_value_4($tokens, &$result) {
 #
-# (23) attrib_value :=  TK_ASSIGMENT  TAG_NAME
-#
-$result = reset($tokens);
- $result = $tokens[1]; 
-}
-
-function reduce_24_attrib_value_4($tokens, &$result) {
-#
-# (24) attrib_value :=  TK_ASSIGMENT  TK_DIGITS
+# (26) attrib_value :=  TK_ASSIGMENT  TAG_NAME
 #
 $result = reset($tokens);
  $result = $tokens[1]; 
 }
 
-function reduce_25_attrib_value_5($tokens, &$result) {
+function reduce_27_attrib_value_5($tokens, &$result) {
 #
-# (25) attrib_value :=  TK_ASSIGMENT  TK_OTHER
-#
-$result = reset($tokens);
- $result = $tokens[1]; 
-}
-
-function reduce_26_string_1($tokens, &$result) {
-#
-# (26) string :=  TK_DOUBLE_QUOTE  string_elements  TK_DOUBLE_QUOTE
+# (27) attrib_value :=  TK_ASSIGMENT  TK_DIGITS
 #
 $result = reset($tokens);
  $result = $tokens[1]; 
 }
 
-function reduce_27_string_2($tokens, &$result) {
+function reduce_28_attrib_value_6($tokens, &$result) {
 #
-# (27) string :=  TK_SINGLE_QUOTE  string_elements  TK_SINGLE_QUOTE
+# (28) attrib_value :=  TK_ASSIGMENT  TK_OTHER
 #
 $result = reset($tokens);
  $result = $tokens[1]; 
 }
 
-function reduce_28_string_elements_1($tokens, &$result) {
+function reduce_29_string_1($tokens, &$result) {
 #
-# (28) string_elements :=  string_element
+# (29) string :=  TK_DOUBLE_QUOTE  string_elements  TK_DOUBLE_QUOTE
+#
+$result = reset($tokens);
+ $result = $tokens[1]; 
+}
+
+function reduce_30_string_2($tokens, &$result) {
+#
+# (30) string :=  TK_SINGLE_QUOTE  string_elements  TK_SINGLE_QUOTE
+#
+$result = reset($tokens);
+ $result = $tokens[1]; 
+}
+
+function reduce_31_string_elements_1($tokens, &$result) {
+#
+# (31) string_elements :=  string_element
 #
 $result = reset($tokens);
  $result = array($tokens[0]); 
 }
 
-function reduce_29_string_elements_2($tokens, &$result) {
+function reduce_32_string_elements_2($tokens, &$result) {
 #
-# (29) string_elements :=  string_elements  string_element
+# (32) string_elements :=  string_elements  string_element
 #
 $result = reset($tokens);
  $tokens[0][] = $tokens[1]; $result = $tokens[0]; 
 }
 
-function reduce_30_string_element_1($tokens, &$result) {
+function reduce_33_string_element_1($tokens, &$result) {
 #
-# (30) string_element :=  TK_DIGITS
-#
-$result = reset($tokens);
- $result = $tokens[0]; 
-}
-
-function reduce_31_string_element_2($tokens, &$result) {
-#
-# (31) string_element :=  TK_DOT
+# (33) string_element :=  TK_DIGITS
 #
 $result = reset($tokens);
- $result = $tokens[0]; 
+
 }
 
-function reduce_32_string_element_3($tokens, &$result) {
+function reduce_34_string_element_2($tokens, &$result) {
 #
-# (32) string_element :=  TK_MINUS
+# (34) string_element :=  TK_MINUS
 #
 $result = reset($tokens);
- $result = $tokens[0]; 
+
 }
 
-function reduce_33_string_element_4($tokens, &$result) {
+function reduce_35_string_element_3($tokens, &$result) {
 #
-# (33) string_element :=  TK_PLUS
+# (35) string_element :=  TK_PLUS
 #
 $result = reset($tokens);
- $result = $tokens[0]; 
+
 }
 
-function reduce_34_string_element_5($tokens, &$result) {
+function reduce_36_string_element_4($tokens, &$result) {
 #
-# (34) string_element :=  TK_LT_EQUAL
+# (36) string_element :=  TK_LT_EQUAL
 #
 $result = reset($tokens);
- $result = $tokens[0]; 
+
 }
 
-function reduce_35_string_element_6($tokens, &$result) {
+function reduce_37_string_element_5($tokens, &$result) {
 #
-# (35) string_element :=  TK_GT_EQUAL
+# (37) string_element :=  TK_GT_EQUAL
 #
 $result = reset($tokens);
- $result = $tokens[0]; 
+
 }
 
-function reduce_36_string_element_7($tokens, &$result) {
+function reduce_38_string_element_6($tokens, &$result) {
 #
-# (36) string_element :=  TK_LT
+# (38) string_element :=  TK_LT
 #
 $result = reset($tokens);
- $result = $tokens[0]; 
+
 }
 
-function reduce_37_string_element_8($tokens, &$result) {
+function reduce_39_string_element_7($tokens, &$result) {
 #
-# (37) string_element :=  TK_GT
+# (39) string_element :=  TK_GT
 #
 $result = reset($tokens);
- $result = $tokens[0]; 
+
 }
 
-function reduce_38_string_element_9($tokens, &$result) {
+function reduce_40_string_element_8($tokens, &$result) {
 #
-# (38) string_element :=  TK_TAG_NAME
+# (40) string_element :=  TK_DATA_ATTR
 #
 $result = reset($tokens);
- $result = $tokens[0]; 
+
 }
 
-function reduce_39_string_element_10($tokens, &$result) {
+function reduce_41_string_element_9($tokens, &$result) {
 #
-# (39) string_element :=  TK_VAR
+# (41) string_element :=  TK_SELECTOR_LOWDASH
 #
 $result = reset($tokens);
- $result = $tokens[0]; 
+
 }
 
-function reduce_40_string_element_11($tokens, &$result) {
+function reduce_42_string_element_10($tokens, &$result) {
 #
-# (40) string_element :=  TK_LETTERS
+# (42) string_element :=  TK_SELECTOR_DASH
 #
 $result = reset($tokens);
- $result = $tokens[0]; 
+
 }
 
-function reduce_41_string_element_12($tokens, &$result) {
+function reduce_43_string_element_11($tokens, &$result) {
 #
-# (41) string_element :=  TK_SLASH
+# (43) string_element :=  TK_SELECTOR
 #
 $result = reset($tokens);
- $result = $tokens[0]; 
+
 }
 
-function reduce_42_string_element_13($tokens, &$result) {
+function reduce_44_string_element_12($tokens, &$result) {
 #
-# (42) string_element :=  TK_EQUAL
+# (44) string_element :=  TK_LETTERS
 #
 $result = reset($tokens);
- $result = $tokens[0]; 
+
 }
 
-function reduce_43_string_element_14($tokens, &$result) {
+function reduce_45_string_element_13($tokens, &$result) {
 #
-# (43) string_element :=  TK_ASSIGMENT
+# (45) string_element :=  TK_SLASH
 #
 $result = reset($tokens);
- $result = $tokens[0]; 
+
 }
 
-function reduce_44_string_element_15($tokens, &$result) {
+function reduce_46_string_element_14($tokens, &$result) {
 #
-# (44) string_element :=  TK_NOT_EQUAL
+# (46) string_element :=  TK_EQUAL
 #
 $result = reset($tokens);
- $result = $tokens[0]; 
+
 }
 
-function reduce_45_string_element_16($tokens, &$result) {
+function reduce_47_string_element_15($tokens, &$result) {
 #
-# (45) string_element :=  TK_TEXT_NODE
+# (47) string_element :=  TK_COMMA
 #
 $result = reset($tokens);
- $result = $tokens[0]; 
+
 }
 
-function reduce_46_string_element_17($tokens, &$result) {
+function reduce_48_string_element_16($tokens, &$result) {
 #
-# (46) string_element :=  TK_SPACE
+# (48) string_element :=  TK_DOT
 #
 $result = reset($tokens);
- $result = $tokens[0]; 
+
 }
 
-function reduce_47_string_element_18($tokens, &$result) {
+function reduce_49_string_element_17($tokens, &$result) {
 #
-# (47) string_element :=  TK_OTHER
+# (49) string_element :=  TK_ASSIGMENT
 #
 $result = reset($tokens);
- $result = $tokens[0]; 
+
 }
 
-function reduce_48_string_element_19($tokens, &$result) {
+function reduce_50_string_element_18($tokens, &$result) {
 #
-# (48) string_element :=  logic_node
+# (50) string_element :=  TK_NOT_EQUAL
 #
 $result = reset($tokens);
- $result = $tokens[0]; 
+
 }
 
-function reduce_49_attrib_name_1($tokens, &$result) {
+function reduce_51_string_element_19($tokens, &$result) {
 #
-# (49) attrib_name :=  tag_name
+# (51) string_element :=  TK_TEXT_NODE
 #
 $result = reset($tokens);
- $result = $tokens[0]; 
+
 }
 
-function reduce_50_text_node_1($tokens, &$result) {
+function reduce_52_string_element_20($tokens, &$result) {
 #
-# (50) text_node :=  TK_TEXT_NODE
+# (52) string_element :=  TK_SPACE
+#
+$result = reset($tokens);
+
+}
+
+function reduce_53_string_element_21($tokens, &$result) {
+#
+# (53) string_element :=  TK_OTHER
+#
+$result = reset($tokens);
+
+}
+
+function reduce_54_string_element_22($tokens, &$result) {
+#
+# (54) string_element :=  logic_node
+#
+$result = reset($tokens);
+
+}
+
+function reduce_55_attrib_name_1($tokens, &$result) {
+#
+# (55) attrib_name :=  TK_LETTERS
+#
+$result = reset($tokens);
+
+}
+
+function reduce_56_attrib_name_2($tokens, &$result) {
+#
+# (56) attrib_name :=  TK_DATA_ATTR
+#
+$result = reset($tokens);
+
+}
+
+function reduce_57_attrib_name_3($tokens, &$result) {
+#
+# (57) attrib_name :=  TK_SELECTOR
+#
+$result = reset($tokens);
+
+}
+
+function reduce_58_text_node_1($tokens, &$result) {
+#
+# (58) text_node :=  TK_TEXT_NODE
 #
 $result = reset($tokens);
  $result = new TextNode($tokens[0]); 
 }
 
-function reduce_51_text_node_2($tokens, &$result) {
+function reduce_59_text_node_2($tokens, &$result) {
 #
-# (51) text_node :=  TK_LETTERS
-#
-$result = reset($tokens);
- $result = new TextNode($tokens[0]); 
-}
-
-function reduce_52_text_node_3($tokens, &$result) {
-#
-# (52) text_node :=  TK_TAG_NAME
+# (59) text_node :=  TK_LETTERS
 #
 $result = reset($tokens);
  $result = new TextNode($tokens[0]); 
 }
 
-function reduce_53_text_node_4($tokens, &$result) {
+function reduce_60_text_node_3($tokens, &$result) {
 #
-# (53) text_node :=  TK_VAR
-#
-$result = reset($tokens);
- $result = new TextNode($tokens[0]); 
-}
-
-function reduce_54_text_node_5($tokens, &$result) {
-#
-# (54) text_node :=  TK_OTHER
+# (60) text_node :=  TK_SELECTOR_LOWDASH
 #
 $result = reset($tokens);
  $result = new TextNode($tokens[0]); 
 }
 
-function reduce_55_logic_node_1($tokens, &$result) {
+function reduce_61_text_node_4($tokens, &$result) {
 #
-# (55) logic_node :=  TK_LOGIC_BEGIN  expr_words  TK_LOGIC_END
+# (61) text_node :=  TK_SELECTOR
+#
+$result = reset($tokens);
+ $result = new TextNode($tokens[0]); 
+}
+
+function reduce_62_text_node_5($tokens, &$result) {
+#
+# (62) text_node :=  TK_TAG_NAME
+#
+$result = reset($tokens);
+ $result = new TextNode($tokens[0]); 
+}
+
+function reduce_63_text_node_6($tokens, &$result) {
+#
+# (63) text_node :=  TK_VAR
+#
+$result = reset($tokens);
+ $result = new TextNode($tokens[0]); 
+}
+
+function reduce_64_text_node_7($tokens, &$result) {
+#
+# (64) text_node :=  TK_OTHER
+#
+$result = reset($tokens);
+ $result = new TextNode($tokens[0]); 
+}
+
+function reduce_65_text_node_8($tokens, &$result) {
+#
+# (65) text_node :=  TK_COMMA
+#
+$result = reset($tokens);
+ $result = new TextNode($tokens[0]); 
+}
+
+function reduce_66_text_node_9($tokens, &$result) {
+#
+# (66) text_node :=  TK_DIGITS
+#
+$result = reset($tokens);
+ $result = new TextNode($tokens[0]); 
+}
+
+function reduce_67_text_node_10($tokens, &$result) {
+#
+# (67) text_node :=  TK_DOT
+#
+$result = reset($tokens);
+ $result = new TextNode($tokens[0]); 
+}
+
+function reduce_68_text_node_11($tokens, &$result) {
+#
+# (68) text_node :=  TK_SLASH
+#
+$result = reset($tokens);
+ $result = new TextNode($tokens[0]); 
+}
+
+function reduce_69_logic_node_1($tokens, &$result) {
+#
+# (69) logic_node :=  TK_LOGIC_BEGIN  expr_words  TK_LOGIC_END
 #
 $result = reset($tokens);
  $result = new LogicNode($tokens[1]); 
 }
 
-function reduce_56_expr_words_1($tokens, &$result) {
+function reduce_70_expr_words_1($tokens, &$result) {
 #
-# (56) expr_words :=  expr
+# (70) expr_words :=  expr
 #
 $result = reset($tokens);
  $result = array(array('value' => $tokens[0], 'type' => 'expr')); 
 }
 
-function reduce_57_expr_words_2($tokens, &$result) {
+function reduce_71_expr_words_2($tokens, &$result) {
 #
-# (57) expr_words :=  expr_words  expr
+# (71) expr_words :=  expr_words  expr
 #
 $result = reset($tokens);
  $tokens[0][] = array('value' => $tokens[1], 'type' => 'expr'); $result = $tokens[0]; 
 }
 
-function reduce_58_expr_1($tokens, &$result) {
+function reduce_72_expr_1($tokens, &$result) {
 #
-# (58) expr :=  TK_DIGITS
-#
-$result = reset($tokens);
- $result = $tokens[0]; 
-}
-
-function reduce_59_expr_2($tokens, &$result) {
-#
-# (59) expr :=  TK_LETTERS
+# (72) expr :=  exprs_list
 #
 $result = reset($tokens);
- $result = $tokens[0]; 
+
 }
 
-function reduce_60_expr_3($tokens, &$result) {
+function reduce_73_expr_2($tokens, &$result) {
 #
-# (60) expr :=  TK_VAR
+# (73) expr :=  expr  TK_OPEN_BRAKETS  expr  TK_CLOSE_BRAKETS
 #
 $result = reset($tokens);
- $result = $tokens[0]; 
+ $result = $tokens[0] . $tokens[1] . $tokens[2] . $tokens[3]; 
 }
 
-function reduce_61_expr_4($tokens, &$result) {
+function reduce_74_expr_3($tokens, &$result) {
 #
-# (61) expr :=  expr  TK_LT  expr
+# (74) expr :=  TK_OPEN_BRAKETS  expr  TK_CLOSE_BRAKETS
 #
 $result = reset($tokens);
- $result = $tokens[0] . ' ' . $tokens[1] . ' '. $tokens[2]; 
+ $result = $tokens[0] . $tokens[1] . $tokens[2]; 
 }
 
-function reduce_62_expr_5($tokens, &$result) {
+function reduce_75_expr_4($tokens, &$result) {
 #
-# (62) expr :=  expr  TK_GT  expr
+# (75) expr :=  expr  TK_TWO_DOTS  expr
 #
 $result = reset($tokens);
- $result = $tokens[0] . ' ' . $tokens[1] . ' '. $tokens[2]; 
+ $result = 'makeArray(' . $tokens[0] . ', ' . $tokens[2] . ')'; 
 }
 
-function reduce_63_expr_6($tokens, &$result) {
+function reduce_76_expr_5($tokens, &$result) {
 #
-# (63) expr :=  expr  TK_MINUS  expr
+# (76) expr :=  expr  TK_MULTIPLY  expr
 #
 $result = reset($tokens);
- $result = $tokens[0] . ' ' . $tokens[1] . ' '. $tokens[2]; 
+ $result = $tokens[0] . ' ' . $tokens[1] . ' ' . $tokens[2]; 
 }
 
-function reduce_64_expr_7($tokens, &$result) {
+function reduce_77_expr_6($tokens, &$result) {
 #
-# (64) expr :=  expr  TK_PLUS  expr
+# (77) expr :=  expr  TK_SLASH  expr
 #
 $result = reset($tokens);
- $result = $tokens[0] . ' ' . $tokens[1] . ' '. $tokens[2]; 
+ $result = $tokens[0] . ' ' . $tokens[1] . ' ' . $tokens[2]; 
 }
 
-function reduce_65_expr_8($tokens, &$result) {
+function reduce_78_expr_7($tokens, &$result) {
 #
-# (65) expr :=  expr  TK_ASSIGMENT  expr
+# (78) expr :=  expr  TK_MINUS  expr
 #
 $result = reset($tokens);
- $result = $tokens[0] . ' ' . $tokens[1] . ' '. $tokens[2]; 
+ $result = $tokens[0] . ' ' . $tokens[1] . ' ' . $tokens[2]; 
 }
 
-function reduce_66_expr_9($tokens, &$result) {
+function reduce_79_expr_8($tokens, &$result) {
 #
-# (66) expr :=  expr  TK_EQUAL  expr
+# (79) expr :=  expr  TK_PLUS  expr
 #
 $result = reset($tokens);
- $result = $tokens[0] . ' ' . $tokens[1] . ' '. $tokens[2]; 
+ $result = $tokens[0] . ' ' . $tokens[1] . ' ' . $tokens[2]; 
 }
 
-function reduce_67_expr_10($tokens, &$result) {
+function reduce_80_expr_9($tokens, &$result) {
 #
-# (67) expr :=  expr  TK_NOT_EQUAL  expr
+# (80) expr :=  expr  TK_LT  expr
 #
 $result = reset($tokens);
- $result = $tokens[0] . ' ' . $tokens[1] . ' '. $tokens[2]; 
+ $result = $tokens[0] . ' ' . $tokens[1] . ' ' . $tokens[2]; 
 }
 
-function reduce_68_expr_11($tokens, &$result) {
+function reduce_81_expr_10($tokens, &$result) {
 #
-# (68) expr :=  expr  TK_LT_EQUAL  expr
+# (81) expr :=  expr  TK_GT  expr
 #
 $result = reset($tokens);
- $result = $tokens[0] . ' ' . $tokens[1] . ' '. $tokens[2]; 
+ $result = $tokens[0] . ' ' . $tokens[1] . ' ' . $tokens[2]; 
 }
 
-function reduce_69_expr_12($tokens, &$result) {
+function reduce_82_expr_11($tokens, &$result) {
 #
-# (69) expr :=  expr  TK_GT_EQUAL  expr
+# (82) expr :=  expr  TK_ASSIGMENT  expr
 #
 $result = reset($tokens);
- $result = $tokens[0] . ' ' . $tokens[1] . ' '. $tokens[2]; 
+ $result = $tokens[0] . ' ' . $tokens[1] . ' ' . $tokens[2]; 
 }
 
-function reduce_70_start_1($tokens, &$result) {
+function reduce_83_expr_12($tokens, &$result) {
 #
-# (70) 'start' :=  doc
+# (83) expr :=  expr  TK_EQUAL  expr
+#
+$result = reset($tokens);
+ $result = $tokens[0] . ' ' . $tokens[1] . ' ' . $tokens[2]; 
+}
+
+function reduce_84_expr_13($tokens, &$result) {
+#
+# (84) expr :=  expr  TK_NOT_EQUAL  expr
+#
+$result = reset($tokens);
+ $result = $tokens[0] . ' ' . $tokens[1] . ' ' . $tokens[2]; 
+}
+
+function reduce_85_expr_14($tokens, &$result) {
+#
+# (85) expr :=  expr  TK_LT_EQUAL  expr
+#
+$result = reset($tokens);
+ $result = $tokens[0] . ' ' . $tokens[1] . ' ' . $tokens[2]; 
+}
+
+function reduce_86_expr_15($tokens, &$result) {
+#
+# (86) expr :=  expr  TK_GT_EQUAL  expr
+#
+$result = reset($tokens);
+ $result = $tokens[0] . ' ' . $tokens[1] . ' ' . $tokens[2]; 
+}
+
+function reduce_87_expr_16($tokens, &$result) {
+#
+# (87) expr :=  expr  TK_LOGIC_AND  expr
+#
+$result = reset($tokens);
+ $result = $tokens[0] . ' ' . $tokens[1] . ' ' . $tokens[2]; 
+}
+
+function reduce_88_expr_17($tokens, &$result) {
+#
+# (88) expr :=  expr  TK_LOGIC_OR  expr
+#
+$result = reset($tokens);
+ $result = $tokens[0] . ' ' . $tokens[1] . ' ' . $tokens[2]; 
+}
+
+function reduce_89_expr_18($tokens, &$result) {
+#
+# (89) expr :=  expr  TK_PIPE  expr
+#
+$result = reset($tokens);
+ $result = $tokens[0] . ' ' . $tokens[1] . ' ' . $tokens[2]; 
+}
+
+function reduce_90_expr_19($tokens, &$result) {
+#
+# (90) expr :=  complex_var
+#
+$result = reset($tokens);
+
+}
+
+function reduce_91_expr_20($tokens, &$result) {
+#
+# (91) expr :=  TK_EXCLAMATION_MARK
+#
+$result = reset($tokens);
+
+}
+
+function reduce_92_expr_21($tokens, &$result) {
+#
+# (92) expr :=  TK_QUESTION_MARK
+#
+$result = reset($tokens);
+
+}
+
+function reduce_93_expr_22($tokens, &$result) {
+#
+# (93) expr :=  func_name
+#
+$result = reset($tokens);
+
+}
+
+function reduce_94_complex_var_1($tokens, &$result) {
+#
+# (94) complex_var :=  expr  TK_DOT  expr
+#
+$result = reset($tokens);
+ $result = $tokens[0] . $tokens[1] . $tokens[2]; 
+}
+
+function reduce_95_complex_var_2($tokens, &$result) {
+#
+# (95) complex_var :=  expr  TK_OPEN_SQUARE_BRAKETS  expr  TK_CLOSE_SQUARE_BRAKETS
+#
+$result = reset($tokens);
+ $result = $tokens[0] . $tokens[1] . $tokens[2] . $tokens[3]; 
+}
+
+function reduce_96_complex_var_3($tokens, &$result) {
+#
+# (96) complex_var :=  complex_var  TK_DOT  func_name
+#
+$result = reset($tokens);
+ $result = $tokens[0] . $tokens[1] . $tokens[2]; 
+}
+
+function reduce_97_complex_var_4($tokens, &$result) {
+#
+# (97) complex_var :=  complex_var  TK_OPEN_SQUARE_BRAKETS  expr  TK_CLOSE_SQUARE_BRAKETS
+#
+$result = reset($tokens);
+ $result = $tokens[0] . $tokens[1] . $tokens[2] . $tokens[3]; 
+}
+
+function reduce_98_exprs_list_1($tokens, &$result) {
+#
+# (98) exprs_list :=  expr  TK_COMMA  expr
+#
+$result = reset($tokens);
+ $result = $tokens[0] . $tokens[1] . ' ' . $tokens[2]; 
+}
+
+function reduce_99_exprs_list_2($tokens, &$result) {
+#
+# (99) exprs_list :=  exprs_list  TK_COMMA  expr
+#
+$result = reset($tokens);
+ $result = $tokens[0] . $tokens[1] . ' ' . $tokens[2]; 
+}
+
+function reduce_100_nums_1($tokens, &$result) {
+#
+# (100) nums :=  TK_NUMBERS
+#
+$result = reset($tokens);
+
+}
+
+function reduce_101_nums_2($tokens, &$result) {
+#
+# (101) nums :=  TK_DIGITS
+#
+$result = reset($tokens);
+
+}
+
+function reduce_102_func_name_1($tokens, &$result) {
+#
+# (102) func_name :=  TK_LETTERS
+#
+$result = reset($tokens);
+
+}
+
+function reduce_103_func_name_2($tokens, &$result) {
+#
+# (103) func_name :=  TK_SELECTOR
+#
+$result = reset($tokens);
+
+}
+
+function reduce_104_func_name_3($tokens, &$result) {
+#
+# (104) func_name :=  TK_VAR
+#
+$result = reset($tokens);
+
+}
+
+function reduce_105_func_name_4($tokens, &$result) {
+#
+# (105) func_name :=  string
+#
+$result = reset($tokens);
+ $result = '"' . implode('"."', $tokens[0]) . '"'; 
+}
+
+function reduce_106_func_name_5($tokens, &$result) {
+#
+# (106) func_name :=  nums
+#
+$result = reset($tokens);
+
+}
+
+function reduce_107_start_1($tokens, &$result) {
+#
+# (107) 'start' :=  doc
 #
 $result = reset($tokens);
 
@@ -1946,64 +4280,101 @@ var $method = array (
   10 => 'reduce_10_tag_2',
   11 => 'reduce_11_tag_name_1',
   12 => 'reduce_12_tag_name_2',
-  13 => 'reduce_13_GT_1',
-  14 => 'reduce_14_GT_2',
-  15 => 'reduce_15_attributes_1',
-  16 => 'reduce_16_attributes_2',
-  17 => 'reduce_17_attributes_3',
-  18 => 'reduce_18_attributes_4',
-  19 => 'reduce_19_attributes_5',
-  20 => 'reduce_20_attribute_1',
-  21 => 'reduce_21_attrib_value_1',
-  22 => 'reduce_22_attrib_value_2',
-  23 => 'reduce_23_attrib_value_3',
-  24 => 'reduce_24_attrib_value_4',
-  25 => 'reduce_25_attrib_value_5',
-  26 => 'reduce_26_string_1',
-  27 => 'reduce_27_string_2',
-  28 => 'reduce_28_string_elements_1',
-  29 => 'reduce_29_string_elements_2',
-  30 => 'reduce_30_string_element_1',
-  31 => 'reduce_31_string_element_2',
-  32 => 'reduce_32_string_element_3',
-  33 => 'reduce_33_string_element_4',
-  34 => 'reduce_34_string_element_5',
-  35 => 'reduce_35_string_element_6',
-  36 => 'reduce_36_string_element_7',
-  37 => 'reduce_37_string_element_8',
-  38 => 'reduce_38_string_element_9',
-  39 => 'reduce_39_string_element_10',
-  40 => 'reduce_40_string_element_11',
-  41 => 'reduce_41_string_element_12',
-  42 => 'reduce_42_string_element_13',
-  43 => 'reduce_43_string_element_14',
-  44 => 'reduce_44_string_element_15',
-  45 => 'reduce_45_string_element_16',
-  46 => 'reduce_46_string_element_17',
-  47 => 'reduce_47_string_element_18',
-  48 => 'reduce_48_string_element_19',
-  49 => 'reduce_49_attrib_name_1',
-  50 => 'reduce_50_text_node_1',
-  51 => 'reduce_51_text_node_2',
-  52 => 'reduce_52_text_node_3',
-  53 => 'reduce_53_text_node_4',
-  54 => 'reduce_54_text_node_5',
-  55 => 'reduce_55_logic_node_1',
-  56 => 'reduce_56_expr_words_1',
-  57 => 'reduce_57_expr_words_2',
-  58 => 'reduce_58_expr_1',
-  59 => 'reduce_59_expr_2',
-  60 => 'reduce_60_expr_3',
-  61 => 'reduce_61_expr_4',
-  62 => 'reduce_62_expr_5',
-  63 => 'reduce_63_expr_6',
-  64 => 'reduce_64_expr_7',
-  65 => 'reduce_65_expr_8',
-  66 => 'reduce_66_expr_9',
-  67 => 'reduce_67_expr_10',
-  68 => 'reduce_68_expr_11',
-  69 => 'reduce_69_expr_12',
-  70 => 'reduce_70_start_1',
+  13 => 'reduce_13_tag_name_3',
+  14 => 'reduce_14_tag_name_4',
+  15 => 'reduce_15_GT_1',
+  16 => 'reduce_16_GT_2',
+  17 => 'reduce_17_attributes_1',
+  18 => 'reduce_18_attributes_2',
+  19 => 'reduce_19_attributes_3',
+  20 => 'reduce_20_attributes_4',
+  21 => 'reduce_21_attributes_5',
+  22 => 'reduce_22_attribute_1',
+  23 => 'reduce_23_attrib_value_1',
+  24 => 'reduce_24_attrib_value_2',
+  25 => 'reduce_25_attrib_value_3',
+  26 => 'reduce_26_attrib_value_4',
+  27 => 'reduce_27_attrib_value_5',
+  28 => 'reduce_28_attrib_value_6',
+  29 => 'reduce_29_string_1',
+  30 => 'reduce_30_string_2',
+  31 => 'reduce_31_string_elements_1',
+  32 => 'reduce_32_string_elements_2',
+  33 => 'reduce_33_string_element_1',
+  34 => 'reduce_34_string_element_2',
+  35 => 'reduce_35_string_element_3',
+  36 => 'reduce_36_string_element_4',
+  37 => 'reduce_37_string_element_5',
+  38 => 'reduce_38_string_element_6',
+  39 => 'reduce_39_string_element_7',
+  40 => 'reduce_40_string_element_8',
+  41 => 'reduce_41_string_element_9',
+  42 => 'reduce_42_string_element_10',
+  43 => 'reduce_43_string_element_11',
+  44 => 'reduce_44_string_element_12',
+  45 => 'reduce_45_string_element_13',
+  46 => 'reduce_46_string_element_14',
+  47 => 'reduce_47_string_element_15',
+  48 => 'reduce_48_string_element_16',
+  49 => 'reduce_49_string_element_17',
+  50 => 'reduce_50_string_element_18',
+  51 => 'reduce_51_string_element_19',
+  52 => 'reduce_52_string_element_20',
+  53 => 'reduce_53_string_element_21',
+  54 => 'reduce_54_string_element_22',
+  55 => 'reduce_55_attrib_name_1',
+  56 => 'reduce_56_attrib_name_2',
+  57 => 'reduce_57_attrib_name_3',
+  58 => 'reduce_58_text_node_1',
+  59 => 'reduce_59_text_node_2',
+  60 => 'reduce_60_text_node_3',
+  61 => 'reduce_61_text_node_4',
+  62 => 'reduce_62_text_node_5',
+  63 => 'reduce_63_text_node_6',
+  64 => 'reduce_64_text_node_7',
+  65 => 'reduce_65_text_node_8',
+  66 => 'reduce_66_text_node_9',
+  67 => 'reduce_67_text_node_10',
+  68 => 'reduce_68_text_node_11',
+  69 => 'reduce_69_logic_node_1',
+  70 => 'reduce_70_expr_words_1',
+  71 => 'reduce_71_expr_words_2',
+  72 => 'reduce_72_expr_1',
+  73 => 'reduce_73_expr_2',
+  74 => 'reduce_74_expr_3',
+  75 => 'reduce_75_expr_4',
+  76 => 'reduce_76_expr_5',
+  77 => 'reduce_77_expr_6',
+  78 => 'reduce_78_expr_7',
+  79 => 'reduce_79_expr_8',
+  80 => 'reduce_80_expr_9',
+  81 => 'reduce_81_expr_10',
+  82 => 'reduce_82_expr_11',
+  83 => 'reduce_83_expr_12',
+  84 => 'reduce_84_expr_13',
+  85 => 'reduce_85_expr_14',
+  86 => 'reduce_86_expr_15',
+  87 => 'reduce_87_expr_16',
+  88 => 'reduce_88_expr_17',
+  89 => 'reduce_89_expr_18',
+  90 => 'reduce_90_expr_19',
+  91 => 'reduce_91_expr_20',
+  92 => 'reduce_92_expr_21',
+  93 => 'reduce_93_expr_22',
+  94 => 'reduce_94_complex_var_1',
+  95 => 'reduce_95_complex_var_2',
+  96 => 'reduce_96_complex_var_3',
+  97 => 'reduce_97_complex_var_4',
+  98 => 'reduce_98_exprs_list_1',
+  99 => 'reduce_99_exprs_list_2',
+  100 => 'reduce_100_nums_1',
+  101 => 'reduce_101_nums_2',
+  102 => 'reduce_102_func_name_1',
+  103 => 'reduce_103_func_name_2',
+  104 => 'reduce_104_func_name_3',
+  105 => 'reduce_105_func_name_4',
+  106 => 'reduce_106_func_name_5',
+  107 => 'reduce_107_start_1',
 );
 var $a = array (
   0 => 
@@ -2086,74 +4457,74 @@ var $a = array (
   ),
   13 => 
   array (
-    'symbol' => 'GT',
-    'len' => 2,
+    'symbol' => 'tag_name',
+    'len' => 1,
     'replace' => true,
   ),
   14 => 
   array (
-    'symbol' => 'GT',
+    'symbol' => 'tag_name',
     'len' => 1,
     'replace' => true,
   ),
   15 => 
   array (
-    'symbol' => 'attributes',
-    'len' => 0,
+    'symbol' => 'GT',
+    'len' => 2,
     'replace' => true,
   ),
   16 => 
   array (
-    'symbol' => 'attributes',
+    'symbol' => 'GT',
     'len' => 1,
     'replace' => true,
   ),
   17 => 
   array (
     'symbol' => 'attributes',
-    'len' => 1,
+    'len' => 0,
     'replace' => true,
   ),
   18 => 
   array (
     'symbol' => 'attributes',
-    'len' => 2,
+    'len' => 1,
     'replace' => true,
   ),
   19 => 
   array (
     'symbol' => 'attributes',
-    'len' => 2,
+    'len' => 1,
     'replace' => true,
   ),
   20 => 
   array (
-    'symbol' => 'attribute',
+    'symbol' => 'attributes',
     'len' => 2,
     'replace' => true,
   ),
   21 => 
   array (
-    'symbol' => 'attrib_value',
-    'len' => 0,
+    'symbol' => 'attributes',
+    'len' => 2,
     'replace' => true,
   ),
   22 => 
   array (
-    'symbol' => 'attrib_value',
+    'symbol' => 'attribute',
     'len' => 2,
     'replace' => true,
   ),
   23 => 
   array (
     'symbol' => 'attrib_value',
-    'len' => 2,
+    'len' => 0,
     'replace' => true,
   ),
   24 => 
   array (
     'symbol' => 'attrib_value',
-    'len' => 2,
+    'len' => 3,
     'replace' => true,
   ),
   25 => 
@@ -2164,44 +4535,44 @@ var $a = array (
   ),
   26 => 
   array (
-    'symbol' => 'string',
-    'len' => 3,
+    'symbol' => 'attrib_value',
+    'len' => 2,
     'replace' => true,
   ),
   27 => 
   array (
-    'symbol' => 'string',
-    'len' => 3,
+    'symbol' => 'attrib_value',
+    'len' => 2,
     'replace' => true,
   ),
   28 => 
   array (
-    'symbol' => 'string_elements',
-    'len' => 1,
+    'symbol' => 'attrib_value',
+    'len' => 2,
     'replace' => true,
   ),
   29 => 
   array (
-    'symbol' => 'string_elements',
-    'len' => 2,
+    'symbol' => 'string',
+    'len' => 3,
     'replace' => true,
   ),
   30 => 
   array (
-    'symbol' => 'string_element',
-    'len' => 1,
+    'symbol' => 'string',
+    'len' => 3,
     'replace' => true,
   ),
   31 => 
   array (
-    'symbol' => 'string_element',
+    'symbol' => 'string_elements',
     'len' => 1,
     'replace' => true,
   ),
   32 => 
   array (
-    'symbol' => 'string_element',
-    'len' => 1,
+    'symbol' => 'string_elements',
+    'len' => 2,
     'replace' => true,
   ),
   33 => 
@@ -2302,131 +4673,353 @@ var $a = array (
   ),
   49 => 
   array (
-    'symbol' => 'attrib_name',
+    'symbol' => 'string_element',
     'len' => 1,
     'replace' => true,
   ),
   50 => 
   array (
-    'symbol' => 'text_node',
+    'symbol' => 'string_element',
     'len' => 1,
     'replace' => true,
   ),
   51 => 
   array (
-    'symbol' => 'text_node',
+    'symbol' => 'string_element',
     'len' => 1,
     'replace' => true,
   ),
   52 => 
   array (
-    'symbol' => 'text_node',
+    'symbol' => 'string_element',
     'len' => 1,
     'replace' => true,
   ),
   53 => 
   array (
-    'symbol' => 'text_node',
+    'symbol' => 'string_element',
     'len' => 1,
     'replace' => true,
   ),
   54 => 
   array (
-    'symbol' => 'text_node',
+    'symbol' => 'string_element',
     'len' => 1,
     'replace' => true,
   ),
   55 => 
   array (
-    'symbol' => 'logic_node',
-    'len' => 3,
+    'symbol' => 'attrib_name',
+    'len' => 1,
     'replace' => true,
   ),
   56 => 
   array (
-    'symbol' => 'expr_words',
+    'symbol' => 'attrib_name',
     'len' => 1,
     'replace' => true,
   ),
   57 => 
   array (
-    'symbol' => 'expr_words',
-    'len' => 2,
+    'symbol' => 'attrib_name',
+    'len' => 1,
     'replace' => true,
   ),
   58 => 
   array (
-    'symbol' => 'expr',
+    'symbol' => 'text_node',
     'len' => 1,
     'replace' => true,
   ),
   59 => 
   array (
-    'symbol' => 'expr',
+    'symbol' => 'text_node',
     'len' => 1,
     'replace' => true,
   ),
   60 => 
   array (
-    'symbol' => 'expr',
+    'symbol' => 'text_node',
     'len' => 1,
     'replace' => true,
   ),
   61 => 
   array (
-    'symbol' => 'expr',
-    'len' => 3,
+    'symbol' => 'text_node',
+    'len' => 1,
     'replace' => true,
   ),
   62 => 
   array (
-    'symbol' => 'expr',
-    'len' => 3,
+    'symbol' => 'text_node',
+    'len' => 1,
     'replace' => true,
   ),
   63 => 
   array (
-    'symbol' => 'expr',
-    'len' => 3,
+    'symbol' => 'text_node',
+    'len' => 1,
     'replace' => true,
   ),
   64 => 
   array (
-    'symbol' => 'expr',
-    'len' => 3,
+    'symbol' => 'text_node',
+    'len' => 1,
     'replace' => true,
   ),
   65 => 
   array (
-    'symbol' => 'expr',
-    'len' => 3,
+    'symbol' => 'text_node',
+    'len' => 1,
     'replace' => true,
   ),
   66 => 
   array (
-    'symbol' => 'expr',
-    'len' => 3,
+    'symbol' => 'text_node',
+    'len' => 1,
     'replace' => true,
   ),
   67 => 
   array (
-    'symbol' => 'expr',
-    'len' => 3,
+    'symbol' => 'text_node',
+    'len' => 1,
     'replace' => true,
   ),
   68 => 
   array (
-    'symbol' => 'expr',
-    'len' => 3,
+    'symbol' => 'text_node',
+    'len' => 1,
     'replace' => true,
   ),
   69 => 
+  array (
+    'symbol' => 'logic_node',
+    'len' => 3,
+    'replace' => true,
+  ),
+  70 => 
+  array (
+    'symbol' => 'expr_words',
+    'len' => 1,
+    'replace' => true,
+  ),
+  71 => 
+  array (
+    'symbol' => 'expr_words',
+    'len' => 2,
+    'replace' => true,
+  ),
+  72 => 
+  array (
+    'symbol' => 'expr',
+    'len' => 1,
+    'replace' => true,
+  ),
+  73 => 
+  array (
+    'symbol' => 'expr',
+    'len' => 4,
+    'replace' => true,
+  ),
+  74 => 
   array (
     'symbol' => 'expr',
     'len' => 3,
     'replace' => true,
   ),
-  70 => 
+  75 => 
+  array (
+    'symbol' => 'expr',
+    'len' => 3,
+    'replace' => true,
+  ),
+  76 => 
+  array (
+    'symbol' => 'expr',
+    'len' => 3,
+    'replace' => true,
+  ),
+  77 => 
+  array (
+    'symbol' => 'expr',
+    'len' => 3,
+    'replace' => true,
+  ),
+  78 => 
+  array (
+    'symbol' => 'expr',
+    'len' => 3,
+    'replace' => true,
+  ),
+  79 => 
+  array (
+    'symbol' => 'expr',
+    'len' => 3,
+    'replace' => true,
+  ),
+  80 => 
+  array (
+    'symbol' => 'expr',
+    'len' => 3,
+    'replace' => true,
+  ),
+  81 => 
+  array (
+    'symbol' => 'expr',
+    'len' => 3,
+    'replace' => true,
+  ),
+  82 => 
+  array (
+    'symbol' => 'expr',
+    'len' => 3,
+    'replace' => true,
+  ),
+  83 => 
+  array (
+    'symbol' => 'expr',
+    'len' => 3,
+    'replace' => true,
+  ),
+  84 => 
+  array (
+    'symbol' => 'expr',
+    'len' => 3,
+    'replace' => true,
+  ),
+  85 => 
+  array (
+    'symbol' => 'expr',
+    'len' => 3,
+    'replace' => true,
+  ),
+  86 => 
+  array (
+    'symbol' => 'expr',
+    'len' => 3,
+    'replace' => true,
+  ),
+  87 => 
+  array (
+    'symbol' => 'expr',
+    'len' => 3,
+    'replace' => true,
+  ),
+  88 => 
+  array (
+    'symbol' => 'expr',
+    'len' => 3,
+    'replace' => true,
+  ),
+  89 => 
+  array (
+    'symbol' => 'expr',
+    'len' => 3,
+    'replace' => true,
+  ),
+  90 => 
+  array (
+    'symbol' => 'expr',
+    'len' => 1,
+    'replace' => true,
+  ),
+  91 => 
+  array (
+    'symbol' => 'expr',
+    'len' => 1,
+    'replace' => true,
+  ),
+  92 => 
+  array (
+    'symbol' => 'expr',
+    'len' => 1,
+    'replace' => true,
+  ),
+  93 => 
+  array (
+    'symbol' => 'expr',
+    'len' => 1,
+    'replace' => true,
+  ),
+  94 => 
+  array (
+    'symbol' => 'complex_var',
+    'len' => 3,
+    'replace' => true,
+  ),
+  95 => 
+  array (
+    'symbol' => 'complex_var',
+    'len' => 4,
+    'replace' => true,
+  ),
+  96 => 
+  array (
+    'symbol' => 'complex_var',
+    'len' => 3,
+    'replace' => true,
+  ),
+  97 => 
+  array (
+    'symbol' => 'complex_var',
+    'len' => 4,
+    'replace' => true,
+  ),
+  98 => 
+  array (
+    'symbol' => 'exprs_list',
+    'len' => 3,
+    'replace' => true,
+  ),
+  99 => 
+  array (
+    'symbol' => 'exprs_list',
+    'len' => 3,
+    'replace' => true,
+  ),
+  100 => 
+  array (
+    'symbol' => 'nums',
+    'len' => 1,
+    'replace' => true,
+  ),
+  101 => 
+  array (
+    'symbol' => 'nums',
+    'len' => 1,
+    'replace' => true,
+  ),
+  102 => 
+  array (
+    'symbol' => 'func_name',
+    'len' => 1,
+    'replace' => true,
+  ),
+  103 => 
+  array (
+    'symbol' => 'func_name',
+    'len' => 1,
+    'replace' => true,
+  ),
+  104 => 
+  array (
+    'symbol' => 'func_name',
+    'len' => 1,
+    'replace' => true,
+  ),
+  105 => 
+  array (
+    'symbol' => 'func_name',
+    'len' => 1,
+    'replace' => true,
+  ),
+  106 => 
+  array (
+    'symbol' => 'func_name',
+    'len' => 1,
+    'replace' => true,
+  ),
+  107 => 
   array (
     'symbol' => '\'start\'',
     'len' => 1,

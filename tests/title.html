@@ -1,0 +1,385 @@
+<header>
+  <menu class="top-menu">
+    <div class="top-menu__item">Регион: <span class="top-menu__select">{{ selectedState.title }}</span></div>
+    <nav class="top-menu__nav">
+      <a class="top-menu__link" href="">Методика измерений</a>
+      <a class="top-menu__link" href="">О проекте</a>
+      <a class="top-menu__link" href="">Контакты</a>
+    </nav>
+  </menu>
+  <div class="logo"><img src="/mvc/view/components/logo/logo.png" width="159" alt="" /></div>
+  <div class="about-numbers">
+    <div>
+      <a class="about-numbers__title-link" href="">Что означают эти цифры</a>
+    </div>
+    <div class="about-numbers__desc">Узнайте, как мы оцениваем операторов, и&nbsp;что означают цифры в&nbsp;рейтинге</div>
+  </div>
+  <form class="search" action="" method="post">
+    <input class="search__inp" type="text" />
+    <button class="search__send"></button>
+    <span class="search__legend">Например, <span class="search__example">село Верхневилюйск</span></span>
+  </form>
+</header>
+
+<section class="section section--map section--{{ selectedTown.alias }}{% if selectedTown.distcs? && selectedDist == "all" %}-all{% endif %}" role="section">
+  <div class="maps maps--{{ selectedTown.alias }}{% if selectedTown.distcs? && selectedDist == "all" %}-all{% endif %}" role="maps">
+    <div class="maps__map" role="maps-inner">
+    {% if selectedTown.distcs? %}
+      {% if selectedDist != "all" %}
+        {% for dist in selectedTown.distcs %}
+        <div class="maps__dist maps__dist--{{ dist.alias }}{% if dist.alias == selectedDist.alias %} maps__dist--active{% endif %}" role="dist-{{ dist.alias }}">
+          <div class="maps__columns">
+            <div class="maps__column maps__column--red">
+              {% for raiting in [1..dist.data.mts[selectedType].rating] %}
+              <span class="maps__cell"></span>
+              {% endfor %}
+            </div>
+            <div class="maps__column maps__column--green">
+              {% for raiting in [1..dist.data.megafon[selectedType].rating] %}
+              <span class="maps__cell"></span>
+              {% endfor %}
+            </div>
+            <div class="maps__column maps__column--yellow">
+              {% for raiting in [1..dist.data.beeline[selectedType].rating] %}
+              <span class="maps__cell"></span>
+              {% endfor %}
+            </div>
+          </div>
+          <div class="maps__title">{{ dist.title }}</div>
+        </div>
+        {% endfor %}
+      {% else %}
+      <div class="maps__dist">
+        <div class="maps__columns maps__columns--all">
+          <div class="maps__column maps__column--red">
+            {{ selectedTown.data.mts[selectedType].rating }}
+            {% for raiting in [1..selectedTown.data.mts[selectedType].rating] %}
+            <span class="maps__cell"></span>
+            {% endfor %}
+          </div>
+          <div class="maps__column maps__column--green">
+            {% for raiting in [1..selectedTown.data.megafon[selectedType].rating] %}
+            <span class="maps__cell"></span>
+            {% endfor %}
+          </div>
+          <div class="maps__column maps__column--yellow">
+            {% for raiting in [1..selectedTown.data.beeline[selectedType].rating] %}
+            <span class="maps__cell"></span>
+            {% endfor %}
+          </div>
+        </div>
+        <div class="maps__title">{{ selectedTown.title }}</div>
+      </div>
+      {% endif %}
+    {% else %}
+      <div class="maps__dist">
+        <div class="maps__columns">
+          <div class="maps__column maps__column--red">
+            {% for raiting in [1..selectedTown.data.mts[selectedType].rating] %}
+            <span class="maps__cell"></span>
+            {% endfor %}
+          </div>
+          <div class="maps__column maps__column--green">
+            {% for raiting in [1..selectedTown.data.megafon[selectedType].rating] %}
+            <span class="maps__cell"></span>
+            {% endfor %}
+          </div>
+          <div class="maps__column maps__column--yellow">
+            {% for raiting in [1..selectedTown.data.beeline[selectedType].rating] %}
+            <span class="maps__cell"></span>
+            {% endfor %}
+          </div>
+        </div>
+        <div class="maps__title">{{ selectedTown.title }}</div>
+      </div>
+    {% endif %}
+    </div>
+  </div>
+
+  {% if selectedTown.distcs? && selectedDist != "all" %}
+  {% include "img-map" %}
+  {% endif %}
+  <map role="map" name="map">
+    {% if selectedTown.distcs? && selectedDist != "all" %}
+      {% for dist in selectedTown.distcs %}
+        {% for dst, value in selectedTown.coords %}
+          {% if dst == dist.alias %}
+            {% url = "/".selectedState.alias."/".selectedTown.alias."/".dist.alias."/alpha/".selectedAlpha."/type/".selectedType."/" %}
+            {% include "map-area" %}
+          {% endif %}
+        {% endfor %}
+      {% endfor %}
+    {% endif %}
+  </map>
+
+  <div>
+    <div class="towns-index" role="towns-index">
+      {% foundedWithoutDistcs = 0 %}
+      {% foundSelectedTown = 0 %}
+      {% for town in towns %}
+        {% if town.distcs? %}
+          {% if town.alias == selectedTown.alias %}
+      <span class="towns-index__item towns-index__item--active" role="town big-town" data-town="{{ town.alias }}">{{ town.title }}</span>
+            {% foundSelectedTown = town.alias %}
+          {% else %}
+      <a href="/{{ selectedState.alias }}/{{ town.alias }}/" class="towns-index__item" role="town big-town" data-town="{{ town.alias }}">{{ town.title }}</a>
+          {% endif %}
+        {% else %}
+          {% if !foundedWithoutDistcs %}
+            {% foundedWithoutDistcs = town.alias %}
+          {% endif %}
+        {% endif %}
+      {% endfor %}
+      {% if foundedWithoutDistcs %}
+        {% if !foundSelectedTown %}
+      <span class="towns-index__item towns-index__item--active" role="town more-towns" data-town="{{ foundedWithoutDistcs }}">Населенные пункты</span>
+        {% else %}
+      <a href="/{{ selectedState.alias }}/towns/" class="towns-index__item" role="town more-towns" data-town="{{ foundedWithoutDistcs }}">Населенные пункты</a>
+        {% endif %}
+      {% endif %}
+    </div>
+
+    <div class="alpha-index" role="alpha-index">
+      {% if foundSelectedTown %}
+        {% if selectedDist == 'all' %}
+      <span class="alpha-index__item alpha-index__item--active alpha-index__item--all" role="full-town">Весь город</span>
+        {% else %}
+      <a class="alpha-index__item alpha-index__item--all" href="/{{ selectedState.alias }}/{{ selectedTown.alias }}/all/" role="full-town">Весь город</a>
+        {% endif %}
+        {% for alpha in selectedTown.alpha %}
+          {% if selectedDist != 'all' && selectedAlpha == translit(alpha) && selectedDist != 'all' %}
+      <span class="alpha-index__item alpha-index__item--active" role="alpha" data-alpha="{{ alpha|translit }}">{{ alpha }}</span>
+          {% else %}
+      <a href="/{{ selectedState.alias }}/{{ selectedTown.alias }}/{% if selectedDist != 'all' %}{{ selectedDist.alias }}{% else %}all{% endif %}/alpha/{{ alpha|translit }}/" class="alpha-index__item" role="alpha" data-alpha="{{ alpha|translit }}">{{ alpha }}</a>
+          {% endif %}
+        {% endfor %}
+      {% else %}
+        {% for alpha in selectedState.alpha %}
+          {% if selectedAlpha == translit(alpha) %}
+      <span class="alpha-index__item alpha-index__item--active" role="alpha" data-alpha="{{ alpha|translit }}">{{ alpha }}</span>
+          {% else %}
+      <a href="/{{ selectedState.alias }}/towns/{{ selectedTown.alias }}/alpha/{{ alpha|translit }}/" class="alpha-index__item" role="alpha" data-alpha="{{ alpha|translit }}">{{ alpha }}</a>
+          {% endif %}
+        {% endfor %}
+      {% endif %}
+    </div>
+
+    <div class="towns" role="towns">
+      {% if foundSelectedTown %}
+        {% if selectedDist != 'all' %}
+          {% for dist in selectedTown.distcs %}
+            {% if dist.firstLetter_translit == selectedAlpha %}
+              {% if selectedDist.alias == dist.alias %}
+      <span class="towns__item towns__item--active" role="dist" data-dist="{{ dist.alias }}">{{ dist.title }}</span>
+              {% else %}
+      <a href="/{{ selectedState.alias }}/{{ selectedTown.alias }}/{{ dist.alias }}/alpha/{{ dist.firstLetter_translit }}/" class="towns__item" role="dist" data-dist="{{ dist.alias }}">{{ dist.title }}</a>
+              {% endif %}
+            {% endif %}
+          {% endfor %}
+        {% endif %}
+      {% else %}
+        {% for town in towns %}
+          {% if !town.distcs? %}
+            {% if town.firstLetter_translit == selectedAlpha %}
+              {% if selectedTown.alias == town.alias %}
+      <span class="towns__item towns__item--active" role="town" data-town="{{ town.alias }}">{{ town.title }}</span>
+              {% else %}
+      <a href="/{{ selectedState.alias }}/towns/{{ town.alias }}/alpha/{{ town.firstLetter_translit }}/" class="towns__item" role="town" data-town="{{ town.alias }}">{{ town.title }}</a>
+              {% endif %}
+            {% endif %}
+          {% endif %}
+        {% endfor %}
+      {% endif %}
+    </div>
+  </div>
+
+  {% if selectedTown.distcs? %}
+    {% if selectedDist != 'all' %}
+      {% for dist in selectedTown.distcs %}
+        {% if dist.alias == selectedDist.alias %}
+          {% currentUrl = "/".selectedState.alias."/".town.alias."/".selectedDist.alias."/alpha/".translit(selectedAlpha)."/" %}
+        {% endif %}
+      {% endfor %}
+    {% else %}
+      {% currentUrl = "/".selectedState.alias."/".town.alias."/all/" %}
+    {% endif %}
+  {% else %}
+    {% currentUrl = "/".selectedState.alias."/towns/".town.alias."/alpha/".translit(selectedAlpha)."/" %}
+  {% endif %}
+
+  <div class="connection-types">
+    <a href="{{ currentUrl }}type/voice/" class="connection-types__item connection-types__voice{% if selectedType == "voice" %} connection-types__item--active{% endif %}" role="connection-type" data-type="voice">Голосовая связь</a>
+    <a href="{{ currentUrl }}type/internet/" class="connection-types__item connection-types__internet{% if selectedType == "internet" %} connection-types__item--active{% endif %}" role="connection-type" data-type="internet">Интернет</a>
+    <a href="{{ currentUrl }}type/signal/" class="connection-types__item connection-types__signal{% if selectedType == "signal" %} connection-types__item--active{% endif %}" role="connection-type" data-type="signal">Уровень сигнала</a>
+  </div>
+
+  <ul class="opators-hint">
+    <li class="opators-hint__item opators-hint__item--green">Мегафон</li>
+    <li class="opators-hint__item opators-hint__item--red">МТС</li>
+    <li class="opators-hint__item opators-hint__item--yellow">Билайн</li>
+  </ul>
+
+  <div class="town-description">
+    <h1 class="town-description__title" role="data-title">{{ dataView.title }}</h1>
+    <ul class="town-description__list">
+      {% if selectedType == "voice" %}
+      <li class="town-description__item">
+        <div class="town-description__name"><span class="town-description__index">1.</span> Мегафон</div>
+        <div class="town-description__progress town-description__progress--green" role="town-description-megafon-rating">
+          {% for raiting in [1..dataView.data.megafon.voice.rating] %}
+          <span class="town-description__progress-active"></span>
+          {% endfor %}
+          {% for raiting in [dataView.data.megafon.voice.rating..9] %}
+          <span class="town-description__progress-inactive"></span>
+          {% endfor %}
+          <span class="town-description__progress-total">{{ dataView.data.megafon.voice.rating }}/10</span>
+        </div>
+        <ul class="town-description__params" role="town-description-megafon-data">
+          <li class="town-description__param">Доля неуспешных попыток установления голосового соединения: <span class="town-description__percents">{{ dataView.data.megafon.voice.notconnect }}</span>%</li>
+          <li class="town-description__param">Доля обрывов голосовых соединений: <span class="town-description__percents">{{ dataView.data.megafon.voice.disconnect }}</span>%</li>
+          <li class="town-description__param">Средняя разборчивость речи на соединение: <span class="town-description__percents">{{ dataView.data.megafon.voice.voicequality }}</span>/5</li>
+          <li class="town-description__param">Доля голосовых соединений с низкой разборчивостью речи: <span class="town-description__percents">{{ dataView.data.megafon.voice.badquality }}</span>%</li>
+        </ul>
+      </li>
+      <li class="town-description__item">
+        <div class="town-description__name"><span class="town-description__index">2.</span> МТС</div>
+        <div class="town-description__progress town-description__progress--red" role="town-description-mts-rating">
+          {% for raiting in [1..dataView.data.mts.voice.rating] %}
+          <span class="town-description__progress-active"></span>
+          {% endfor %}
+          {% for raiting in [dataView.data.mts.voice.rating..9] %}
+          <span class="town-description__progress-inactive"></span>
+          {% endfor %}
+          <span class="town-description__progress-total">{{ dataView.data.mts.voice.rating }}/10</span>
+        </div>
+        <ul class="town-description__params" role="town-description-mts-data">
+          <li class="town-description__param">Доля неуспешных попыток установления голосового соединения: <span class="town-description__percents">{{ dataView.data.mts.voice.notconnect }}</span>%</li>
+          <li class="town-description__param">Доля обрывов голосовых соединений: <span class="town-description__percents">{{ dataView.data.mts.voice.disconnect }}</span>%</li>
+          <li class="town-description__param">Средняя разборчивость речи на соединение: <span class="town-description__percents">{{ dataView.data.mts.voice.voicequality }}</span>/5</li>
+          <li class="town-description__param">Доля голосовых соединений с низкой разборчивостью речи: <span class="town-description__percents">{{ dataView.data.mts.voice.badquality }}</span>%</li>
+        </ul>
+      </li>
+      <li class="town-description__item">
+        <div class="town-description__name"><span class="town-description__index">3.</span> Билайн</div>
+        <div class="town-description__progress town-description__progress--yellow" role="town-description-beeline-rating">
+          {% for raiting in [1..dataView.data.beeline.voice.rating] %}
+          <span class="town-description__progress-active"></span>
+          {% endfor %}
+          {% for raiting in [dataView.data.beeline.voice.rating..9] %}
+          <span class="town-description__progress-inactive"></span>
+          {% endfor %}
+          <span class="town-description__progress-total">{{ dataView.data.beeline.voice.rating }}/10</span>
+        </div>
+        <ul class="town-description__params" role="town-description-beeline-data">
+          <li class="town-description__param">Доля неуспешных попыток установления голосового соединения: <span class="town-description__percents">{{ dataView.data.beeline.voice.notconnect }}</span>%</li>
+          <li class="town-description__param">Доля обрывов голосовых соединений: <span class="town-description__percents">{{ dataView.data.beeline.voice.disconnect }}</span>%</li>
+          <li class="town-description__param">Средняя разборчивость речи на соединение: <span class="town-description__percents">{{ dataView.data.beeline.voice.voicequality }}</span>/5</li>
+          <li class="town-description__param">Доля голосовых соединений с низкой разборчивостью речи: <span class="town-description__percents">{{ dataView.data.beeline.voice.badquality }}</span>%</li>
+        </ul>
+      </li>
+      {% else %}{% if selectedType == "internet" %}
+      <li class="town-description__item">
+        <div class="town-description__name"><span class="town-description__index">1.</span> Мегафон</div>
+        <div class="town-description__progress town-description__progress--green" role="town-description-megafon-rating">
+          {% for raiting in [1..dataView.data.megafon.internet.rating] %}
+          <span class="town-description__progress-active"></span>
+          {% endfor %}
+          {% for raiting in [dataView.data.megafon.internet.rating..9] %}
+          <span class="town-description__progress-inactive"></span>
+          {% endfor %}
+          <span class="town-description__progress-total">{{ dataView.data.megafon.internet.rating }}/10</span>
+        </div>
+        <ul class="town-description__params" role="town-description-megafon-data">
+          <li class="town-description__param">Доля неуспешного TCP/IP соединения с сервером: <span class="town-description__percents">{{ dataView.data.megafon.internet.badconnections }}</span>%</li>
+          <li class="town-description__param">Доля неуспешных сессий по протоколу HTTP: <span class="town-description__percents">{{ dataView.data.megafon.internet.badsessions }}</span>%</li>
+          <li class="town-description__param">Среднее значение скорости передачи данных к абоненту: <span class="town-description__percents">{{ dataView.data.megafon.internet.speeddown }}</span> кБит/с</li>
+          <li class="town-description__param">Среднее значение скорости передачи данных от абонента: <span class="town-description__percents">{{ dataView.data.megafon.internet.speedup }}</span> кБит/с</li>
+          <li class="town-description__param">Продолжительность успешной сессии: <span class="town-description__percents">{{ dataView.data.megafon.internet.timesession }}</span> сек.</li>
+        </ul>
+      </li>
+      <li class="town-description__item">
+        <div class="town-description__name"><span class="town-description__index">2.</span> МТС</div>
+        <div class="town-description__progress town-description__progress--red" role="town-description-mts-rating">
+          {% for raiting in [1..dataView.data.mts.internet.rating] %}
+          <span class="town-description__progress-active"></span>
+          {% endfor %}
+          {% for raiting in [dataView.data.mts.internet.rating..9] %}
+          <span class="town-description__progress-inactive"></span>
+          {% endfor %}
+          <span class="town-description__progress-total">{{ dataView.data.mts.internet.rating }}/10</span>
+        </div>
+        <ul class="town-description__params" role="town-description-mts-data">
+          <li class="town-description__param">Доля неуспешного TCP/IP соединения с сервером: <span class="town-description__percents">{{ dataView.data.mts.internet.badconnections }}</span>%</li>
+          <li class="town-description__param">Доля неуспешных сессий по протоколу HTTP: <span class="town-description__percents">{{ dataView.data.mts.internet.badsessions }}</span>%</li>
+          <li class="town-description__param">Среднее значение скорости передачи данных к абоненту: <span class="town-description__percents">{{ dataView.data.mts.internet.speeddown }}</span> кБит/с</li>
+          <li class="town-description__param">Среднее значение скорости передачи данных от абонента: <span class="town-description__percents">{{ dataView.data.mts.internet.speedup }}</span> кБит/с</li>
+          <li class="town-description__param">Продолжительность успешной сессии: <span class="town-description__percents">{{ dataView.data.mts.internet.timesession }}</span> сек.</li>
+        </ul>
+      </li>
+      <li class="town-description__item">
+        <div class="town-description__name"><span class="town-description__index">3.</span> Билайн</div>
+        <div class="town-description__progress town-description__progress--yellow" role="town-description-beeline-rating">
+          {% for raiting in [1..dataView.data.beeline.internet.rating] %}
+          <span class="town-description__progress-active"></span>
+          {% endfor %}
+          {% for raiting in [dataView.data.beeline.internet.rating..9] %}
+          <span class="town-description__progress-inactive"></span>
+          {% endfor %}
+          <span class="town-description__progress-total">{{ dataView.data.beeline.internet.rating }}/10</span>
+        </div>
+        <ul class="town-description__params" role="town-description-beeline-data">
+          <li class="town-description__param">Доля неуспешного TCP/IP соединения с сервером: <span class="town-description__percents">{{ dataView.data.beeline.internet.badconnections }}</span>%</li>
+          <li class="town-description__param">Доля неуспешных сессий по протоколу HTTP: <span class="town-description__percents">{{ dataView.data.beeline.internet.badsessions }}</span>%</li>
+          <li class="town-description__param">Среднее значение скорости передачи данных к абоненту: <span class="town-description__percents">{{ dataView.data.beeline.internet.speeddown }}</span> кБит/с</li>
+          <li class="town-description__param">Среднее значение скорости передачи данных от абонента: <span class="town-description__percents">{{ dataView.data.beeline.internet.speedup }}</span> кБит/с</li>
+          <li class="town-description__param">Продолжительность успешной сессии: <span class="town-description__percents">{{ dataView.data.beeline.internet.timesession }}</span> сек.</li>
+        </ul>
+      </li>
+      {% else %}
+      <li class="town-description__item">
+        <div class="town-description__name"><span class="town-description__index">1.</span> Мегафон</div>
+        <div class="town-description__progress town-description__progress--green" role="town-description-megafon-rating">
+        </div>
+        <ul class="town-description__params" role="town-description-megafon-data">
+          <li class="town-description__param">Уровень покрытия сети 2G: <span class="town-description__percents">{{ dataView.data.megafon.signal.coating2g }}</span>%</li>
+          <li class="town-description__param">Уровень покрытия сети 3G: <span class="town-description__percents">{{ dataView.data.megafon.signal.coating3g }}</span>%</li>
+          <li class="town-description__param">Уровень покрытия сети 4G: <span class="town-description__percents">{{ dataView.data.megafon.signal.coating4g }}</span></li>
+        </ul>
+      </li>
+      <li class="town-description__item">
+        <div class="town-description__name"><span class="town-description__index">2.</span> МТС</div>
+        <div class="town-description__progress town-description__progress--red" role="town-description-mts-rating">
+        </div>
+        <ul class="town-description__params" role="town-description-mts-data">
+          <li class="town-description__param">Уровень покрытия сети 2G: <span class="town-description__percents">{{ dataView.data.mts.signal.coating2g }}</span>%</li>
+          <li class="town-description__param">Уровень покрытия сети 3G: <span class="town-description__percents">{{ dataView.data.mts.signal.coating3g }}</span>%</li>
+          <li class="town-description__param">Уровень покрытия сети 4G: <span class="town-description__percents">{{ dataView.data.mts.signal.coating4g }}</span></li>
+        </ul>
+      </li>
+      <li class="town-description__item">
+        <div class="town-description__name"><span class="town-description__index">3.</span> Билайн</div>
+        <div class="town-description__progress town-description__progress--yellow" role="town-description-beeline-rating">
+        </div>
+        <ul class="town-description__params" role="town-description-beeline-data">
+          <li class="town-description__param">Уровень покрытия сети 2G: <span class="town-description__percents">{{ dataView.data.beeline.signal.coating2g }}</span>%</li>
+          <li class="town-description__param">Уровень покрытия сети 3G: <span class="town-description__percents">{{ dataView.data.beeline.signal.coating3g }}</span>%</li>
+          <li class="town-description__param">Уровень покрытия сети 4G: <span class="town-description__percents">{{ dataView.data.beeline.signal.coating4g }}</span></li>
+        </ul>
+      </li>
+      {% endif %}
+      {% endif %}
+    </ul>
+  </div>
+</section>
+
+{% require_template "towns-item-town" item="town" %}
+{% require_template "towns-item-dist" item="dist" %}
+{% require_template "alpha-index-item" %}
+{% require_template "alpha-index-full-town" %}
+{% require_template "maps-dist" item="dist" %}
+{% require_template "town-description-rating" item="data" %}
+{% require_template "town-description-voice" item="data" %}
+{% require_template "town-description-internet" item="data" %}
+{% require_template "town-description-signal" item="data" %}
+{% require_template "img-map" item="selectedTown" %}
+{% require_template "map-area" item="dist" %}
