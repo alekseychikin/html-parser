@@ -1,0 +1,29 @@
+{
+  "name": "parser",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "example": "examples",
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "php tests.php",
+    "generate": "php ./lime/lime.php ./parser.lime > parser.class",
+    "generate-test": "php ./lime/lime.php ./parser.lime > parser.class && php tests.php"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/makingoff/html-parser.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/makingoff/html-parser/issues"
+  },
+  "homepage": "https://github.com/makingoff/html-parser",
+  "devDependencies": {
+    "chai": "^3.3.0",
+    "mocha": "^2.3.3"
+  }
+}

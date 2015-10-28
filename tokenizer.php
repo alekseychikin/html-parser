@@ -22,13 +22,13 @@
 
     public function nextToken(& $line)
     {
-      $line = trim($line);
+      $line = ($line);
       if (!count($this->lexers)) return false;
       if (!strlen($line)) return false;
       foreach ($this->lexers as $lex) {
         if (preg_match('/^' . $lex['regular'] . '/', $line, $regs)) {
           $line = substr($line, strlen($regs[0]));
-          return array('token' => $lex['token'], 'value' => trim($regs[0]));
+          return array('token' => $lex['token'], 'value' => $regs[0]);
         }
       }
     }

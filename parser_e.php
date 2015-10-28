@@ -10,37 +10,73 @@
 
   class ParserE
   {
-    private $tokens;
-    private $parser;
-    private $schemes = array();
+    private static $tokens;
+    private static $parser;
+    private static $schemes = array();
+    private static $tree = null;
 
-    function __construct($lexers)
+    public static function init()
     {
-      $this->tokens = new Tokenizer($lexers);
-      $this->parser = new parse_engine(new template_parser());
+      print_r($lexers);
+      self::$tokens = new Tokenizer(file_get_contents("lexers.lex"));
+      self::$parser = new parse_engine(new template_parser());
     }
 
-    public function parse($lines)
+    public static function parseFile($filename)
     {
+      return self::parse(file_get_contents($filename), $filename);
+    }
+
+    public static function parse($lines, $filename = null)
+    {
+      self::$tree = null;
       if (!strlen($lines)) return;
-      try {
-        $this->parser->reset();
+      // try {
+        self::$parser->reset();
         $lines = explode("\n", $lines);
-        foreach ($lines as $line) {
+        $lastFoundedToken = '';
+        $lastFoundedTokenValue = '';
+        foreach ($lines as $lineNumber => $line) {
+          $lineNumber++;
           if (!strlen($line)) continue;
-          while ($token = $this->tokens->nextToken($line)) {
-            // print_r($token);
-            $this->parser->eat($token['token'], $token['value']);
+          while ($token = self::$tokens->nextToken($line)) {
+            if ($lineNumber == 13) {
+              // print_r($token);
+            }
+            try {
+              self::$parser->eat($token['token'], $token['value']);
+            }
+            catch (Exception $e) {
+              if ($filename) {
+                echo $e->getMessage(). " at " . $filename . ":" . $lineNumber . "\n";
+              }
+              else {
+                echo $e->getMessage(). " at line " . $lineNumber . "\n";
+              }
+              echo "Last token was (" . $lastFoundedToken . ")(" . $lastFoundedTokenValue . ")\n";
+              return false;
+            }
+            $lastFoundedToken = $token['token'];
+            $lastFoundedTokenValue = $token['value'];
           }
         }
-        $this->parser->eat_eof();
-      }
-      catch (parse_error $e) {
-        echo $e->getMessage(), "\n";
-      }
+        self::$parser->eat_eof();
+      // }
+      // catch (parse_error $e) {
+      //   echo $e->getMessage(), "\n";
+      // }
+      // print_r(self::$parser->semantic);
+      // var_dump(self::$tree);
+      return self::$tree;
+      return self::results(self::$tree);
     }
 
-    public function results($lines)
+    public static function saveResults($tree)
+    {
+      self::$tree = $tree;
+    }
+
+    private static function results($lines)
     {
       $root = new ParserElement();
       foreach ($lines as $line) {
@@ -48,8 +84,8 @@
         $curentElement = $root;
         $nestings = array('root');
         foreach ($line as $element) {
-          print_r($element);
-          foreach ($this->schemes as $scheme) {
+          // print_r($element);
+          foreach (self::$schemes as $scheme) {
             $event = new ParserEvent();
             $check = $scheme['check']($element, $event);
             if ($check) {
@@ -91,13 +127,15 @@
       return $root;
     }
 
-    public function registerScheme($checkElement)
+    public static function registerScheme($checkElement)
     {
-      $this->schemes[] = array(
+      self::$schemes[] = array(
         'check' => $checkElement
       );
     }
   }
+
+  ParserE::init();
 
   class ParserEvent
   {

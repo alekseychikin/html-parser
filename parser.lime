@@ -18,61 +18,53 @@
 
 doc
 = lines
-  { getResults($1); }
+  { ParserE::saveResults($1); }
 .
 
 lines
-= line
+= line_element
   { $$ = array($1); }
-| lines line
+| lines line_element
   { $1[] = $2; $$ = $1; }
 .
 
-line
+line_element
 = tag
-  { $$ = array($1); }
 | text_node
-  { $$ = array($1); }
+  {$$ = new TextNode($1); }
 | logic_node
-  { $$ = array($1); }
-| line tag
-  { $1[] = $2; $$ = $1; }
-| line text_node
-  { $1[] = $2; $$ = $1; }
-| line logic_node
-  { $1[] = $2; $$ = $1; }
 .
 
 tag
 = TK_LT tag_name attributes GT
   { $$ = new Tag($2, 'open'); $$->setAttributes($3); }
-| TK_LT TK_SLASH tag_name TK_GT
+| TK_LT TK_SLASH tag_name GT
   { $$ = new Tag($3, 'close'); }
+.
+
+mb_space
+=
+| TK_SPACE
 .
 
 tag_name
 = TK_LETTERS
-| TK_SELECTOR_DASH
-| TK_SELECTOR
-| TK_TAG_NAME
+| tag_name TK_COLON TK_LETTERS
+  { $$ = $1 . $2 . $3; }
 .
 
 GT
 = TK_SLASH TK_GT
+| TK_SPACE TK_SLASH TK_GT
 | TK_GT
+| TK_SPACE TK_GT
 .
 
 attributes
 =
   { $$ = array(); }
-| attribute
-  { $$ = array($1); }
-| logic_node
-  { $$ = array($1); }
-| attributes logic_node
-  { $1[] = $2; $$ = $1; }
-| attributes attribute
-  { $1[] = $2; $$ = $1; }
+| attributes TK_SPACE attribute
+  { $1[] = $3; $$ = $1; }
 .
 
 attribute
@@ -84,6 +76,8 @@ attrib_value
 =
   { $$ = ""; }
 | TK_ASSIGMENT TK_DOUBLE_QUOTE TK_DOUBLE_QUOTE
+  { $$ = ""; }
+| TK_ASSIGMENT TK_SINGLE_QUOTE TK_SINGLE_QUOTE
   { $$ = ""; }
 | TK_ASSIGMENT string
   { $$ = $2; }
@@ -110,143 +104,106 @@ string_elements
 .
 
 string_element
-= TK_DIGITS
-| TK_MINUS
-| TK_PLUS
-| TK_LT_EQUAL
-| TK_GT_EQUAL
-| TK_LT
-| TK_GT
-| TK_DATA_ATTR
-| TK_SELECTOR_LOWDASH
-| TK_SELECTOR_DASH
-| TK_SELECTOR
-| TK_LETTERS
-| TK_SLASH
-| TK_EQUAL
-| TK_COMMA
-| TK_DOT
-| TK_ASSIGMENT
-| TK_NOT_EQUAL
-| TK_TEXT_NODE
-| TK_SPACE
-| TK_OTHER
-| logic_node
+= text
 .
 
 attrib_name
 = TK_LETTERS
-| TK_DATA_ATTR
-| TK_SELECTOR
+| attrib_name TK_MINUS TK_LETTERS
+  { $$ = $1 . $2 . $3; }
 .
 
 text_node
-= TK_TEXT_NODE
-  { $$ = new TextNode($1); }
-| TK_LETTERS
-  { $$ = new TextNode($1); }
-| TK_SELECTOR_LOWDASH
-  { $$ = new TextNode($1); }
-| TK_SELECTOR
-  { $$ = new TextNode($1); }
-| TK_TAG_NAME
-  { $$ = new TextNode($1); }
-| TK_VAR
-  { $$ = new TextNode($1); }
-| TK_OTHER
-  { $$ = new TextNode($1); }
-| TK_COMMA
-  { $$ = new TextNode($1); }
-| TK_DIGITS
-  { $$ = new TextNode($1); }
-| TK_DOT
-  { $$ = new TextNode($1); }
-| TK_SLASH
-  { $$ = new TextNode($1); }
+= text_node_element
+| text_node text_node_element
+  { $$ = $1 . $2; }
+.
+
+text_node_element
+= text
+| TK_SINGLE_QUOTE
+| TK_DOUBLE_QUOTE
 .
 
 logic_node
-= TK_LOGIC_BEGIN expr_words TK_LOGIC_END
+= TK_LOGIC_BEGIN mb_space expr_words TK_LOGIC_END
   { $$ = new LogicNode($2); }
 .
 
 expr_words
-= expr
+= expr_element
   { $$ = array(array('value' => $1, 'type' => 'expr')); }
-| expr_words expr
+| expr_words TK_COMMA expr_element
   { $1[] = array('value' => $2, 'type' => 'expr'); $$ = $1; }
 .
 
-expr
-= exprs_list
-| expr TK_OPEN_BRAKETS expr TK_CLOSE_BRAKETS
-  { $$ = $1 . $2 . $3 . $4; }
-| TK_OPEN_BRAKETS expr TK_CLOSE_BRAKETS
-  { $$ = $1 . $2 . $3; }
-| expr TK_TWO_DOTS expr
-  { $$ = 'makeArray(' . $1 . ', ' . $3 . ')'; }
-| expr TK_MULTIPLY expr
-  { $$ = $1 . ' ' . $2 . ' ' . $3; }
-| expr TK_SLASH expr
-  { $$ = $1 . ' ' . $2 . ' ' . $3; }
-| expr TK_MINUS expr
-  { $$ = $1 . ' ' . $2 . ' ' . $3; }
-| expr TK_PLUS expr
-  { $$ = $1 . ' ' . $2 . ' ' . $3; }
-| expr TK_LT expr
-  { $$ = $1 . ' ' . $2 . ' ' . $3; }
-| expr TK_GT expr
-  { $$ = $1 . ' ' . $2 . ' ' . $3; }
-| expr TK_ASSIGMENT expr
-  { $$ = $1 . ' ' . $2 . ' ' . $3; }
-| expr TK_EQUAL expr
-  { $$ = $1 . ' ' . $2 . ' ' . $3; }
-| expr TK_NOT_EQUAL expr
-  { $$ = $1 . ' ' . $2 . ' ' . $3; }
-| expr TK_LT_EQUAL expr
-  { $$ = $1 . ' ' . $2 . ' ' . $3; }
-| expr TK_GT_EQUAL expr
-  { $$ = $1 . ' ' . $2 . ' ' . $3; }
-| expr TK_LOGIC_AND expr
-  { $$ = $1 . ' ' . $2 . ' ' . $3; }
-| expr TK_LOGIC_OR expr
-  { $$ = $1 . ' ' . $2 . ' ' . $3; }
-| expr TK_PIPE expr
-  { $$ = $1 . ' ' . $2 . ' ' . $3; }
-| complex_var
-| TK_EXCLAMATION_MARK
-| TK_QUESTION_MARK
-| func_name
+expr_element
+= assignment
+.
+
+assignment
+= complex_var
 .
 
 complex_var
-= expr TK_DOT expr
-  { $$ = $1 . $2 . $3; }
-| expr TK_OPEN_SQUARE_BRAKETS expr TK_CLOSE_SQUARE_BRAKETS
-  { $$ = $1 . $2 . $3 . $4; }
-| complex_var TK_DOT func_name
-  { $$ = $1 . $2 . $3; }
-| complex_var TK_OPEN_SQUARE_BRAKETS expr TK_CLOSE_SQUARE_BRAKETS
-  { $$ = $1 . $2 . $3 . $4; }
+= var mb_space
+| complex_var brackets
 .
 
-exprs_list
-= expr TK_COMMA expr
-  { $$ = $1 . $2 . ' ' . $3; }
-| exprs_list TK_COMMA expr
-  { $$ = $1 . $2 . ' ' . $3; }
+brackets
+= bracket
+| brackets bracket
 .
 
-nums
-= TK_NUMBERS
-| TK_DIGITS
+bracket
+= TK_SQUARE_BRAKETS_OPEN mb_space index TK_SQUARE_BRAKETS_CLOSE mb_space
 .
 
-func_name
+index
+= TK_DIGITS mb_space
+| complex_var
+.
+
+var
+= var_first_letter
+| var var_first_letter
+  { $$ = $1 . $2; }
+| var TK_DIGITS
+  { $$ = $1 . $2; }
+.
+
+var_first_letter
 = TK_LETTERS
-| TK_SELECTOR
-| TK_VAR
-| string
-  { $$ = '"' . implode('"."', $1) . '"'; }
-| nums
+| TK_UNDERSCORE
+| TK_BAKS
+.
+
+text
+= TK_DIGITS
+| TK_MINUS
+| TK_PLUS
+| TK_MULTIPLY
+| TK_LT_EQUAL
+| TK_GT_EQUAL
+| TK_LT
+| TK_GT
+| TK_LETTERS
+| TK_SLASH
+| TK_EQUAL
+| TK_COMMA
+| TK_COLON
+| TK_DOT
+| TK_BAKS
+| TK_EXCLAMATION_MARK
+| TK_FIGURE_BRAKETS_OPEN
+| TK_FIGURE_BRAKETS_CLOSE
+| TK_BRAKETS_OPEN
+| TK_BRAKETS_CLOSE
+| TK_SQUARE_BRAKETS_OPEN
+| TK_SQUARE_BRAKETS_CLOSE
+| TK_UNDERSCORE
+| TK_ASSIGMENT
+| TK_NOT_EQUAL
+| TK_SPACE
+| TK_OTHER
 .
