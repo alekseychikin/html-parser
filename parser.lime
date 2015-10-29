@@ -68,25 +68,34 @@ attributes
 .
 
 attribute
-= attrib_name attrib_value
-  { $$ = new Attribute($1, $2); }
+= attrib_name mb_space TK_ASSIGMENT mb_space attrib_value
+  { $$ = new Attribute($1, $5); }
+| attrib_name
+  { $$ = new Attribute($1); }
 .
 
 attrib_value
-=
+= TK_DOUBLE_QUOTE TK_DOUBLE_QUOTE
   { $$ = ""; }
-| TK_ASSIGMENT TK_DOUBLE_QUOTE TK_DOUBLE_QUOTE
+| TK_SINGLE_QUOTE TK_SINGLE_QUOTE
   { $$ = ""; }
-| TK_ASSIGMENT TK_SINGLE_QUOTE TK_SINGLE_QUOTE
-  { $$ = ""; }
-| TK_ASSIGMENT string
+| TK_DOUBLE_QUOTE attrib_value_elements TK_DOUBLE_QUOTE
   { $$ = $2; }
-| TK_ASSIGMENT TAG_NAME
+| TK_SINGLE_QUOTE attrib_value_elements TK_SINGLE_QUOTE
   { $$ = $2; }
-| TK_ASSIGMENT TK_DIGITS
-  { $$ = $2; }
-| TK_ASSIGMENT TK_OTHER
-  { $$ = $2; }
+.
+
+attrib_value_elements
+= attrib_value_element
+  { $$ = array($1); }
+| attrib_value_elements attrib_value_element
+  { $1[] = $2; $$ = $1; }
+.
+
+attrib_value_element
+= text
+  { $$ = '"' . $1 . '"'; }
+| logic_node
 .
 
 string
@@ -126,28 +135,78 @@ text_node_element
 .
 
 logic_node
-= TK_LOGIC_BEGIN mb_space expr_words TK_LOGIC_END
-  { $$ = new LogicNode($2); }
+= TK_LOGIC_BEGIN mb_space constructions TK_LOGIC_END
+  { $$ = new LogicNode($3); }
 .
 
-expr_words
-= expr_element
+constructions
+= construction
   { $$ = array(array('value' => $1, 'type' => 'expr')); }
-| expr_words TK_COMMA expr_element
+| constructions construction
   { $1[] = array('value' => $2, 'type' => 'expr'); $$ = $1; }
 .
 
-expr_element
+construction
 = assignment
+| expressions
 .
 
 assignment
-= complex_var
+= complex_var TK_ASSIGMENT mb_space expressions
+.
+
+expressions
+= logic_expression
+.
+
+logic_expression
+= logic_expression TK_LOGIC_AND mb_space logic_expression
+| logic_expression TK_LOGIC_OR mb_space logic_expression
+| logic_expression TK_EQUAL mb_space logic_expression
+| logic_expression TK_NOT_EQUAL mb_space logic_expression
+| logic_expression TK_LT_EQUAL mb_space logic_expression
+| logic_expression TK_GT_EQUAL mb_space logic_expression
+| logic_expression TK_LT mb_space logic_expression
+| logic_expression TK_GT mb_space logic_expression
+| TK_EXCLAMATION_MARK mb_space logic_expression
+| math_expression
+.
+
+math_expression
+= math_expression TK_PLUS mb_space math_expression
+| math_expression TK_MULTIPLY mb_space math_expression
+| math_expression TK_SLASH mb_space math_expression
+| math_expression TK_MINUS mb_space math_expression
+| TK_BRAKETS_OPEN mb_space logic_expression TK_BRAKETS_CLOSE mb_space
+| TK_MINUS mb_space math_expression
+| complex_var
+| function
+| TK_NUMBERS mb_space
+| TK_DIGITS mb_space
+.
+
+function
+= complex_var TK_BRAKETS_OPEN mb_space params_list TK_BRAKETS_CLOSE mb_space
+.
+
+params_list
+= expressions
+| params_list TK_COMMA mb_space expressions
 .
 
 complex_var
 = var mb_space
 | complex_var brackets
+| complex_var dot_indexes
+.
+
+dot_indexes
+= dot_index
+| dot_indexes dot_index
+.
+
+dot_index
+= TK_DOT mb_space var mb_space
 .
 
 brackets
@@ -162,6 +221,7 @@ bracket
 index
 = TK_DIGITS mb_space
 | complex_var
+| string mb_space
 .
 
 var
@@ -179,14 +239,18 @@ var_first_letter
 .
 
 text
+= text_element
+| text text_element
+  { $$ = $1 . $2; }
+.
+
+text_element
 = TK_DIGITS
 | TK_MINUS
 | TK_PLUS
 | TK_MULTIPLY
 | TK_LT_EQUAL
 | TK_GT_EQUAL
-| TK_LT
-| TK_GT
 | TK_LETTERS
 | TK_SLASH
 | TK_EQUAL

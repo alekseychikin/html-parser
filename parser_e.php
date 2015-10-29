@@ -27,6 +27,15 @@
       return self::parse(file_get_contents($filename), $filename);
     }
 
+    private static function generateDashes($char, $number)
+    {
+      $str = '';
+      for ($i = 0; $i < $number; $i++) {
+        $str .= $char;
+      }
+      return $str;
+    }
+
     public static function parse($lines, $filename = null)
     {
       self::$tree = null;
@@ -37,7 +46,9 @@
         $lastFoundedToken = '';
         $lastFoundedTokenValue = '';
         foreach ($lines as $lineNumber => $line) {
+          $originalLine = $line;
           $lineNumber++;
+          $columnNumber = 0;
           if (!strlen($line)) continue;
           while ($token = self::$tokens->nextToken($line)) {
             if ($lineNumber == 13) {
@@ -48,16 +59,19 @@
             }
             catch (Exception $e) {
               if ($filename) {
-                echo $e->getMessage(). " at " . $filename . ":" . $lineNumber . "\n";
+                echo $e->getMessage(). " at " . $filename . ":" . $lineNumber . ":" . $columnNumber . "\n";
               }
               else {
-                echo $e->getMessage(). " at line " . $lineNumber . "\n";
+                echo $e->getMessage(). " at line " . $lineNumber . ":" . $columnNumber . "\n";
               }
               echo "Last token was (" . $lastFoundedToken . ")(" . $lastFoundedTokenValue . ")\n";
+              echo $originalLine."\n";
+              echo self::generateDashes('-', $columnNumber) . "^\n";
               return false;
             }
             $lastFoundedToken = $token['token'];
             $lastFoundedTokenValue = $token['value'];
+            $columnNumber += strlen($token['value']);
           }
         }
         self::$parser->eat_eof();
